@@ -3,45 +3,76 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>STALCRAFT Market Scanner - Поиск сделок аукциона</title>
+  <title>STALZONE Market Scanner | Аналитика и аукцион STALCRAFT</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
 <body class="theme-dark">
+  <!-- TOP NAVBAR -->
   <header class="navbar">
     <div class="brand">
-      <span class="logo-badge">SC</span>
-      <h1>STALCRAFT Market Scanner</h1>
-      <span class="region-pill" id="current-region">RU</span>
+      <div class="logo-box">SZ</div>
+      <div>
+        <h1 class="brand-title">STALZONE <span>MARKET</span></h1>
+        <div class="brand-sub">Автономный сканер аукциона STALCRAFT RU</div>
+      </div>
     </div>
+
     <nav class="nav-links">
-      <button class="nav-btn active" data-tab="tab-signals">Сигналы</button>
-      <button class="nav-btn" data-tab="tab-watchlist">Отслеживание</button>
-      <button class="nav-btn" data-tab="tab-search">Каталог и Добавление</button>
-      <button class="nav-btn" data-tab="tab-item">Анализ предмета</button>
-      <button class="nav-btn" data-tab="tab-health">Здоровье системы</button>
-      <button class="nav-btn" data-tab="tab-settings">Конфигурация</button>
+      <button class="nav-btn active" data-tab="tab-signals">
+        <span class="nav-icon">🎯</span> Сигналы
+      </button>
+      <button class="nav-btn" data-tab="tab-item">
+        <span class="nav-icon">🔍</span> Анализ предмета
+      </button>
+      <button class="nav-btn" data-tab="tab-watchlist">
+        <span class="nav-icon">⭐</span> Отслеживание
+      </button>
+      <button class="nav-btn" data-tab="tab-catalog">
+        <span class="nav-icon">📦</span> Каталог
+      </button>
+      <button class="nav-btn" data-tab="tab-settings">
+        <span class="nav-icon">⚡</span> Supabase & Настройки
+      </button>
     </nav>
-    <div class="actions">
-      <button id="btn-copy-llm" class="btn-llm" title="Скопировать готовый промпт + дайджест для ChatGPT/Claude">📋 Для нейросети</button>
-      <button id="theme-toggle" class="btn-secondary" title="Сменить тему">🌓</button>
-      <button id="btn-refresh" class="btn-primary">↻ Обновить</button>
+
+    <div class="header-actions">
+      <div class="pill-indicator live-pill" title="Регион серверов">
+        <span class="dot live"></span> RU
+      </div>
+      <div class="pill-indicator supabase-pill" id="supabase-status-pill" title="Статус базы данных">
+        <span class="dot db-offline"></span> Supabase
+      </div>
+      <button id="btn-copy-llm" class="btn-llm" title="Скопировать готовый промпт + дайджест для нейросетей">
+        📋 Для нейросети
+      </button>
+      <button id="btn-refresh" class="btn-primary" title="Обновить данные с сервера">
+        ↻ Обновить
+      </button>
     </div>
   </header>
 
-  <div class="status-banner" id="status-banner">
-    <div class="status-indicator live"></div>
-    <span id="data-status-text">Загрузка данных...</span>
-    <span class="commission-badge">Комиссия аукциона: 5% (вычитается при продаже)</span>
-    <span class="staleness" id="data-age">Возраст данных: -- мин</span>
+  <!-- SUBHEADER STATUS BAR -->
+  <div class="status-banner">
+    <div class="status-left">
+      <span class="pulse-dot"></span>
+      <span id="data-status-text">Синхронизация с рынком...</span>
+      <span class="fee-badge">Комиссия аукциона: 5% (вычитается при продаже)</span>
+    </div>
+    <div class="status-right">
+      <span id="data-age">Возраст снимка: ~10 мин</span>
+      <span id="signals-count-badge" class="count-badge">0 сделок</span>
+    </div>
   </div>
 
   <main class="main-container">
-    <!-- TAB 1: SIGNALS -->
+    <!-- ==================== TAB 1: SIGNALS ==================== -->
     <section id="tab-signals" class="tab-content active">
-      <div class="filter-bar">
-        <div class="search-box">
-          <input type="text" id="signal-search" placeholder="Поиск по названию предмета...">
+      <div class="filter-card">
+        <div class="search-input-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="signal-search" placeholder="Поиск по названию (Атом, Спираль, Запчасти, Берлога)...">
         </div>
         <div class="filter-controls">
           <label>Мин. ROI:
@@ -54,7 +85,7 @@
           </label>
           <label>Мин. уверенность:
             <select id="filter-conf">
-              <option value="0">Все</option>
+              <option value="0">Любая</option>
               <option value="0.60" selected>≥ 60%</option>
               <option value="0.75">≥ 75%</option>
               <option value="0.85">≥ 85%</option>
@@ -62,8 +93,8 @@
           </label>
           <label>Сортировка:
             <select id="sort-signals">
-              <option value="profit">По прибыли</option>
-              <option value="roi">По ROI</option>
+              <option value="profit">По чистой прибыли</option>
+              <option value="roi">По проценту ROI</option>
               <option value="confidence">По уверенности</option>
               <option value="days">По скорости продажи</option>
             </select>
@@ -71,33 +102,170 @@
         </div>
       </div>
 
-      <div class="table-responsive">
-        <table class="signals-table">
+      <div class="table-container">
+        <table class="data-table">
           <thead>
             <tr>
-              <th>Предмет / Сегмент</th>
-              <th>Покупка (за шт.)</th>
+              <th>Предмет / Редкость / Заточка</th>
+              <th>Выкуп (за шт.)</th>
               <th>Цель продажи</th>
-              <th>Ожидаемый профит</th>
+              <th>Чистый профит</th>
               <th>ROI</th>
               <th>Срок</th>
               <th>Уверенность</th>
               <th>Обоснование</th>
+              <th>Действие</th>
             </tr>
           </thead>
           <tbody id="signals-tbody">
-            <tr><td colspan="8" class="text-center">Загрузка актуальных сделок...</td></tr>
+            <tr><td colspan="9" class="text-center text-muted py-4">Загрузка актуальных сделок...</td></tr>
           </tbody>
         </table>
       </div>
     </section>
 
-    <!-- TAB 2: WATCHLIST MANAGEMENT (Patch 1 & 2) -->
+    <!-- ==================== TAB 2: ITEM DEEP-DIVE ANALYTICS ==================== -->
+    <section id="tab-item" class="tab-content">
+      <!-- Search & Quick Picker -->
+      <div class="item-search-card">
+        <div class="item-search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="item-lookup-input" placeholder="Введите название предмета (например: Атом, Спираль, Берлога-6, Продвинутые запчасти)..." autocomplete="off">
+          <div id="item-search-dropdown" class="autocomplete-dropdown hidden"></div>
+        </div>
+        <div class="quick-chips" id="quick-item-chips">
+          <span class="chips-label">Быстрый выбор:</span>
+          <!-- Populated dynamically via JS -->
+        </div>
+      </div>
+
+      <!-- Item Profile Header -->
+      <div class="item-profile-card" id="item-profile-card">
+        <div class="profile-left">
+          <div class="item-big-icon" id="item-icon-box">📦</div>
+          <div>
+            <h2 class="item-display-title" id="item-display-name">Выберите предмет для анализа</h2>
+            <div class="item-tags" id="item-tags">
+              <span class="badge" id="item-rank-badge">РАНГ</span>
+              <span class="badge badge-cat" id="item-cat-badge">КАТЕГОРИЯ</span>
+              <span class="badge badge-lots" id="item-lots-count">Активных лотов: --</span>
+            </div>
+          </div>
+        </div>
+        <div class="profile-right">
+          <button id="btn-add-current-watchlist" class="btn-primary">+ В отслеживание</button>
+        </div>
+      </div>
+
+      <!-- Segment / Rarity / Upgrade Selector -->
+      <div class="segment-picker-bar" id="segment-picker-bar">
+        <span class="segment-picker-title">Сегмент / Заточка:</span>
+        <div class="segment-pills" id="segment-pills-container">
+          <button class="seg-pill active" data-seg="all">Все сегменты</button>
+        </div>
+      </div>
+
+      <!-- 6 Key Metrics Grid -->
+      <div class="metrics-grid">
+        <div class="metric-card card-glow-green">
+          <span class="metric-label">🟢 Мин. лот на аукционе</span>
+          <span class="metric-val" id="metric-min-buyout">-- ₽</span>
+          <span class="metric-sub" id="metric-min-buyout-sub">Самый дешёвый выкуп</span>
+        </div>
+        <div class="metric-card card-glow-blue">
+          <span class="metric-label">📊 Честная цена (Медиана)</span>
+          <span class="metric-val" id="metric-median">-- ₽</span>
+          <span class="metric-sub" id="metric-median-sub">По реальным продажам</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-label">⚖️ Коридор цен (P25 - P75)</span>
+          <span class="metric-val" id="metric-p25-p75">-- - -- ₽</span>
+          <span class="metric-sub">Рабочий диапазон рынка</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-label">⚡ Ликвидность</span>
+          <span class="metric-val" id="metric-liquidity">-- шт/сут</span>
+          <span class="metric-sub" id="metric-sales-count">Выборка: -- сделок</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-label">📉 Волатильность (MAD)</span>
+          <span class="metric-val" id="metric-volatility">--%</span>
+          <span class="metric-sub" id="metric-trend">Тренд: --</span>
+        </div>
+        <div class="metric-card card-glow-gold">
+          <span class="metric-label">🎯 Макс. цена закупки</span>
+          <span class="metric-val text-gold" id="metric-max-buy">-- ₽</span>
+          <span class="metric-sub">Для окупаемости с 5% комиссией</span>
+        </div>
+      </div>
+
+      <!-- Real Price Chart -->
+      <div class="chart-box">
+        <div class="chart-header">
+          <h3>Динамика цен и реальные сделки</h3>
+          <span class="chart-legend-hint">Точки — реальные выкупы лотов, линия — медианная честная цена</span>
+        </div>
+        <div class="canvas-wrap">
+          <canvas id="priceChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Split Tables: Active Lots & Sales History -->
+      <div class="split-tables-grid">
+        <div class="split-table-box">
+          <div class="split-table-header">
+            <h4>📦 Активные лоты на аукционе (стакан)</h4>
+            <span class="split-count" id="active-lots-counter">0 лотов</span>
+          </div>
+          <div class="table-scroll">
+            <table class="mini-table">
+              <thead>
+                <tr>
+                  <th>Выкуп (за шт.)</th>
+                  <th>Сумма лота</th>
+                  <th>Кол-во</th>
+                  <th>Сегмент</th>
+                  <th>Оценка</th>
+                </tr>
+              </thead>
+              <tbody id="item-lots-tbody">
+                <tr><td colspan="5" class="text-center text-muted">Нет данных</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="split-table-box">
+          <div class="split-table-header">
+            <h4>📜 История последних завершённых сделок</h4>
+            <span class="split-count" id="sales-history-counter">0 сделок</span>
+          </div>
+          <div class="table-scroll">
+            <table class="mini-table">
+              <thead>
+                <tr>
+                  <th>Время сделки</th>
+                  <th>Цена за шт.</th>
+                  <th>Кол-во</th>
+                  <th>Сумма сделки</th>
+                  <th>Сегмент</th>
+                </tr>
+              </thead>
+              <tbody id="item-sales-tbody">
+                <tr><td colspan="5" class="text-center text-muted">Нет данных</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TAB 3: WATCHLIST ==================== -->
     <section id="tab-watchlist" class="tab-content">
-      <div class="watchlist-header">
+      <div class="section-top-bar">
         <div>
-          <h3>Список отслеживаемых предметов</h3>
-          <p class="text-muted small">Опрашиваются только эти предметы. Нажмите «Каталог и Добавление», чтобы добавить новые.</p>
+          <h3>Список отслеживания (Watchlist)</h3>
+          <p class="text-muted small">Облачный бот опрашивает только эти предметы каждые 5 минут 24/7.</p>
         </div>
         <div class="watchlist-actions">
           <button id="btn-export-wl" class="btn-secondary">Экспорт JSON</button>
@@ -105,12 +273,13 @@
         </div>
       </div>
 
-      <div class="table-responsive mt-3">
-        <table class="signals-table">
+      <div class="table-container mt-3">
+        <table class="data-table">
           <thead>
             <tr>
               <th>Предмет</th>
-              <th>Категория / Фильтр</th>
+              <th>Категория</th>
+              <th>Ранг</th>
               <th>Статус</th>
               <th>Мин. ROI</th>
               <th>Мин. Профит</th>
@@ -118,101 +287,81 @@
             </tr>
           </thead>
           <tbody id="watchlist-tbody">
-            <tr><td colspan="6" class="text-center">Загрузка списка отслеживания...</td></tr>
+            <tr><td colspan="7" class="text-center text-muted">Загрузка списка...</td></tr>
           </tbody>
         </table>
       </div>
     </section>
 
-    <!-- TAB 3: SEARCH & ADD BY NAME (Patch 2: No ID field!) -->
-    <section id="tab-search" class="tab-content">
-
-      <div class="search-section-header">
-        <h4>Поиск предметов по названию в каталоге</h4>
-        <div class="quick-cat-filters">
-          <button class="cat-pill active" data-cat="">Все</button>
+    <!-- ==================== TAB 4: CATALOG ==================== -->
+    <section id="tab-catalog" class="tab-content">
+      <div class="catalog-header-bar">
+        <div class="category-pills" id="catalog-category-pills">
+          <button class="cat-pill active" data-cat="">Все предметы</button>
+          <button class="cat-pill" data-cat="other">Запчасти и материалы</button>
+          <button class="cat-pill" data-cat="containers">Контейнеры</button>
+          <button class="cat-pill" data-cat="artefact">Артефакты</button>
           <button class="cat-pill" data-cat="weapon">Оружие</button>
           <button class="cat-pill" data-cat="armor">Броня</button>
-          <button class="cat-pill" data-cat="artefact">Артефакты</button>
-          <button class="cat-pill" data-cat="supply">Расходники</button>
         </div>
-      </div>
-
-      <div class="catalog-search-bar">
-        <input type="text" id="catalog-search-input" placeholder="Введите название предмета на русском или английском (например, Гадюка, КЗ-4, Аптечка)...">
+        <div class="catalog-search-wrap">
+          <input type="text" id="catalog-search-input" placeholder="Поиск по названию (Атом, Спираль, Берлога, Запчасти)...">
+        </div>
       </div>
 
       <div id="catalog-results-container" class="catalog-grid">
-        <div class="empty-hint text-muted">Введите название для поиска предметов из каталога...</div>
+        <div class="empty-hint text-muted">Загрузка каталога предметов...</div>
       </div>
     </section>
 
-    <!-- TAB 4: ITEM ANALYTICS -->
-    <section id="tab-item" class="tab-content">
-      <div class="item-search-row">
-        <input type="text" id="item-lookup-input" placeholder="Название предмета..." value="Гадюка">
-        <button id="btn-item-lookup" class="btn-primary">Показать аналитику</button>
-      </div>
+    <!-- ==================== TAB 5: SETTINGS & SUPABASE ==================== -->
+    <section id="tab-settings" class="tab-content">
+      <div class="settings-grid">
+        <!-- Supabase Cloud Connection Card -->
+        <div class="settings-card">
+          <div class="settings-card-header">
+            <span class="settings-badge">БАЗА ДАННЫХ</span>
+            <h3>Подключение к Supabase Cloud</h3>
+          </div>
+          <p class="text-muted small">Подключите бесплатный PostgreSQL на <a href="https://supabase.com" target="_blank" class="link-emerald">supabase.com</a> для постоянного хранения тиков, истории продаж и синхронизации в реальном времени.</p>
 
-      <div class="item-overview-grid">
-        <div class="metric-card">
-          <span class="metric-label">Медиана 3д</span>
-          <span class="metric-val" id="metric-median">-- ₽</span>
-        </div>
-        <div class="metric-card">
-          <span class="metric-label">Диапазон P25 - P75</span>
-          <span class="metric-val" id="metric-p25-p75">-- - -- ₽</span>
-        </div>
-        <div class="metric-card">
-          <span class="metric-label">Ликвидность</span>
-          <span class="metric-val" id="metric-liquidity">-- шт/сут</span>
-        </div>
-        <div class="metric-card">
-          <span class="metric-label">Волатильность (MAD)</span>
-          <span class="metric-val" id="metric-volatility">--%</span>
-        </div>
-      </div>
+          <div class="form-group mt-3">
+            <label>Supabase Project URL:</label>
+            <input type="text" id="supabase-url-input" placeholder="https://xxxxxxxxxxxxxxxx.supabase.co">
+          </div>
+          <div class="form-group">
+            <label>Supabase Anon (Public) Key:</label>
+            <input type="password" id="supabase-key-input" placeholder="eyJh......">
+          </div>
 
-      <div class="chart-container">
-        <h3>Динамика цен и распределение сделок</h3>
-        <canvas id="priceChart" height="110"></canvas>
-      </div>
-    </section>
+          <div class="settings-actions">
+            <button id="btn-save-supabase" class="btn-primary">Сохранить и подключить</button>
+            <button id="btn-test-supabase" class="btn-secondary">Проверить связь</button>
+          </div>
+          <div id="supabase-test-result" class="mt-2 small text-muted"></div>
+        </div>
 
-    <!-- TAB 5: HEALTH -->
-    <section id="tab-health" class="tab-content">
-      <div class="health-grid">
-        <div class="health-card">
-          <h4>Статус сборщика</h4>
-          <p class="health-status ok">АКТИВЕН</p>
-          <ul class="health-details">
-            <li>Канал: <strong>GitHub Actions / Local Daemon</strong></li>
-            <li>Режим: <strong>Только Watchlist (без опроса каталога)</strong></li>
-            <li>Лимит скорости: <strong>4 rps (Global ceiling ~22 rps)</strong></li>
+        <!-- System Architecture & Limits Card -->
+        <div class="settings-card">
+          <div class="settings-card-header">
+            <span class="settings-badge">ПАРАМЕТРЫ</span>
+            <h3>Экономика и правила торговли</h3>
+          </div>
+          <ul class="settings-info-list">
+            <li><strong>Комиссия аукциона:</strong> 5% (вычитается при продаже)</li>
+            <li><strong>Сбор за выставление:</strong> 0 ₽</li>
+            <li><strong>Безубыточный множитель:</strong> ~1.0526 (+5.263%)</li>
+            <li><strong>Активный банк:</strong> 10 000 000 ₽ (макс. 30% на сделку)</li>
+            <li><strong>Минимальный ROI:</strong> ≥ 10%</li>
+            <li><strong>Защита капитала:</strong> Сделка отменяется, если продажа по P25 уходит в минус</li>
+            <li><strong>Изоляция артефактов:</strong> Оценка строго внутри пары <code>Редкость + Заточка</code></li>
           </ul>
         </div>
-        <div class="health-card">
-          <h4>Ошибки и устаревшие срезы</h4>
-          <div class="stat-row"><span>HTTP 403 (Cloudflare block):</span> <strong id="h-403">0</strong></div>
-          <div class="stat-row"><span>HTTP 429 1015 (IP limit):</span> <strong id="h-429-ip">0</strong></div>
-          <div class="stat-row"><span>HTTP 429 Quota:</span> <strong id="h-429-q">0</strong></div>
-          <div class="stat-row"><span>Устаревшие срезы (Stale Slices):</span> <strong id="h-stale">0</strong></div>
-        </div>
-        <div class="health-card">
-          <h4>Бюджет базы данных (Supabase Free)</h4>
-          <p>Лимит: 500 МБ | Бюджет: ≤ 400 МБ</p>
-          <div class="progress-bar">
-            <div class="progress-fill" style="width: 15%;"></div>
-          </div>
-          <p class="small text-muted">Текущий объём: ~35 МБ. Ретеншн: 180 дней продаж отслеживаемых предметов.</p>
-        </div>
       </div>
-    </section>
 
-    <!-- TAB 6: CONFIGURATION -->
-    <section id="tab-settings" class="tab-content">
-      <div class="config-view">
-        <h3>Текущие параметры рынка и стратегии</h3>
+      <!-- Raw Config Display -->
+      <div class="config-view-card mt-4">
+        <h4>Текущая конфигурация бота (config.yaml)</h4>
         <pre id="config-json-display">Загрузка параметров...</pre>
       </div>
     </section>

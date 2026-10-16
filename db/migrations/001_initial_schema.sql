@@ -166,25 +166,27 @@ alter table price_rollups enable row level security;
 alter table signals enable row level security;
 alter table collector_runs enable row level security;
 
--- Public can ONLY read the catalog of items
+-- Public / Anon can READ items, signals, lots, sales, rollups, watchlist
 drop policy if exists "Public read items" on items;
 create policy "Public read items" on items for select using (true);
 
--- Authenticated owner policies
-drop policy if exists "Owner read/write watchlist" on watchlist;
-create policy "Owner read/write watchlist" on watchlist for all
-  using (auth.role() = 'authenticated');
+drop policy if exists "Public read signals" on signals;
+create policy "Public read signals" on signals for select using (true);
 
-drop policy if exists "Owner read signals" on signals;
-create policy "Owner read signals" on signals for select
-  using (auth.role() = 'authenticated');
+drop policy if exists "Public read lots" on lots;
+create policy "Public read lots" on lots for select using (true);
 
-drop policy if exists "Owner read rollups" on price_rollups;
-create policy "Owner read rollups" on price_rollups for select
-  using (auth.role() = 'authenticated');
+drop policy if exists "Public read sales" on sales;
+create policy "Public read sales" on sales for select using (true);
 
-drop policy if exists "Owner read collector_runs" on collector_runs;
-create policy "Owner read collector_runs" on collector_runs for select
+drop policy if exists "Public read rollups" on price_rollups;
+create policy "Public read rollups" on price_rollups for select using (true);
+
+drop policy if exists "Public read watchlist" on watchlist;
+create policy "Public read watchlist" on watchlist for select using (true);
+
+drop policy if exists "Owner write watchlist" on watchlist;
+create policy "Owner write watchlist" on watchlist for all
   using (auth.role() = 'authenticated');
 
 -- Retention Function (Patch 1 Section 7: 180 days sales, 30 days finished lots)

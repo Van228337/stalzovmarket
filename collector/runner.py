@@ -38,6 +38,7 @@ from analytics.digest import build_market_digest, export_digest_json
 from analytics.modules import parse_weapon_module
 from analytics.segmentation import get_item_segment
 from analytics.export_for_llm import export_llm_bundle
+from collector.supabase_sync import SupabaseSync
 
 logging.basicConfig(
     level=logging.INFO,
@@ -91,6 +92,7 @@ class CollectorRunner:
 
         realm = "ru" if self.region.upper() == "RU" else "global"
         self.items_db = ItemsDatabase(realm=realm)
+        self.supabase = SupabaseSync()
 
         self.metrics = {
             "requests": 0,
@@ -141,10 +143,11 @@ class CollectorRunner:
 
         # Watchlist rule (Patch 1 Section 5.2 & 10.4): ONLY poll tracked items
         watchlist = watchlist_override if watchlist_override is not None else self.get_tracked_watchlist(tier=tier)
-        logger.info(f"Active watchlist items to poll: {[w['item_id'] for w in watchlist]}")
-
         all_signals: List[TradeSignal] = []
         avoid_list: List[Dict[str, str]] = []
+        items_analytics_map: Dict[str, Any] = {}
+        all_db_lots: List[Dict[str, Any]] = []
+        all_db_sales: List[Dict[str, Any]] = []
 
         for entry in watchlist:
             item_id = entry.get("item_id")
@@ -307,6 +310,98 @@ class CollectorRunner:
                     if signal:
                         all_signals.append(signal)
 
+            # Build item analytics data for Web Deep-Dive & Supabase
+            item_segments_info: Dict[str, Any] = {}
+            for seg_key, seg_lots in lots_by_segment.items():
+                seg_sales = sales_by_segment.get(seg_key, [])
+                seg_label = seg_lots[0].segment_label if seg_lots else (seg_sales[0].segment_key if seg_sales else seg_key)
+                m = compute_fair_price_metrics(seg_sales, half_life_days=2.0) if len(seg_sales) >= 5 else None
+                valid_buyouts = [l.unit_buyout for l in seg_lots if l.unit_buyout and l.unit_buyout > 0]
+                min_buy = min(valid_buyouts) if valid_buyouts else 0.0
+
+                item_segments_info[seg_key] = {
+                    "label": seg_label,
+                    "median": round(m.median, 0) if m else 0,
+                    "p25": round(m.p25, 0) if m else 0,
+                    "p75": round(m.p75, 0) if m else 0,
+                    "iqr": round(m.iqr, 0) if m else 0,
+                    "units_per_day": round(m.units_per_day, 1) if m else 0,
+                    "trend": m.trend if m else "flat",
+                    "volatility": round(m.mad_volatility * 100, 1) if m else 0,
+                    "sample_size": len(seg_sales),
+                    "min_buyout": min_buy,
+                    "buy_max_unit": round(m.p25 * (1.0 - 0.05) / 1.10, 0) if m else 0,
+                }
+
+            all_item_sales = [s for sl in sales_by_segment.values() for s in sl]
+
+            items_analytics_map[item_id] = {
+                "item_id": item_id,
+                "name_ru": item_meta.get("name_ru", item_id),
+                "category": item_meta.get("category", ""),
+                "rank": item_meta.get("rank", "DEFAULT"),
+                "icon_path": item_meta.get("icon_path", ""),
+                "total_active_lots": total_lots,
+                "segments": item_segments_info,
+                "active_lots": [
+                    {
+                        "buyout_price": l.buyout_price,
+                        "unit_buyout": round(l.unit_buyout, 0),
+                        "amount": l.amount,
+                        "start_price": l.start_price,
+                        "segment_key": l.segment_key,
+                        "segment_label": l.segment_label,
+                    }
+                    for l in sorted([lot for sl in lots_by_segment.values() for lot in sl if lot.unit_buyout > 0], key=lambda x: x.unit_buyout)[:30]
+                ],
+                "recent_sales": [
+                    {
+                        "price": s.price,
+                        "unit_price": round(s.unit_price, 0),
+                        "amount": s.amount,
+                        "sold_at": s.sold_at.strftime("%d.%m %H:%M"),
+                        "segment_key": s.segment_key,
+                    }
+                    for s in sorted(all_item_sales, key=lambda x: x.sold_at, reverse=True)[:50]
+                ],
+            }
+
+            # Prepare records for Supabase
+            for lot_obj in [l for sl in lots_by_segment.values() for l in sl]:
+                fp = compute_lot_fingerprint(
+                    item_id=item_id,
+                    amount=lot_obj.amount,
+                    start_price=lot_obj.start_price,
+                    buyout_price=lot_obj.buyout_price,
+                    start_time=lot_obj.start_time.isoformat() if lot_obj.start_time else "",
+                    end_time=lot_obj.end_time.isoformat() if lot_obj.end_time else "",
+                    additional=lot_obj.additional,
+                )
+                all_db_lots.append({
+                    "region": self.region,
+                    "item_id": item_id,
+                    "fingerprint": fp,
+                    "amount": lot_obj.amount,
+                    "start_price": lot_obj.start_price,
+                    "current_price": lot_obj.current_price,
+                    "buyout_price": lot_obj.buyout_price,
+                    "additional": lot_obj.additional,
+                    "qlt": lot_obj.qlt,
+                    "segment_key": lot_obj.segment_key,
+                    "status": "active",
+                })
+
+            for s_obj in all_item_sales:
+                all_db_sales.append({
+                    "region": self.region,
+                    "item_id": item_id,
+                    "segment_key": s_obj.segment_key,
+                    "amount": s_obj.amount,
+                    "price": s_obj.price,
+                    "sold_at": s_obj.sold_at.isoformat(),
+                    "additional": s_obj.additional,
+                })
+
         # 6. Generate compact digest.json (Patch 1 Section 6.5)
         digest = build_market_digest(
             region=self.region,
@@ -324,6 +419,46 @@ class CollectorRunner:
             if os.path.exists(web_dir):
                 export_digest_json(digest, f"{web_dir}/digest.json")
         logger.info(f"Digest exported to data/digest.json with {len(all_signals)} opportunities from watchlist.")
+
+        # Export rich market_analytics.json for Web Deep-Dive & Supabase
+        analytics_payload = {
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "region": self.region,
+            "items": items_analytics_map,
+        }
+        with open("data/market_analytics.json", "w", encoding="utf-8") as f:
+            json.dump(analytics_payload, f, ensure_ascii=False, indent=2)
+        for web_dir in ["web", "docs"]:
+            if os.path.exists(web_dir):
+                with open(f"{web_dir}/market_analytics.json", "w", encoding="utf-8") as f:
+                    json.dump(analytics_payload, f, ensure_ascii=False, indent=2)
+        logger.info(f"Exported market_analytics.json with {len(items_analytics_map)} items.")
+
+        # Sync to Supabase if configured
+        if self.supabase.enabled:
+            try:
+                await self.supabase.upsert_lots(all_db_lots[:300])
+                await self.supabase.insert_sales(all_db_sales[:500])
+                db_signals = [
+                    {
+                        "item_id": s.item_id,
+                        "region": self.region,
+                        "segment_key": s.segment_key,
+                        "buy_unit_price": s.buy_unit_price,
+                        "fair_price": s.fair_price,
+                        "target_sell_unit": s.target_sell_unit,
+                        "expected_profit": s.expected_profit,
+                        "roi": s.roi,
+                        "confidence": s.confidence,
+                        "score": s.score,
+                        "reasons": s.reasons,
+                        "caveats": s.caveats,
+                    }
+                    for s in all_signals
+                ]
+                await self.supabase.insert_signals(db_signals)
+            except Exception as e:
+                logger.warning(f"Supabase sync failed: {e}")
 
         # Export ready-to-paste bundle for external LLMs (ChatGPT / Claude / DeepSeek)
         export_llm_bundle(

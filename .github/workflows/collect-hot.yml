@@ -48,6 +48,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/digest.json data/digest.json data/prompt_for_external_llm.txt || true
+          git add docs/digest.json data/digest.json docs/market_analytics.json data/market_analytics.json docs/prompt_for_external_llm.txt data/prompt_for_external_llm.txt || true
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore(data): auto-update market digest [skip ci]" && git push)
 
