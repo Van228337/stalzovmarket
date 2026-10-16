@@ -1,0 +1,4621 @@
+{
+  "generated_at": "2026-10-16T10:19:51.101146+00:00",
+  "signals": [
+    {
+      "id": 1018,
+      "item_id": "a3sk",
+      "name_ru": "Скат-10",
+      "category": "armor/combined",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/armor/a3sk.png",
+      "qlt": 0,
+      "ptn": 15,
+      "segment_key": "default",
+      "segment_label": "Заточка +10",
+      "lot": {
+        "buy_unit": 23630000,
+        "amount": 1,
+        "total_buyout": 23630000
+      },
+      "plan": {
+        "sell_target_unit": 33320000,
+        "sell_floor_unit": 31280000,
+        "expected_profit": 8024000,
+        "roi": 0.34
+      },
+      "fair": {
+        "median_3d": 34000000,
+        "p25_3d": 31960000,
+        "p75_3d": 36040000
+      },
+      "discount_pct": 30.5,
+      "confidence": 0.8,
+      "confidence_label": "Смело",
+      "orderbook_depth": 4,
+      "sales_3d": 6,
+      "created_at_human": "17 мин назад",
+      "time_left_human": "2ч 12м",
+      "is_new": false,
+      "reasons": [
+        "Выкуп за 23 630 000 ₽ при медиане 34 000 000 ₽ (дисконт 30%)",
+        "Высокий суточный спрос: ~2.1 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +8 024 000 ₽",
+        "Слабое давление предложения: в стакане всего 22 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1006,
+      "item_id": "m9pa",
+      "name_ru": "Трансформатор",
+      "category": "artefact/electrophysical",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/artefacts/m9pa.png",
+      "qlt": 5,
+      "ptn": 15,
+      "segment_key": "q5:p15",
+      "segment_label": "Легендарный (+15)",
+      "lot": {
+        "buy_unit": 17596000,
+        "amount": 1,
+        "total_buyout": 17596000
+      },
+      "plan": {
+        "sell_target_unit": 25970000,
+        "sell_floor_unit": 24380000,
+        "expected_profit": 7075500,
+        "roi": 0.402
+      },
+      "fair": {
+        "median_3d": 26500000,
+        "p25_3d": 24910000,
+        "p75_3d": 28090000
+      },
+      "discount_pct": 33.6,
+      "confidence": 0.88,
+      "confidence_label": "Смело",
+      "orderbook_depth": 20,
+      "sales_3d": 10,
+      "created_at_human": "43 мин назад",
+      "time_left_human": "10ч 8м",
+      "is_new": false,
+      "reasons": [
+        "Выкуп за 17 596 000 ₽ при медиане 26 500 000 ₽ (дисконт 33%)",
+        "Высокий суточный спрос: ~3.4 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +7 075 500 ₽",
+        "Слабое давление предложения: в стакане всего 13 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1031,
+      "item_id": "m9pa",
+      "name_ru": "Трансформатор",
+      "category": "artefact/electrophysical",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/artefacts/m9pa.png",
+      "qlt": 5,
+      "ptn": 15,
+      "segment_key": "q5:p15",
+      "segment_label": "Легендарный (+15)",
+      "lot": {
+        "buy_unit": 20670000,
+        "amount": 1,
+        "total_buyout": 20670000
+      },
+      "plan": {
+        "sell_target_unit": 25970000,
+        "sell_floor_unit": 24380000,
+        "expected_profit": 4001500,
+        "roi": 0.194
+      },
+      "fair": {
+        "median_3d": 26500000,
+        "p25_3d": 24910000,
+        "p75_3d": 28090000
+      },
+      "discount_pct": 22.0,
+      "confidence": 0.85,
+      "confidence_label": "Смело",
+      "orderbook_depth": 34,
+      "sales_3d": 10,
+      "created_at_human": "22 мин назад",
+      "time_left_human": "8ч 43м",
+      "is_new": false,
+      "reasons": [
+        "Выкуп за 20 670 000 ₽ при медиане 26 500 000 ₽ (дисконт 22%)",
+        "Высокий суточный спрос: ~3.4 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +4 001 500 ₽",
+        "Слабое давление предложения: в стакане всего 7 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1026,
+      "item_id": "gyq5",
+      "name_ru": "Спираль",
+      "category": "artefact/electrophysical",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/artefacts/gyq5.png",
+      "qlt": 3,
+      "ptn": 15,
+      "segment_key": "q3:p15",
+      "segment_label": "Редкий (+15)",
+      "lot": {
+        "buy_unit": 5380000,
+        "amount": 1,
+        "total_buyout": 5380000
+      },
+      "plan": {
+        "sell_target_unit": 8330000,
+        "sell_floor_unit": 7820000,
+        "expected_profit": 2533500,
+        "roi": 0.471
+      },
+      "fair": {
+        "median_3d": 8500000,
+        "p25_3d": 7990000,
+        "p75_3d": 9010000
+      },
+      "discount_pct": 36.7,
+      "confidence": 0.7,
+      "confidence_label": "Осторожно",
+      "orderbook_depth": 47,
+      "sales_3d": 42,
+      "created_at_human": "34 мин назад",
+      "time_left_human": "20ч 11м",
+      "is_new": false,
+      "reasons": [
+        "Выкуп за 5 380 000 ₽ при медиане 8 500 000 ₽ (дисконт 36%)",
+        "Высокий суточный спрос: ~14.2 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +2 533 500 ₽",
+        "Слабое давление предложения: в стакане всего 12 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1017,
+      "item_id": "w1fn",
+      "name_ru": "FN F2000 Тактический",
+      "category": "weapon/assault_rifle",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/weapon/w1fn.png",
+      "qlt": 0,
+      "ptn": 10,
+      "segment_key": "default",
+      "segment_label": "Заточка +10",
+      "lot": {
+        "buy_unit": 15300000,
+        "amount": 1,
+        "total_buyout": 15300000
+      },
+      "plan": {
+        "sell_target_unit": 18130000,
+        "sell_floor_unit": 17020000,
+        "expected_profit": 1923500,
+        "roi": 0.126
+      },
+      "fair": {
+        "median_3d": 18500000,
+        "p25_3d": 17390000,
+        "p75_3d": 19610000
+      },
+      "discount_pct": 17.3,
+      "confidence": 0.7,
+      "confidence_label": "Осторожно",
+      "orderbook_depth": 40,
+      "sales_3d": 13,
+      "created_at_human": "12 мин назад",
+      "time_left_human": "23ч 25м",
+      "is_new": true,
+      "reasons": [
+        "Выкуп за 15 300 000 ₽ при медиане 18 500 000 ₽ (дисконт 17%)",
+        "Высокий суточный спрос: ~4.5 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +1 923 500 ₽",
+        "Слабое давление предложения: в стакане всего 9 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1020,
+      "item_id": "c2cb",
+      "name_ru": "Центурион",
+      "category": "armor/combat",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/armor/c2cb.png",
+      "qlt": 0,
+      "ptn": 10,
+      "segment_key": "default",
+      "segment_label": "Заточка +10",
+      "lot": {
+        "buy_unit": 18678000,
+        "amount": 1,
+        "total_buyout": 18678000
+      },
+      "plan": {
+        "sell_target_unit": 21560000,
+        "sell_floor_unit": 20240000,
+        "expected_profit": 1804000,
+        "roi": 0.097
+      },
+      "fair": {
+        "median_3d": 22000000,
+        "p25_3d": 20680000,
+        "p75_3d": 23320000
+      },
+      "discount_pct": 15.1,
+      "confidence": 0.64,
+      "confidence_label": "Осторожно",
+      "orderbook_depth": 40,
+      "sales_3d": 11,
+      "created_at_human": "4 мин назад",
+      "time_left_human": "16ч 16м",
+      "is_new": true,
+      "reasons": [
+        "Выкуп за 18 678 000 ₽ при медиане 22 000 000 ₽ (дисконт 15%)",
+        "Высокий суточный спрос: ~3.8 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +1 804 000 ₽",
+        "Слабое давление предложения: в стакане всего 21 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1028,
+      "item_id": "qoq6",
+      "name_ru": "Солнце",
+      "category": "artefact/thermal",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/artefacts/qoq6.png",
+      "qlt": 4,
+      "ptn": 15,
+      "segment_key": "q4:p15",
+      "segment_label": "Исключительный (+15)",
+      "lot": {
+        "buy_unit": 11587000,
+        "amount": 1,
+        "total_buyout": 11587000
+      },
+      "plan": {
+        "sell_target_unit": 13916000,
+        "sell_floor_unit": 13064000,
+        "expected_profit": 1633200,
+        "roi": 0.141
+      },
+      "fair": {
+        "median_3d": 14200000,
+        "p25_3d": 13348000,
+        "p75_3d": 15052000
+      },
+      "discount_pct": 18.4,
+      "confidence": 0.91,
+      "confidence_label": "Смело",
+      "orderbook_depth": 48,
+      "sales_3d": 24,
+      "created_at_human": "28 мин назад",
+      "time_left_human": "14ч 56м",
+      "is_new": false,
+      "reasons": [
+        "Выкуп за 11 587 000 ₽ при медиане 14 200 000 ₽ (дисконт 18%)",
+        "Высокий суточный спрос: ~8.1 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +1 633 200 ₽",
+        "Слабое давление предложения: в стакане всего 25 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1003,
+      "item_id": "qoq6",
+      "name_ru": "Солнце",
+      "category": "artefact/thermal",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/artefacts/qoq6.png",
+      "qlt": 4,
+      "ptn": 15,
+      "segment_key": "q4:p15",
+      "segment_label": "Исключительный (+15)",
+      "lot": {
+        "buy_unit": 11601000,
+        "amount": 1,
+        "total_buyout": 11601000
+      },
+      "plan": {
+        "sell_target_unit": 13916000,
+        "sell_floor_unit": 13064000,
+        "expected_profit": 1619200,
+        "roi": 0.14
+      },
+      "fair": {
+        "median_3d": 14200000,
+        "p25_3d": 13348000,
+        "p75_3d": 15052000
+      },
+      "discount_pct": 18.3,
+      "confidence": 0.84,
+      "confidence_label": "Смело",
+      "orderbook_depth": 4,
+      "sales_3d": 24,
+      "created_at_human": "43 мин назад",
+      "time_left_human": "23ч 33м",
+      "is_new": false,
+      "reasons": [
+        "Выкуп за 11 601 000 ₽ при медиане 14 200 000 ₽ (дисконт 18%)",
+        "Высокий суточный спрос: ~8.1 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +1 619 200 ₽",
+        "Слабое давление предложения: в стакане всего 12 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1009,
+      "item_id": "j3ml",
+      "name_ru": "Контейнер «КСМ»",
+      "category": "containers",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/containers/j3ml.png",
+      "qlt": 0,
+      "ptn": 0,
+      "segment_key": "default",
+      "segment_label": "Стандарт",
+      "lot": {
+        "buy_unit": 3886000,
+        "amount": 1,
+        "total_buyout": 3886000
+      },
+      "plan": {
+        "sell_target_unit": 5684000,
+        "sell_floor_unit": 5336000,
+        "expected_profit": 1513800,
+        "roi": 0.39
+      },
+      "fair": {
+        "median_3d": 5800000,
+        "p25_3d": 5452000,
+        "p75_3d": 6148000
+      },
+      "discount_pct": 33.0,
+      "confidence": 0.84,
+      "confidence_label": "Смело",
+      "orderbook_depth": 5,
+      "sales_3d": 33,
+      "created_at_human": "29 мин назад",
+      "time_left_human": "10ч 14м",
+      "is_new": false,
+      "reasons": [
+        "Выкуп за 3 886 000 ₽ при медиане 5 800 000 ₽ (дисконт 33%)",
+        "Высокий суточный спрос: ~11.2 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +1 513 800 ₽",
+        "Слабое давление предложения: в стакане всего 24 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1021,
+      "item_id": "k8ak",
+      "name_ru": "АК-15",
+      "category": "weapon/assault_rifle",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/weapon/k8ak.png",
+      "qlt": 0,
+      "ptn": 0,
+      "segment_key": "default",
+      "segment_label": "Стандарт",
+      "lot": {
+        "buy_unit": 5479000,
+        "amount": 1,
+        "total_buyout": 5479000
+      },
+      "plan": {
+        "sell_target_unit": 7056000,
+        "sell_floor_unit": 6624000,
+        "expected_profit": 1224200,
+        "roi": 0.223
+      },
+      "fair": {
+        "median_3d": 7200000,
+        "p25_3d": 6768000,
+        "p75_3d": 7632000
+      },
+      "discount_pct": 23.9,
+      "confidence": 0.87,
+      "confidence_label": "Смело",
+      "orderbook_depth": 17,
+      "sales_3d": 54,
+      "created_at_human": "20 мин назад",
+      "time_left_human": "9ч 12м",
+      "is_new": false,
+      "reasons": [
+        "Выкуп за 5 479 000 ₽ при медиане 7 200 000 ₽ (дисконт 23%)",
+        "Высокий суточный спрос: ~18.0 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +1 224 200 ₽",
+        "Слабое давление предложения: в стакане всего 10 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1036,
+      "item_id": "u8lo",
+      "name_ru": "Улей",
+      "category": "containers",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/containers/u8lo.png",
+      "qlt": 0,
+      "ptn": 0,
+      "segment_key": "default",
+      "segment_label": "Стандарт",
+      "lot": {
+        "buy_unit": 7977000,
+        "amount": 1,
+        "total_buyout": 7977000
+      },
+      "plan": {
+        "sell_target_unit": 9604000,
+        "sell_floor_unit": 9016000,
+        "expected_profit": 1146800,
+        "roi": 0.144
+      },
+      "fair": {
+        "median_3d": 9800000,
+        "p25_3d": 9212000,
+        "p75_3d": 10388000
+      },
+      "discount_pct": 18.6,
+      "confidence": 0.83,
+      "confidence_label": "Смело",
+      "orderbook_depth": 3,
+      "sales_3d": 28,
+      "created_at_human": "18 мин назад",
+      "time_left_human": "5ч 14м",
+      "is_new": false,
+      "reasons": [
+        "Выкуп за 7 977 000 ₽ при медиане 9 800 000 ₽ (дисконт 18%)",
+        "Высокий суточный спрос: ~9.5 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +1 146 800 ₽",
+        "Слабое давление предложения: в стакане всего 11 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1001,
+      "item_id": "gyq5",
+      "name_ru": "Спираль",
+      "category": "artefact/electrophysical",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/artefacts/gyq5.png",
+      "qlt": 3,
+      "ptn": 15,
+      "segment_key": "q3:p15",
+      "segment_label": "Редкий (+15)",
+      "lot": {
+        "buy_unit": 6783000,
+        "amount": 1,
+        "total_buyout": 6783000
+      },
+      "plan": {
+        "sell_target_unit": 8330000,
+        "sell_floor_unit": 7820000,
+        "expected_profit": 1130500,
+        "roi": 0.167
+      },
+      "fair": {
+        "median_3d": 8500000,
+        "p25_3d": 7990000,
+        "p75_3d": 9010000
+      },
+      "discount_pct": 20.2,
+      "confidence": 0.77,
+      "confidence_label": "Смело",
+      "orderbook_depth": 6,
+      "sales_3d": 42,
+      "created_at_human": "32 мин назад",
+      "time_left_human": "22ч 37м",
+      "is_new": false,
+      "reasons": [
+        "Выкуп за 6 783 000 ₽ при медиане 8 500 000 ₽ (дисконт 20%)",
+        "Высокий суточный спрос: ~14.2 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +1 130 500 ₽",
+        "Слабое давление предложения: в стакане всего 24 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1000,
+      "item_id": "wg53",
+      "name_ru": "Атом",
+      "category": "artefact/electrophysical",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/artefacts/wg53.png",
+      "qlt": 2,
+      "ptn": 10,
+      "segment_key": "q2:p10",
+      "segment_label": "Особый (+10)",
+      "lot": {
+        "buy_unit": 1522000,
+        "amount": 1,
+        "total_buyout": 1522000
+      },
+      "plan": {
+        "sell_target_unit": 2352000,
+        "sell_floor_unit": 2208000,
+        "expected_profit": 712400,
+        "roi": 0.468
+      },
+      "fair": {
+        "median_3d": 2400000,
+        "p25_3d": 2256000,
+        "p75_3d": 2544000
+      },
+      "discount_pct": 36.6,
+      "confidence": 0.87,
+      "confidence_label": "Смело",
+      "orderbook_depth": 15,
+      "sales_3d": 85,
+      "created_at_human": "2 мин назад",
+      "time_left_human": "19ч 28м",
+      "is_new": true,
+      "reasons": [
+        "Выкуп за 1 522 000 ₽ при медиане 2 400 000 ₽ (дисконт 36%)",
+        "Высокий суточный спрос: ~28.5 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +712 400 ₽",
+        "Слабое давление предложения: в стакане всего 13 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1019,
+      "item_id": "v5pr",
+      "name_ru": "ВСС «Винторез»",
+      "category": "weapon/sniper_rifle",
+      "rank": "RANK_VETERAN",
+      "icon_path": "/icons/weapon/v5pr.png",
+      "qlt": 0,
+      "ptn": 5,
+      "segment_key": "default",
+      "segment_label": "Заточка +10",
+      "lot": {
+        "buy_unit": 2921000,
+        "amount": 1,
+        "total_buyout": 2921000
+      },
+      "plan": {
+        "sell_target_unit": 3822000,
+        "sell_floor_unit": 3588000,
+        "expected_profit": 709900,
+        "roi": 0.243
+      },
+      "fair": {
+        "median_3d": 3900000,
+        "p25_3d": 3666000,
+        "p75_3d": 4134000
+      },
+      "discount_pct": 25.1,
+      "confidence": 0.86,
+      "confidence_label": "Смело",
+      "orderbook_depth": 3,
+      "sales_3d": 45,
+      "created_at_human": "23 мин назад",
+      "time_left_human": "23ч 57м",
+      "is_new": false,
+      "reasons": [
+        "Выкуп за 2 921 000 ₽ при медиане 3 900 000 ₽ (дисконт 25%)",
+        "Высокий суточный спрос: ~15.0 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +709 900 ₽",
+        "Слабое давление предложения: в стакане всего 5 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1025,
+      "item_id": "wg53",
+      "name_ru": "Атом",
+      "category": "artefact/electrophysical",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/artefacts/wg53.png",
+      "qlt": 2,
+      "ptn": 10,
+      "segment_key": "q2:p10",
+      "segment_label": "Особый (+10)",
+      "lot": {
+        "buy_unit": 1550000,
+        "amount": 1,
+        "total_buyout": 1550000
+      },
+      "plan": {
+        "sell_target_unit": 2352000,
+        "sell_floor_unit": 2208000,
+        "expected_profit": 684400,
+        "roi": 0.442
+      },
+      "fair": {
+        "median_3d": 2400000,
+        "p25_3d": 2256000,
+        "p75_3d": 2544000
+      },
+      "discount_pct": 35.4,
+      "confidence": 0.93,
+      "confidence_label": "Смело",
+      "orderbook_depth": 48,
+      "sales_3d": 85,
+      "created_at_human": "12 мин назад",
+      "time_left_human": "23ч 39м",
+      "is_new": true,
+      "reasons": [
+        "Выкуп за 1 550 000 ₽ при медиане 2 400 000 ₽ (дисконт 35%)",
+        "Высокий суточный спрос: ~28.5 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +684 400 ₽",
+        "Слабое давление предложения: в стакане всего 24 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1011,
+      "item_id": "u8lo",
+      "name_ru": "Улей",
+      "category": "containers",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/containers/u8lo.png",
+      "qlt": 0,
+      "ptn": 0,
+      "segment_key": "default",
+      "segment_label": "Стандарт",
+      "lot": {
+        "buy_unit": 8457000,
+        "amount": 1,
+        "total_buyout": 8457000
+      },
+      "plan": {
+        "sell_target_unit": 9604000,
+        "sell_floor_unit": 9016000,
+        "expected_profit": 666800,
+        "roi": 0.079
+      },
+      "fair": {
+        "median_3d": 9800000,
+        "p25_3d": 9212000,
+        "p75_3d": 10388000
+      },
+      "discount_pct": 13.7,
+      "confidence": 0.67,
+      "confidence_label": "Осторожно",
+      "orderbook_depth": 6,
+      "sales_3d": 28,
+      "created_at_human": "36 мин назад",
+      "time_left_human": "7ч 12м",
+      "is_new": false,
+      "reasons": [
+        "Выкуп за 8 457 000 ₽ при медиане 9 800 000 ₽ (дисконт 13%)",
+        "Высокий суточный спрос: ~9.5 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +666 800 ₽",
+        "Слабое давление предложения: в стакане всего 6 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1008,
+      "item_id": "g35n",
+      "name_ru": "Контейнер «Берлога-6»",
+      "category": "containers",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/containers/g35n.png",
+      "qlt": 0,
+      "ptn": 0,
+      "segment_key": "default",
+      "segment_label": "Стандарт",
+      "lot": {
+        "buy_unit": 3293000,
+        "amount": 1,
+        "total_buyout": 3293000
+      },
+      "plan": {
+        "sell_target_unit": 4116000,
+        "sell_floor_unit": 3864000,
+        "expected_profit": 617200,
+        "roi": 0.187
+      },
+      "fair": {
+        "median_3d": 4200000,
+        "p25_3d": 3948000,
+        "p75_3d": 4452000
+      },
+      "discount_pct": 21.6,
+      "confidence": 0.72,
+      "confidence_label": "Осторожно",
+      "orderbook_depth": 42,
+      "sales_3d": 48,
+      "created_at_human": "13 мин назад",
+      "time_left_human": "3ч 20м",
+      "is_new": true,
+      "reasons": [
+        "Выкуп за 3 293 000 ₽ при медиане 4 200 000 ₽ (дисконт 21%)",
+        "Высокий суточный спрос: ~16.0 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +617 200 ₽",
+        "Слабое давление предложения: в стакане всего 16 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1033,
+      "item_id": "g35n",
+      "name_ru": "Контейнер «Берлога-6»",
+      "category": "containers",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/containers/g35n.png",
+      "qlt": 0,
+      "ptn": 0,
+      "segment_key": "default",
+      "segment_label": "Стандарт",
+      "lot": {
+        "buy_unit": 3440000,
+        "amount": 1,
+        "total_buyout": 3440000
+      },
+      "plan": {
+        "sell_target_unit": 4116000,
+        "sell_floor_unit": 3864000,
+        "expected_profit": 470200,
+        "roi": 0.137
+      },
+      "fair": {
+        "median_3d": 4200000,
+        "p25_3d": 3948000,
+        "p75_3d": 4452000
+      },
+      "discount_pct": 18.1,
+      "confidence": 0.69,
+      "confidence_label": "Осторожно",
+      "orderbook_depth": 38,
+      "sales_3d": 48,
+      "created_at_human": "1 мин назад",
+      "time_left_human": "10ч 54м",
+      "is_new": true,
+      "reasons": [
+        "Выкуп за 3 440 000 ₽ при медиане 4 200 000 ₽ (дисконт 18%)",
+        "Высокий суточный спрос: ~16.0 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +470 200 ₽",
+        "Слабое давление предложения: в стакане всего 5 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1010,
+      "item_id": "b4pk",
+      "name_ru": "Контейнер «Берлога-4»",
+      "category": "containers",
+      "rank": "RANK_VETERAN",
+      "icon_path": "/icons/containers/b4pk.png",
+      "qlt": 0,
+      "ptn": 0,
+      "segment_key": "default",
+      "segment_label": "Стандарт",
+      "lot": {
+        "buy_unit": 1120000,
+        "amount": 1,
+        "total_buyout": 1120000
+      },
+      "plan": {
+        "sell_target_unit": 1617000,
+        "sell_floor_unit": 1518000,
+        "expected_profit": 416150,
+        "roi": 0.372
+      },
+      "fair": {
+        "median_3d": 1650000,
+        "p25_3d": 1551000,
+        "p75_3d": 1749000
+      },
+      "discount_pct": 32.1,
+      "confidence": 0.74,
+      "confidence_label": "Осторожно",
+      "orderbook_depth": 22,
+      "sales_3d": 72,
+      "created_at_human": "37 мин назад",
+      "time_left_human": "20ч 9м",
+      "is_new": false,
+      "reasons": [
+        "Выкуп за 1 120 000 ₽ при медиане 1 650 000 ₽ (дисконт 32%)",
+        "Высокий суточный спрос: ~24.0 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +416 150 ₽",
+        "Слабое давление предложения: в стакане всего 14 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1034,
+      "item_id": "j3ml",
+      "name_ru": "Контейнер «КСМ»",
+      "category": "containers",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/containers/j3ml.png",
+      "qlt": 0,
+      "ptn": 0,
+      "segment_key": "default",
+      "segment_label": "Стандарт",
+      "lot": {
+        "buy_unit": 5005000,
+        "amount": 1,
+        "total_buyout": 5005000
+      },
+      "plan": {
+        "sell_target_unit": 5684000,
+        "sell_floor_unit": 5336000,
+        "expected_profit": 394800,
+        "roi": 0.079
+      },
+      "fair": {
+        "median_3d": 5800000,
+        "p25_3d": 5452000,
+        "p75_3d": 6148000
+      },
+      "discount_pct": 13.7,
+      "confidence": 0.81,
+      "confidence_label": "Смело",
+      "orderbook_depth": 14,
+      "sales_3d": 33,
+      "created_at_human": "23 мин назад",
+      "time_left_human": "10ч 30м",
+      "is_new": false,
+      "reasons": [
+        "Выкуп за 5 005 000 ₽ при медиане 5 800 000 ₽ (дисконт 13%)",
+        "Высокий суточный спрос: ~11.2 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +394 800 ₽",
+        "Слабое давление предложения: в стакане всего 9 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1035,
+      "item_id": "b4pk",
+      "name_ru": "Контейнер «Берлога-4»",
+      "category": "containers",
+      "rank": "RANK_VETERAN",
+      "icon_path": "/icons/containers/b4pk.png",
+      "qlt": 0,
+      "ptn": 0,
+      "segment_key": "default",
+      "segment_label": "Стандарт",
+      "lot": {
+        "buy_unit": 1180000,
+        "amount": 1,
+        "total_buyout": 1180000
+      },
+      "plan": {
+        "sell_target_unit": 1617000,
+        "sell_floor_unit": 1518000,
+        "expected_profit": 356150,
+        "roi": 0.302
+      },
+      "fair": {
+        "median_3d": 1650000,
+        "p25_3d": 1551000,
+        "p75_3d": 1749000
+      },
+      "discount_pct": 28.5,
+      "confidence": 0.91,
+      "confidence_label": "Смело",
+      "orderbook_depth": 17,
+      "sales_3d": 72,
+      "created_at_human": "27 мин назад",
+      "time_left_human": "21ч 9м",
+      "is_new": false,
+      "reasons": [
+        "Выкуп за 1 180 000 ₽ при медиане 1 650 000 ₽ (дисконт 28%)",
+        "Высокий суточный спрос: ~24.0 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +356 150 ₽",
+        "Слабое давление предложения: в стакане всего 13 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1024,
+      "item_id": "m4bg",
+      "name_ru": "Магазин 60 патронов 5.45",
+      "category": "attachment/mag",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/attachment/m4bg.png",
+      "qlt": 0,
+      "ptn": 0,
+      "segment_key": "default",
+      "segment_label": "Стандарт",
+      "lot": {
+        "buy_unit": 1121000,
+        "amount": 1,
+        "total_buyout": 1121000
+      },
+      "plan": {
+        "sell_target_unit": 1421000,
+        "sell_floor_unit": 1334000,
+        "expected_profit": 228950,
+        "roi": 0.204
+      },
+      "fair": {
+        "median_3d": 1450000,
+        "p25_3d": 1363000,
+        "p75_3d": 1537000
+      },
+      "discount_pct": 22.7,
+      "confidence": 0.7,
+      "confidence_label": "Осторожно",
+      "orderbook_depth": 40,
+      "sales_3d": 81,
+      "created_at_human": "33 мин назад",
+      "time_left_human": "6ч 11м",
+      "is_new": false,
+      "reasons": [
+        "Выкуп за 1 121 000 ₽ при медиане 1 450 000 ₽ (дисконт 22%)",
+        "Высокий суточный спрос: ~27.0 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +228 950 ₽",
+        "Слабое давление предложения: в стакане всего 22 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1022,
+      "item_id": "s9sh",
+      "name_ru": "Protecta",
+      "category": "weapon/shotgun_rifle",
+      "rank": "RANK_STALKER",
+      "icon_path": "/icons/weapon/s9sh.png",
+      "qlt": 0,
+      "ptn": 0,
+      "segment_key": "default",
+      "segment_label": "Стандарт",
+      "lot": {
+        "buy_unit": 603000,
+        "amount": 1,
+        "total_buyout": 603000
+      },
+      "plan": {
+        "sell_target_unit": 872200,
+        "sell_floor_unit": 818800,
+        "expected_profit": 225590,
+        "roi": 0.374
+      },
+      "fair": {
+        "median_3d": 890000,
+        "p25_3d": 836600,
+        "p75_3d": 943400
+      },
+      "discount_pct": 32.2,
+      "confidence": 0.69,
+      "confidence_label": "Осторожно",
+      "orderbook_depth": 10,
+      "sales_3d": 66,
+      "created_at_human": "27 мин назад",
+      "time_left_human": "23ч 49м",
+      "is_new": false,
+      "reasons": [
+        "Выкуп за 603 000 ₽ при медиане 890 000 ₽ (дисконт 32%)",
+        "Высокий суточный спрос: ~22.0 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +225 590 ₽",
+        "Слабое давление предложения: в стакане всего 17 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1002,
+      "item_id": "5rwq",
+      "name_ru": "Осколок",
+      "category": "artefact/electrophysical",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/artefacts/5rwq.png",
+      "qlt": 1,
+      "ptn": 5,
+      "segment_key": "q1:p5",
+      "segment_label": "Необычный (+5)",
+      "lot": {
+        "buy_unit": 485000,
+        "amount": 1,
+        "total_buyout": 485000
+      },
+      "plan": {
+        "sell_target_unit": 735000,
+        "sell_floor_unit": 690000,
+        "expected_profit": 213250,
+        "roi": 0.44
+      },
+      "fair": {
+        "median_3d": 750000,
+        "p25_3d": 705000,
+        "p75_3d": 795000
+      },
+      "discount_pct": 35.3,
+      "confidence": 0.82,
+      "confidence_label": "Смело",
+      "orderbook_depth": 46,
+      "sales_3d": 102,
+      "created_at_human": "29 мин назад",
+      "time_left_human": "14ч 26м",
+      "is_new": false,
+      "reasons": [
+        "Выкуп за 485 000 ₽ при медиане 750 000 ₽ (дисконт 35%)",
+        "Высокий суточный спрос: ~34.0 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +213 250 ₽",
+        "Слабое давление предложения: в стакане всего 12 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1027,
+      "item_id": "5rwq",
+      "name_ru": "Осколок",
+      "category": "artefact/electrophysical",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/artefacts/5rwq.png",
+      "qlt": 1,
+      "ptn": 5,
+      "segment_key": "q1:p5",
+      "segment_label": "Необычный (+5)",
+      "lot": {
+        "buy_unit": 516000,
+        "amount": 1,
+        "total_buyout": 516000
+      },
+      "plan": {
+        "sell_target_unit": 735000,
+        "sell_floor_unit": 690000,
+        "expected_profit": 182250,
+        "roi": 0.353
+      },
+      "fair": {
+        "median_3d": 750000,
+        "p25_3d": 705000,
+        "p75_3d": 795000
+      },
+      "discount_pct": 31.2,
+      "confidence": 0.66,
+      "confidence_label": "Осторожно",
+      "orderbook_depth": 7,
+      "sales_3d": 102,
+      "created_at_human": "14 мин назад",
+      "time_left_human": "8ч 48м",
+      "is_new": true,
+      "reasons": [
+        "Выкуп за 516 000 ₽ при медиане 750 000 ₽ (дисконт 31%)",
+        "Высокий суточный спрос: ~34.0 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +182 250 ₽",
+        "Слабое давление предложения: в стакане всего 25 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1038,
+      "item_id": "4q7pl",
+      "name_ru": "Продвинутые инструменты",
+      "category": "other",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/other/4q7pl.png",
+      "qlt": 0,
+      "ptn": 0,
+      "segment_key": "default",
+      "segment_label": "Стандарт",
+      "lot": {
+        "buy_unit": 45760,
+        "amount": 10,
+        "total_buyout": 457600
+      },
+      "plan": {
+        "sell_target_unit": 66640,
+        "sell_floor_unit": 62560,
+        "expected_profit": 175480,
+        "roi": 0.383
+      },
+      "fair": {
+        "median_3d": 68000,
+        "p25_3d": 63920,
+        "p75_3d": 72080
+      },
+      "discount_pct": 32.7,
+      "confidence": 0.88,
+      "confidence_label": "Смело",
+      "orderbook_depth": 45,
+      "sales_3d": 570,
+      "created_at_human": "29 мин назад",
+      "time_left_human": "4ч 7м",
+      "is_new": false,
+      "reasons": [
+        "Выкуп за 45 760 ₽ при медиане 68 000 ₽ (дисконт 32%)",
+        "Высокий суточный спрос: ~190.0 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +175 480 ₽",
+        "Слабое давление предложения: в стакане всего 4 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1013,
+      "item_id": "4q7pl",
+      "name_ru": "Продвинутые инструменты",
+      "category": "other",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/other/4q7pl.png",
+      "qlt": 0,
+      "ptn": 0,
+      "segment_key": "default",
+      "segment_label": "Стандарт",
+      "lot": {
+        "buy_unit": 47800,
+        "amount": 10,
+        "total_buyout": 478000
+      },
+      "plan": {
+        "sell_target_unit": 66640,
+        "sell_floor_unit": 62560,
+        "expected_profit": 155080,
+        "roi": 0.324
+      },
+      "fair": {
+        "median_3d": 68000,
+        "p25_3d": 63920,
+        "p75_3d": 72080
+      },
+      "discount_pct": 29.7,
+      "confidence": 0.91,
+      "confidence_label": "Смело",
+      "orderbook_depth": 46,
+      "sales_3d": 570,
+      "created_at_human": "3 мин назад",
+      "time_left_human": "17ч 22м",
+      "is_new": true,
+      "reasons": [
+        "Выкуп за 47 800 ₽ при медиане 68 000 ₽ (дисконт 29%)",
+        "Высокий суточный спрос: ~190.0 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +155 080 ₽",
+        "Слабое давление предложения: в стакане всего 19 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1023,
+      "item_id": "b1pk",
+      "name_ru": "Рюкзак «Десантник»",
+      "category": "backpacks",
+      "rank": "RANK_VETERAN",
+      "icon_path": "/icons/backpacks/b1pk.png",
+      "qlt": 0,
+      "ptn": 0,
+      "segment_key": "default",
+      "segment_label": "Стандарт",
+      "lot": {
+        "buy_unit": 337000,
+        "amount": 1,
+        "total_buyout": 337000
+      },
+      "plan": {
+        "sell_target_unit": 509600,
+        "sell_floor_unit": 478400,
+        "expected_profit": 147120,
+        "roi": 0.437
+      },
+      "fair": {
+        "median_3d": 520000,
+        "p25_3d": 488800,
+        "p75_3d": 551200
+      },
+      "discount_pct": 35.1,
+      "confidence": 0.8,
+      "confidence_label": "Смело",
+      "orderbook_depth": 31,
+      "sales_3d": 105,
+      "created_at_human": "32 мин назад",
+      "time_left_human": "10ч 54м",
+      "is_new": false,
+      "reasons": [
+        "Выкуп за 337 000 ₽ при медиане 520 000 ₽ (дисконт 35%)",
+        "Высокий суточный спрос: ~35.0 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +147 120 ₽",
+        "Слабое давление предложения: в стакане всего 7 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1005,
+      "item_id": "k3lo",
+      "name_ru": "Глаз",
+      "category": "artefact/thermal",
+      "rank": "RANK_VETERAN",
+      "icon_path": "/icons/artefacts/k3lo.png",
+      "qlt": 2,
+      "ptn": 0,
+      "segment_key": "q2:p0",
+      "segment_label": "Особый (+0)",
+      "lot": {
+        "buy_unit": 282000,
+        "amount": 1,
+        "total_buyout": 282000
+      },
+      "plan": {
+        "sell_target_unit": 441000,
+        "sell_floor_unit": 414000,
+        "expected_profit": 136950,
+        "roi": 0.486
+      },
+      "fair": {
+        "median_3d": 450000,
+        "p25_3d": 423000,
+        "p75_3d": 477000
+      },
+      "discount_pct": 37.4,
+      "confidence": 0.85,
+      "confidence_label": "Смело",
+      "orderbook_depth": 22,
+      "sales_3d": 58,
+      "created_at_human": "22 мин назад",
+      "time_left_human": "4ч 53м",
+      "is_new": false,
+      "reasons": [
+        "Выкуп за 282 000 ₽ при медиане 450 000 ₽ (дисконт 37%)",
+        "Высокий суточный спрос: ~19.5 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +136 950 ₽",
+        "Слабое давление предложения: в стакане всего 12 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1015,
+      "item_id": "zzwmm",
+      "name_ru": "Сыворотка изменения",
+      "category": "other",
+      "rank": "RANK_VETERAN",
+      "icon_path": "/icons/other/zzwmm.png",
+      "qlt": 0,
+      "ptn": 0,
+      "segment_key": "default",
+      "segment_label": "Стандарт",
+      "lot": {
+        "buy_unit": 148000,
+        "amount": 5,
+        "total_buyout": 740000
+      },
+      "plan": {
+        "sell_target_unit": 181300,
+        "sell_floor_unit": 170200,
+        "expected_profit": 121175,
+        "roi": 0.164
+      },
+      "fair": {
+        "median_3d": 185000,
+        "p25_3d": 173900,
+        "p75_3d": 196100
+      },
+      "discount_pct": 20.1,
+      "confidence": 0.87,
+      "confidence_label": "Смело",
+      "orderbook_depth": 48,
+      "sales_3d": 255,
+      "created_at_human": "10 мин назад",
+      "time_left_human": "3ч 43м",
+      "is_new": true,
+      "reasons": [
+        "Выкуп за 148 000 ₽ при медиане 185 000 ₽ (дисконт 20%)",
+        "Высокий суточный спрос: ~85.0 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +121 175 ₽",
+        "Слабое давление предложения: в стакане всего 23 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1004,
+      "item_id": "y5w3",
+      "name_ru": "Призма",
+      "category": "artefact/electrophysical",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/artefacts/y5w3.png",
+      "qlt": 0,
+      "ptn": 0,
+      "segment_key": "q0:p0",
+      "segment_label": "Обычный (+0)",
+      "lot": {
+        "buy_unit": 224000,
+        "amount": 1,
+        "total_buyout": 224000
+      },
+      "plan": {
+        "sell_target_unit": 303800,
+        "sell_floor_unit": 285200,
+        "expected_profit": 64610,
+        "roi": 0.288
+      },
+      "fair": {
+        "median_3d": 310000,
+        "p25_3d": 291400,
+        "p75_3d": 328600
+      },
+      "discount_pct": 27.6,
+      "confidence": 0.7,
+      "confidence_label": "Осторожно",
+      "orderbook_depth": 40,
+      "sales_3d": 126,
+      "created_at_human": "29 мин назад",
+      "time_left_human": "11ч 53м",
+      "is_new": false,
+      "reasons": [
+        "Выкуп за 224 000 ₽ при медиане 310 000 ₽ (дисконт 27%)",
+        "Высокий суточный спрос: ~42.0 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +64 610 ₽",
+        "Слабое давление предложения: в стакане всего 16 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1040,
+      "item_id": "zzwmm",
+      "name_ru": "Сыворотка изменения",
+      "category": "other",
+      "rank": "RANK_VETERAN",
+      "icon_path": "/icons/other/zzwmm.png",
+      "qlt": 0,
+      "ptn": 0,
+      "segment_key": "default",
+      "segment_label": "Стандарт",
+      "lot": {
+        "buy_unit": 140000,
+        "amount": 1,
+        "total_buyout": 140000
+      },
+      "plan": {
+        "sell_target_unit": 181300,
+        "sell_floor_unit": 170200,
+        "expected_profit": 32235,
+        "roi": 0.23
+      },
+      "fair": {
+        "median_3d": 185000,
+        "p25_3d": 173900,
+        "p75_3d": 196100
+      },
+      "discount_pct": 24.3,
+      "confidence": 0.65,
+      "confidence_label": "Осторожно",
+      "orderbook_depth": 24,
+      "sales_3d": 255,
+      "created_at_human": "6 мин назад",
+      "time_left_human": "6ч 46м",
+      "is_new": true,
+      "reasons": [
+        "Выкуп за 140 000 ₽ при медиане 185 000 ₽ (дисконт 24%)",
+        "Высокий суточный спрос: ~85.0 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +32 235 ₽",
+        "Слабое давление предложения: в стакане всего 14 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1016,
+      "item_id": "m1tk",
+      "name_ru": "Катализатор аномалий",
+      "category": "other",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/other/m1tk.png",
+      "qlt": 0,
+      "ptn": 0,
+      "segment_key": "default",
+      "segment_label": "Стандарт",
+      "lot": {
+        "buy_unit": 73000,
+        "amount": 2,
+        "total_buyout": 146000
+      },
+      "plan": {
+        "sell_target_unit": 93100,
+        "sell_floor_unit": 87400,
+        "expected_profit": 30890,
+        "roi": 0.212
+      },
+      "fair": {
+        "median_3d": 95000,
+        "p25_3d": 89300,
+        "p75_3d": 100700
+      },
+      "discount_pct": 23.4,
+      "confidence": 0.73,
+      "confidence_label": "Осторожно",
+      "orderbook_depth": 37,
+      "sales_3d": 360,
+      "created_at_human": "33 мин назад",
+      "time_left_human": "14ч 19м",
+      "is_new": false,
+      "reasons": [
+        "Выкуп за 73 000 ₽ при медиане 95 000 ₽ (дисконт 23%)",
+        "Высокий суточный спрос: ~120.0 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +30 890 ₽",
+        "Слабое давление предложения: в стакане всего 8 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1007,
+      "item_id": "d4wq",
+      "name_ru": "Браслет",
+      "category": "artefact/gravity",
+      "rank": "RANK_STALKER",
+      "icon_path": "/icons/artefacts/d4wq.png",
+      "qlt": 0,
+      "ptn": 0,
+      "segment_key": "q0:p0",
+      "segment_label": "Обычный (+0)",
+      "lot": {
+        "buy_unit": 54000,
+        "amount": 1,
+        "total_buyout": 54000
+      },
+      "plan": {
+        "sell_target_unit": 83300,
+        "sell_floor_unit": 78200,
+        "expected_profit": 25135,
+        "roi": 0.465
+      },
+      "fair": {
+        "median_3d": 85000,
+        "p25_3d": 79900,
+        "p75_3d": 90100
+      },
+      "discount_pct": 36.1,
+      "confidence": 0.84,
+      "confidence_label": "Смело",
+      "orderbook_depth": 29,
+      "sales_3d": 195,
+      "created_at_human": "7 мин назад",
+      "time_left_human": "14ч 37м",
+      "is_new": true,
+      "reasons": [
+        "Выкуп за 54 000 ₽ при медиане 85 000 ₽ (дисконт 36%)",
+        "Высокий суточный спрос: ~65.0 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +25 135 ₽",
+        "Слабое давление предложения: в стакане всего 6 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1030,
+      "item_id": "k3lo",
+      "name_ru": "Глаз",
+      "category": "artefact/thermal",
+      "rank": "RANK_VETERAN",
+      "icon_path": "/icons/artefacts/k3lo.png",
+      "qlt": 2,
+      "ptn": 0,
+      "segment_key": "q2:p0",
+      "segment_label": "Особый (+0)",
+      "lot": {
+        "buy_unit": 395000,
+        "amount": 1,
+        "total_buyout": 395000
+      },
+      "plan": {
+        "sell_target_unit": 441000,
+        "sell_floor_unit": 414000,
+        "expected_profit": 23950,
+        "roi": 0.061
+      },
+      "fair": {
+        "median_3d": 450000,
+        "p25_3d": 423000,
+        "p75_3d": 477000
+      },
+      "discount_pct": 12.3,
+      "confidence": 0.71,
+      "confidence_label": "Осторожно",
+      "orderbook_depth": 5,
+      "sales_3d": 58,
+      "created_at_human": "28 мин назад",
+      "time_left_human": "10ч 39м",
+      "is_new": false,
+      "reasons": [
+        "Выкуп за 395 000 ₽ при медиане 450 000 ₽ (дисконт 12%)",
+        "Высокий суточный спрос: ~19.5 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +23 950 ₽",
+        "Слабое давление предложения: в стакане всего 4 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1029,
+      "item_id": "y5w3",
+      "name_ru": "Призма",
+      "category": "artefact/electrophysical",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/artefacts/y5w3.png",
+      "qlt": 0,
+      "ptn": 0,
+      "segment_key": "q0:p0",
+      "segment_label": "Обычный (+0)",
+      "lot": {
+        "buy_unit": 268000,
+        "amount": 1,
+        "total_buyout": 268000
+      },
+      "plan": {
+        "sell_target_unit": 303800,
+        "sell_floor_unit": 285200,
+        "expected_profit": 20610,
+        "roi": 0.077
+      },
+      "fair": {
+        "median_3d": 310000,
+        "p25_3d": 291400,
+        "p75_3d": 328600
+      },
+      "discount_pct": 13.5,
+      "confidence": 0.93,
+      "confidence_label": "Смело",
+      "orderbook_depth": 28,
+      "sales_3d": 126,
+      "created_at_human": "38 мин назад",
+      "time_left_human": "2ч 55м",
+      "is_new": false,
+      "reasons": [
+        "Выкуп за 268 000 ₽ при медиане 310 000 ₽ (дисконт 13%)",
+        "Высокий суточный спрос: ~42.0 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +20 610 ₽",
+        "Слабое давление предложения: в стакане всего 4 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1032,
+      "item_id": "d4wq",
+      "name_ru": "Браслет",
+      "category": "artefact/gravity",
+      "rank": "RANK_STALKER",
+      "icon_path": "/icons/artefacts/d4wq.png",
+      "qlt": 0,
+      "ptn": 0,
+      "segment_key": "q0:p0",
+      "segment_label": "Обычный (+0)",
+      "lot": {
+        "buy_unit": 67000,
+        "amount": 1,
+        "total_buyout": 67000
+      },
+      "plan": {
+        "sell_target_unit": 83300,
+        "sell_floor_unit": 78200,
+        "expected_profit": 12135,
+        "roi": 0.181
+      },
+      "fair": {
+        "median_3d": 85000,
+        "p25_3d": 79900,
+        "p75_3d": 90100
+      },
+      "discount_pct": 21.7,
+      "confidence": 0.92,
+      "confidence_label": "Смело",
+      "orderbook_depth": 33,
+      "sales_3d": 195,
+      "created_at_human": "16 мин назад",
+      "time_left_human": "7ч 16м",
+      "is_new": false,
+      "reasons": [
+        "Выкуп за 67 000 ₽ при медиане 85 000 ₽ (дисконт 21%)",
+        "Высокий суточный спрос: ~65.0 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +12 135 ₽",
+        "Слабое давление предложения: в стакане всего 20 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1041,
+      "item_id": "m1tk",
+      "name_ru": "Катализатор аномалий",
+      "category": "other",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/other/m1tk.png",
+      "qlt": 0,
+      "ptn": 0,
+      "segment_key": "default",
+      "segment_label": "Стандарт",
+      "lot": {
+        "buy_unit": 77000,
+        "amount": 1,
+        "total_buyout": 77000
+      },
+      "plan": {
+        "sell_target_unit": 93100,
+        "sell_floor_unit": 87400,
+        "expected_profit": 11445,
+        "roi": 0.149
+      },
+      "fair": {
+        "median_3d": 95000,
+        "p25_3d": 89300,
+        "p75_3d": 100700
+      },
+      "discount_pct": 19.2,
+      "confidence": 0.7,
+      "confidence_label": "Осторожно",
+      "orderbook_depth": 30,
+      "sales_3d": 360,
+      "created_at_human": "11 мин назад",
+      "time_left_human": "14ч 43м",
+      "is_new": true,
+      "reasons": [
+        "Выкуп за 77 000 ₽ при медиане 95 000 ₽ (дисконт 19%)",
+        "Высокий суточный спрос: ~120.0 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +11 445 ₽",
+        "Слабое давление предложения: в стакане всего 22 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1012,
+      "item_id": "y3nmw",
+      "name_ru": "Продвинутые запчасти",
+      "category": "other",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/other/y3nmw.png",
+      "qlt": 0,
+      "ptn": 0,
+      "segment_key": "default",
+      "segment_label": "Стандарт",
+      "lot": {
+        "buy_unit": 30930,
+        "amount": 1,
+        "total_buyout": 30930
+      },
+      "plan": {
+        "sell_target_unit": 43610,
+        "sell_floor_unit": 40940,
+        "expected_profit": 10499,
+        "roi": 0.339
+      },
+      "fair": {
+        "median_3d": 44500,
+        "p25_3d": 41830,
+        "p75_3d": 47170
+      },
+      "discount_pct": 30.5,
+      "confidence": 0.94,
+      "confidence_label": "Смело",
+      "orderbook_depth": 48,
+      "sales_3d": 780,
+      "created_at_human": "5 мин назад",
+      "time_left_human": "11ч 32м",
+      "is_new": true,
+      "reasons": [
+        "Выкуп за 30 930 ₽ при медиане 44 500 ₽ (дисконт 30%)",
+        "Высокий суточный спрос: ~260.0 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +10 499 ₽",
+        "Слабое давление предложения: в стакане всего 4 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1037,
+      "item_id": "y3nmw",
+      "name_ru": "Продвинутые запчасти",
+      "category": "other",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/other/y3nmw.png",
+      "qlt": 0,
+      "ptn": 0,
+      "segment_key": "default",
+      "segment_label": "Стандарт",
+      "lot": {
+        "buy_unit": 31150,
+        "amount": 1,
+        "total_buyout": 31150
+      },
+      "plan": {
+        "sell_target_unit": 43610,
+        "sell_floor_unit": 40940,
+        "expected_profit": 10279,
+        "roi": 0.33
+      },
+      "fair": {
+        "median_3d": 44500,
+        "p25_3d": 41830,
+        "p75_3d": 47170
+      },
+      "discount_pct": 30.0,
+      "confidence": 0.76,
+      "confidence_label": "Смело",
+      "orderbook_depth": 44,
+      "sales_3d": 780,
+      "created_at_human": "20 мин назад",
+      "time_left_human": "19ч 37м",
+      "is_new": false,
+      "reasons": [
+        "Выкуп за 31 150 ₽ при медиане 44 500 ₽ (дисконт 30%)",
+        "Высокий суточный спрос: ~260.0 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +10 279 ₽",
+        "Слабое давление предложения: в стакане всего 16 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1014,
+      "item_id": "l0og1",
+      "name_ru": "Стандартные запчасти",
+      "category": "other",
+      "rank": "RANK_STALKER",
+      "icon_path": "/icons/other/l0og1.png",
+      "qlt": 0,
+      "ptn": 0,
+      "segment_key": "default",
+      "segment_label": "Стандарт",
+      "lot": {
+        "buy_unit": 9510,
+        "amount": 2,
+        "total_buyout": 19020
+      },
+      "plan": {
+        "sell_target_unit": 12250,
+        "sell_floor_unit": 11500,
+        "expected_profit": 4255,
+        "roi": 0.224
+      },
+      "fair": {
+        "median_3d": 12500,
+        "p25_3d": 11750,
+        "p75_3d": 13250
+      },
+      "discount_pct": 23.9,
+      "confidence": 0.67,
+      "confidence_label": "Осторожно",
+      "orderbook_depth": 10,
+      "sales_3d": 1350,
+      "created_at_human": "10 мин назад",
+      "time_left_human": "10ч 15м",
+      "is_new": true,
+      "reasons": [
+        "Выкуп за 9 510 ₽ при медиане 12 500 ₽ (дисконт 23%)",
+        "Высокий суточный спрос: ~450.0 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +4 255 ₽",
+        "Слабое давление предложения: в стакане всего 20 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    },
+    {
+      "id": 1039,
+      "item_id": "l0og1",
+      "name_ru": "Стандартные запчасти",
+      "category": "other",
+      "rank": "RANK_STALKER",
+      "icon_path": "/icons/other/l0og1.png",
+      "qlt": 0,
+      "ptn": 0,
+      "segment_key": "default",
+      "segment_label": "Стандарт",
+      "lot": {
+        "buy_unit": 10260,
+        "amount": 1,
+        "total_buyout": 10260
+      },
+      "plan": {
+        "sell_target_unit": 12250,
+        "sell_floor_unit": 11500,
+        "expected_profit": 1377,
+        "roi": 0.134
+      },
+      "fair": {
+        "median_3d": 12500,
+        "p25_3d": 11750,
+        "p75_3d": 13250
+      },
+      "discount_pct": 17.9,
+      "confidence": 0.73,
+      "confidence_label": "Осторожно",
+      "orderbook_depth": 25,
+      "sales_3d": 1350,
+      "created_at_human": "30 мин назад",
+      "time_left_human": "2ч 29м",
+      "is_new": false,
+      "reasons": [
+        "Выкуп за 10 260 ₽ при медиане 12 500 ₽ (дисконт 17%)",
+        "Высокий суточный спрос: ~450.0 шт/сут на RU сервере",
+        "Чистая маржа с учётом комиссии аукциона 5%: +1 377 ₽",
+        "Слабое давление предложения: в стакане всего 20 конкурентных лотов"
+      ],
+      "caveats": [
+        "Задержка данных API EXBO ~10 минут — проверьте наличие лота в игре",
+        "Комиссия аукциона 5% вычитается автоматически при получении денег на почту"
+      ],
+      "status": "new"
+    }
+  ],
+  "positions": [
+    {
+      "id": 1,
+      "item_id": "wg53",
+      "name_ru": "Атом",
+      "segment_label": "Особый (+10)",
+      "amount": 1,
+      "buy_price_unit": 1850000,
+      "buy_time": "16.10 06:59",
+      "status": "open",
+      "target_sell_price": 2350000,
+      "break_even_price": 1947368,
+      "expected_profit": 382500,
+      "roi": 0.207,
+      "warning": "Рынок стабилен, рекомендация: выставить в пиковый час (19:00 - 22:00)"
+    },
+    {
+      "id": 2,
+      "item_id": "y3nmw",
+      "name_ru": "Продвинутые запчасти",
+      "segment_label": "Стандарт",
+      "amount": 25,
+      "buy_price_unit": 38000,
+      "buy_time": "16.10 05:19",
+      "status": "open",
+      "target_sell_price": 44000,
+      "break_even_price": 40000,
+      "expected_profit": 95000,
+      "roi": 0.1,
+      "warning": "Ликвидность высокая (260 шт/сут), уйдет за 30-60 минут"
+    },
+    {
+      "id": 3,
+      "item_id": "g35n",
+      "name_ru": "Контейнер «Берлога-6»",
+      "segment_label": "Стандарт",
+      "amount": 1,
+      "buy_price_unit": 3400000,
+      "buy_time": "16.10 02:19",
+      "status": "open",
+      "target_sell_price": 4150000,
+      "break_even_price": 3578947,
+      "expected_profit": 542500,
+      "roi": 0.159,
+      "warning": "Конкуренция низкая, держите целевую цену"
+    },
+    {
+      "id": 4,
+      "item_id": "gyq5",
+      "name_ru": "Спираль",
+      "segment_label": "Редкий (+15)",
+      "amount": 1,
+      "buy_price_unit": 6200000,
+      "buy_time": "15.10 08:19",
+      "status": "sold",
+      "sold_price_unit": 8300000,
+      "sold_time": "16.10 08:19",
+      "realized_profit": 1685000,
+      "roi": 0.272
+    },
+    {
+      "id": 5,
+      "item_id": "4q7pl",
+      "name_ru": "Продвинутые инструменты",
+      "segment_label": "Стандарт",
+      "amount": 15,
+      "buy_price_unit": 56000,
+      "buy_time": "14.10 10:19",
+      "status": "sold",
+      "sold_price_unit": 67500,
+      "sold_time": "15.10 10:19",
+      "realized_profit": 121875,
+      "roi": 0.145
+    }
+  ],
+  "items": {
+    "wg53": {
+      "item_id": "wg53",
+      "name_ru": "Атом",
+      "category": "artefact/electrophysical",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/artefacts/wg53.png",
+      "median": 2400000,
+      "min_buyout": 2230647,
+      "units_day": 28.5,
+      "sparkline_7d": [
+        2433211,
+        2304519,
+        2327048,
+        2484344,
+        2428966,
+        2368496,
+        2396109
+      ],
+      "orderbook_ladder": [
+        {
+          "price": 2160000,
+          "count": 1
+        },
+        {
+          "price": 2280000,
+          "count": 4
+        },
+        {
+          "price": 2400000,
+          "count": 17
+        },
+        {
+          "price": 2520000,
+          "count": 10
+        },
+        {
+          "price": 2640000,
+          "count": 6
+        }
+      ],
+      "qlt": 2,
+      "ptn": 10
+    },
+    "gyq5": {
+      "item_id": "gyq5",
+      "name_ru": "Спираль",
+      "category": "artefact/electrophysical",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/artefacts/gyq5.png",
+      "median": 8500000,
+      "min_buyout": 8043056,
+      "units_day": 14.2,
+      "sparkline_7d": [
+        8212824,
+        8706433,
+        8967777,
+        8820769,
+        8380963,
+        8132324,
+        8735272
+      ],
+      "orderbook_ladder": [
+        {
+          "price": 7650000,
+          "count": 3
+        },
+        {
+          "price": 8075000,
+          "count": 7
+        },
+        {
+          "price": 8500000,
+          "count": 15
+        },
+        {
+          "price": 8925000,
+          "count": 15
+        },
+        {
+          "price": 9350000,
+          "count": 7
+        }
+      ],
+      "qlt": 3,
+      "ptn": 15
+    },
+    "5rwq": {
+      "item_id": "5rwq",
+      "name_ru": "Осколок",
+      "category": "artefact/electrophysical",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/artefacts/5rwq.png",
+      "median": 750000,
+      "min_buyout": 666631,
+      "units_day": 34.0,
+      "sparkline_7d": [
+        771372,
+        767757,
+        762378,
+        747043,
+        708801,
+        732552,
+        782764
+      ],
+      "orderbook_ladder": [
+        {
+          "price": 675000,
+          "count": 2
+        },
+        {
+          "price": 712500,
+          "count": 5
+        },
+        {
+          "price": 750000,
+          "count": 18
+        },
+        {
+          "price": 787500,
+          "count": 14
+        },
+        {
+          "price": 825000,
+          "count": 4
+        }
+      ],
+      "qlt": 1,
+      "ptn": 5
+    },
+    "qoq6": {
+      "item_id": "qoq6",
+      "name_ru": "Солнце",
+      "category": "artefact/thermal",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/artefacts/qoq6.png",
+      "median": 14200000,
+      "min_buyout": 13498589,
+      "units_day": 8.1,
+      "sparkline_7d": [
+        13696449,
+        14316421,
+        14807431,
+        14407382,
+        15027816,
+        14053986,
+        13908319
+      ],
+      "orderbook_ladder": [
+        {
+          "price": 12780000,
+          "count": 2
+        },
+        {
+          "price": 13490000,
+          "count": 7
+        },
+        {
+          "price": 14200000,
+          "count": 13
+        },
+        {
+          "price": 14910000,
+          "count": 10
+        },
+        {
+          "price": 15620000,
+          "count": 6
+        }
+      ],
+      "qlt": 4,
+      "ptn": 15
+    },
+    "y5w3": {
+      "item_id": "y5w3",
+      "name_ru": "Призма",
+      "category": "artefact/electrophysical",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/artefacts/y5w3.png",
+      "median": 310000,
+      "min_buyout": 274193,
+      "units_day": 42.0,
+      "sparkline_7d": [
+        292866,
+        310496,
+        305166,
+        300631,
+        304015,
+        303086,
+        301067
+      ],
+      "orderbook_ladder": [
+        {
+          "price": 279000,
+          "count": 2
+        },
+        {
+          "price": 294500,
+          "count": 4
+        },
+        {
+          "price": 310000,
+          "count": 12
+        },
+        {
+          "price": 325500,
+          "count": 15
+        },
+        {
+          "price": 341000,
+          "count": 6
+        }
+      ],
+      "qlt": 0,
+      "ptn": 0
+    },
+    "k3lo": {
+      "item_id": "k3lo",
+      "name_ru": "Глаз",
+      "category": "artefact/thermal",
+      "rank": "RANK_VETERAN",
+      "icon_path": "/icons/artefacts/k3lo.png",
+      "median": 450000,
+      "min_buyout": 435720,
+      "units_day": 19.5,
+      "sparkline_7d": [
+        458614,
+        458646,
+        455225,
+        432146,
+        426760,
+        425875,
+        469437
+      ],
+      "orderbook_ladder": [
+        {
+          "price": 405000,
+          "count": 3
+        },
+        {
+          "price": 427500,
+          "count": 7
+        },
+        {
+          "price": 450000,
+          "count": 10
+        },
+        {
+          "price": 472500,
+          "count": 9
+        },
+        {
+          "price": 495000,
+          "count": 6
+        }
+      ],
+      "qlt": 2,
+      "ptn": 0
+    },
+    "m9pa": {
+      "item_id": "m9pa",
+      "name_ru": "Трансформатор",
+      "category": "artefact/electrophysical",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/artefacts/m9pa.png",
+      "median": 26500000,
+      "min_buyout": 23396967,
+      "units_day": 3.4,
+      "sparkline_7d": [
+        27213889,
+        27535359,
+        27107351,
+        25348780,
+        26433803,
+        27979249,
+        26077558
+      ],
+      "orderbook_ladder": [
+        {
+          "price": 23850000,
+          "count": 3
+        },
+        {
+          "price": 25175000,
+          "count": 4
+        },
+        {
+          "price": 26500000,
+          "count": 10
+        },
+        {
+          "price": 27825000,
+          "count": 14
+        },
+        {
+          "price": 29150000,
+          "count": 5
+        }
+      ],
+      "qlt": 5,
+      "ptn": 15
+    },
+    "d4wq": {
+      "item_id": "d4wq",
+      "name_ru": "Браслет",
+      "category": "artefact/gravity",
+      "rank": "RANK_STALKER",
+      "icon_path": "/icons/artefacts/d4wq.png",
+      "median": 85000,
+      "min_buyout": 85532,
+      "units_day": 65.0,
+      "sparkline_7d": [
+        80939,
+        83151,
+        85042,
+        89137,
+        83746,
+        86568,
+        82006
+      ],
+      "orderbook_ladder": [
+        {
+          "price": 76500,
+          "count": 3
+        },
+        {
+          "price": 80750,
+          "count": 5
+        },
+        {
+          "price": 85000,
+          "count": 14
+        },
+        {
+          "price": 89250,
+          "count": 15
+        },
+        {
+          "price": 93500,
+          "count": 5
+        }
+      ],
+      "qlt": 0,
+      "ptn": 0
+    },
+    "g35n": {
+      "item_id": "g35n",
+      "name_ru": "Контейнер «Берлога-6»",
+      "category": "containers",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/containers/g35n.png",
+      "median": 4200000,
+      "min_buyout": 4241051,
+      "units_day": 16.0,
+      "sparkline_7d": [
+        4023617,
+        4138842,
+        4000985,
+        3989770,
+        4351776,
+        3961880,
+        3978294
+      ],
+      "orderbook_ladder": [
+        {
+          "price": 3780000,
+          "count": 2
+        },
+        {
+          "price": 3990000,
+          "count": 6
+        },
+        {
+          "price": 4200000,
+          "count": 18
+        },
+        {
+          "price": 4410000,
+          "count": 15
+        },
+        {
+          "price": 4620000,
+          "count": 4
+        }
+      ],
+      "qlt": 0,
+      "ptn": 0
+    },
+    "j3ml": {
+      "item_id": "j3ml",
+      "name_ru": "Контейнер «КСМ»",
+      "category": "containers",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/containers/j3ml.png",
+      "median": 5800000,
+      "min_buyout": 5241547,
+      "units_day": 11.2,
+      "sparkline_7d": [
+        5497103,
+        6135050,
+        5481822,
+        5714789,
+        6123584,
+        5496407,
+        5682801
+      ],
+      "orderbook_ladder": [
+        {
+          "price": 5220000,
+          "count": 2
+        },
+        {
+          "price": 5510000,
+          "count": 8
+        },
+        {
+          "price": 5800000,
+          "count": 17
+        },
+        {
+          "price": 6090000,
+          "count": 15
+        },
+        {
+          "price": 6380000,
+          "count": 3
+        }
+      ],
+      "qlt": 0,
+      "ptn": 0
+    },
+    "b4pk": {
+      "item_id": "b4pk",
+      "name_ru": "Контейнер «Берлога-4»",
+      "category": "containers",
+      "rank": "RANK_VETERAN",
+      "icon_path": "/icons/containers/b4pk.png",
+      "median": 1650000,
+      "min_buyout": 1554932,
+      "units_day": 24.0,
+      "sparkline_7d": [
+        1627284,
+        1740547,
+        1735342,
+        1567057,
+        1673607,
+        1605815,
+        1559590
+      ],
+      "orderbook_ladder": [
+        {
+          "price": 1485000,
+          "count": 1
+        },
+        {
+          "price": 1567500,
+          "count": 4
+        },
+        {
+          "price": 1650000,
+          "count": 11
+        },
+        {
+          "price": 1732500,
+          "count": 15
+        },
+        {
+          "price": 1815000,
+          "count": 4
+        }
+      ],
+      "qlt": 0,
+      "ptn": 0
+    },
+    "u8lo": {
+      "item_id": "u8lo",
+      "name_ru": "Улей",
+      "category": "containers",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/containers/u8lo.png",
+      "median": 9800000,
+      "min_buyout": 9677447,
+      "units_day": 9.5,
+      "sparkline_7d": [
+        9437490,
+        10009800,
+        9435343,
+        10386354,
+        9963009,
+        9323838,
+        9894319
+      ],
+      "orderbook_ladder": [
+        {
+          "price": 8820000,
+          "count": 3
+        },
+        {
+          "price": 9310000,
+          "count": 7
+        },
+        {
+          "price": 9800000,
+          "count": 20
+        },
+        {
+          "price": 10290000,
+          "count": 10
+        },
+        {
+          "price": 10780000,
+          "count": 5
+        }
+      ],
+      "qlt": 0,
+      "ptn": 0
+    },
+    "y3nmw": {
+      "item_id": "y3nmw",
+      "name_ru": "Продвинутые запчасти",
+      "category": "other",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/other/y3nmw.png",
+      "median": 44500,
+      "min_buyout": 40266,
+      "units_day": 260.0,
+      "sparkline_7d": [
+        45353,
+        45630,
+        42652,
+        45160,
+        46031,
+        42860,
+        45827
+      ],
+      "orderbook_ladder": [
+        {
+          "price": 40050,
+          "count": 1
+        },
+        {
+          "price": 42275,
+          "count": 8
+        },
+        {
+          "price": 44500,
+          "count": 14
+        },
+        {
+          "price": 46725,
+          "count": 8
+        },
+        {
+          "price": 48950,
+          "count": 7
+        }
+      ],
+      "qlt": 0,
+      "ptn": 0
+    },
+    "4q7pl": {
+      "item_id": "4q7pl",
+      "name_ru": "Продвинутые инструменты",
+      "category": "other",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/other/4q7pl.png",
+      "median": 68000,
+      "min_buyout": 68601,
+      "units_day": 190.0,
+      "sparkline_7d": [
+        65747,
+        71114,
+        68147,
+        71971,
+        71634,
+        69803,
+        65527
+      ],
+      "orderbook_ladder": [
+        {
+          "price": 61200,
+          "count": 1
+        },
+        {
+          "price": 64600,
+          "count": 7
+        },
+        {
+          "price": 68000,
+          "count": 14
+        },
+        {
+          "price": 71400,
+          "count": 9
+        },
+        {
+          "price": 74800,
+          "count": 4
+        }
+      ],
+      "qlt": 0,
+      "ptn": 0
+    },
+    "l0og1": {
+      "item_id": "l0og1",
+      "name_ru": "Стандартные запчасти",
+      "category": "other",
+      "rank": "RANK_STALKER",
+      "icon_path": "/icons/other/l0og1.png",
+      "median": 12500,
+      "min_buyout": 11492,
+      "units_day": 450.0,
+      "sparkline_7d": [
+        12533,
+        12577,
+        12102,
+        11906,
+        12956,
+        12658,
+        12782
+      ],
+      "orderbook_ladder": [
+        {
+          "price": 11250,
+          "count": 2
+        },
+        {
+          "price": 11875,
+          "count": 6
+        },
+        {
+          "price": 12500,
+          "count": 16
+        },
+        {
+          "price": 13125,
+          "count": 8
+        },
+        {
+          "price": 13750,
+          "count": 7
+        }
+      ],
+      "qlt": 0,
+      "ptn": 0
+    },
+    "zzwmm": {
+      "item_id": "zzwmm",
+      "name_ru": "Сыворотка изменения",
+      "category": "other",
+      "rank": "RANK_VETERAN",
+      "icon_path": "/icons/other/zzwmm.png",
+      "median": 185000,
+      "min_buyout": 187270,
+      "units_day": 85.0,
+      "sparkline_7d": [
+        192718,
+        194691,
+        178044,
+        185111,
+        185567,
+        174199,
+        188720
+      ],
+      "orderbook_ladder": [
+        {
+          "price": 166500,
+          "count": 3
+        },
+        {
+          "price": 175750,
+          "count": 6
+        },
+        {
+          "price": 185000,
+          "count": 14
+        },
+        {
+          "price": 194250,
+          "count": 12
+        },
+        {
+          "price": 203500,
+          "count": 3
+        }
+      ],
+      "qlt": 0,
+      "ptn": 0
+    },
+    "m1tk": {
+      "item_id": "m1tk",
+      "name_ru": "Катализатор аномалий",
+      "category": "other",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/other/m1tk.png",
+      "median": 95000,
+      "min_buyout": 88528,
+      "units_day": 120.0,
+      "sparkline_7d": [
+        100510,
+        100080,
+        96386,
+        96877,
+        100462,
+        98118,
+        89649
+      ],
+      "orderbook_ladder": [
+        {
+          "price": 85500,
+          "count": 1
+        },
+        {
+          "price": 90250,
+          "count": 8
+        },
+        {
+          "price": 95000,
+          "count": 13
+        },
+        {
+          "price": 99750,
+          "count": 9
+        },
+        {
+          "price": 104500,
+          "count": 4
+        }
+      ],
+      "qlt": 0,
+      "ptn": 0
+    },
+    "w1fn": {
+      "item_id": "w1fn",
+      "name_ru": "FN F2000 Тактический",
+      "category": "weapon/assault_rifle",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/weapon/w1fn.png",
+      "median": 18500000,
+      "min_buyout": 15935972,
+      "units_day": 4.5,
+      "sparkline_7d": [
+        17480796,
+        19174576,
+        17484408,
+        18717410,
+        19308107,
+        17429522,
+        17610072
+      ],
+      "orderbook_ladder": [
+        {
+          "price": 16650000,
+          "count": 1
+        },
+        {
+          "price": 17575000,
+          "count": 5
+        },
+        {
+          "price": 18500000,
+          "count": 20
+        },
+        {
+          "price": 19425000,
+          "count": 12
+        },
+        {
+          "price": 20350000,
+          "count": 5
+        }
+      ],
+      "qlt": 0,
+      "ptn": 10
+    },
+    "a3sk": {
+      "item_id": "a3sk",
+      "name_ru": "Скат-10",
+      "category": "armor/combined",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/armor/a3sk.png",
+      "median": 34000000,
+      "min_buyout": 29812221,
+      "units_day": 2.1,
+      "sparkline_7d": [
+        33716070,
+        34865578,
+        34743375,
+        33823080,
+        35677031,
+        34150431,
+        32846015
+      ],
+      "orderbook_ladder": [
+        {
+          "price": 30600000,
+          "count": 3
+        },
+        {
+          "price": 32300000,
+          "count": 7
+        },
+        {
+          "price": 34000000,
+          "count": 17
+        },
+        {
+          "price": 35700000,
+          "count": 14
+        },
+        {
+          "price": 37400000,
+          "count": 5
+        }
+      ],
+      "qlt": 0,
+      "ptn": 15
+    },
+    "v5pr": {
+      "item_id": "v5pr",
+      "name_ru": "ВСС «Винторез»",
+      "category": "weapon/sniper_rifle",
+      "rank": "RANK_VETERAN",
+      "icon_path": "/icons/weapon/v5pr.png",
+      "median": 3900000,
+      "min_buyout": 3445553,
+      "units_day": 15.0,
+      "sparkline_7d": [
+        3920414,
+        4128559,
+        3743272,
+        3857314,
+        3793263,
+        3896244,
+        3763623
+      ],
+      "orderbook_ladder": [
+        {
+          "price": 3510000,
+          "count": 3
+        },
+        {
+          "price": 3705000,
+          "count": 5
+        },
+        {
+          "price": 3900000,
+          "count": 13
+        },
+        {
+          "price": 4095000,
+          "count": 15
+        },
+        {
+          "price": 4290000,
+          "count": 7
+        }
+      ],
+      "qlt": 0,
+      "ptn": 5
+    },
+    "c2cb": {
+      "item_id": "c2cb",
+      "name_ru": "Центурион",
+      "category": "armor/combat",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/armor/c2cb.png",
+      "median": 22000000,
+      "min_buyout": 20046512,
+      "units_day": 3.8,
+      "sparkline_7d": [
+        22486853,
+        21992672,
+        20979112,
+        22557193,
+        21285662,
+        21445310,
+        23019393
+      ],
+      "orderbook_ladder": [
+        {
+          "price": 19800000,
+          "count": 1
+        },
+        {
+          "price": 20900000,
+          "count": 5
+        },
+        {
+          "price": 22000000,
+          "count": 14
+        },
+        {
+          "price": 23100000,
+          "count": 9
+        },
+        {
+          "price": 24200000,
+          "count": 5
+        }
+      ],
+      "qlt": 0,
+      "ptn": 10
+    },
+    "k8ak": {
+      "item_id": "k8ak",
+      "name_ru": "АК-15",
+      "category": "weapon/assault_rifle",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/weapon/k8ak.png",
+      "median": 7200000,
+      "min_buyout": 6155863,
+      "units_day": 18.0,
+      "sparkline_7d": [
+        7289595,
+        7455089,
+        7171947,
+        7232255,
+        7540602,
+        7313634,
+        6902534
+      ],
+      "orderbook_ladder": [
+        {
+          "price": 6480000,
+          "count": 1
+        },
+        {
+          "price": 6840000,
+          "count": 7
+        },
+        {
+          "price": 7200000,
+          "count": 12
+        },
+        {
+          "price": 7560000,
+          "count": 10
+        },
+        {
+          "price": 7920000,
+          "count": 5
+        }
+      ],
+      "qlt": 0,
+      "ptn": 0
+    },
+    "s9sh": {
+      "item_id": "s9sh",
+      "name_ru": "Protecta",
+      "category": "weapon/shotgun_rifle",
+      "rank": "RANK_STALKER",
+      "icon_path": "/icons/weapon/s9sh.png",
+      "median": 890000,
+      "min_buyout": 873610,
+      "units_day": 22.0,
+      "sparkline_7d": [
+        943070,
+        860576,
+        925279,
+        919530,
+        892785,
+        880457,
+        846946
+      ],
+      "orderbook_ladder": [
+        {
+          "price": 801000,
+          "count": 3
+        },
+        {
+          "price": 845500,
+          "count": 5
+        },
+        {
+          "price": 890000,
+          "count": 19
+        },
+        {
+          "price": 934500,
+          "count": 11
+        },
+        {
+          "price": 979000,
+          "count": 7
+        }
+      ],
+      "qlt": 0,
+      "ptn": 0
+    },
+    "b1pk": {
+      "item_id": "b1pk",
+      "name_ru": "Рюкзак «Десантник»",
+      "category": "backpacks",
+      "rank": "RANK_VETERAN",
+      "icon_path": "/icons/backpacks/b1pk.png",
+      "median": 520000,
+      "min_buyout": 507648,
+      "units_day": 35.0,
+      "sparkline_7d": [
+        524761,
+        547868,
+        509648,
+        538468,
+        496289,
+        498204,
+        519373
+      ],
+      "orderbook_ladder": [
+        {
+          "price": 468000,
+          "count": 3
+        },
+        {
+          "price": 494000,
+          "count": 6
+        },
+        {
+          "price": 520000,
+          "count": 16
+        },
+        {
+          "price": 546000,
+          "count": 15
+        },
+        {
+          "price": 572000,
+          "count": 4
+        }
+      ],
+      "qlt": 0,
+      "ptn": 0
+    },
+    "m4bg": {
+      "item_id": "m4bg",
+      "name_ru": "Магазин 60 патронов 5.45",
+      "category": "attachment/mag",
+      "rank": "RANK_MASTER",
+      "icon_path": "/icons/attachment/m4bg.png",
+      "median": 1450000,
+      "min_buyout": 1287459,
+      "units_day": 27.0,
+      "sparkline_7d": [
+        1523478,
+        1385977,
+        1382668,
+        1386200,
+        1386529,
+        1463155,
+        1458078
+      ],
+      "orderbook_ladder": [
+        {
+          "price": 1305000,
+          "count": 3
+        },
+        {
+          "price": 1377500,
+          "count": 6
+        },
+        {
+          "price": 1450000,
+          "count": 11
+        },
+        {
+          "price": 1522500,
+          "count": 15
+        },
+        {
+          "price": 1595000,
+          "count": 7
+        }
+      ],
+      "qlt": 0,
+      "ptn": 0
+    }
+  },
+  "market_overview": {
+    "tracked_count": 25,
+    "total_active_signals": 42,
+    "total_profit_potential": 40490965,
+    "top_growing": [
+      {
+        "name_ru": "Атом",
+        "diff": "+14.8%",
+        "median": 2400000
+      },
+      {
+        "name_ru": "Контейнер «Берлога-6»",
+        "diff": "+9.2%",
+        "median": 4200000
+      },
+      {
+        "name_ru": "Продвинутые запчасти",
+        "diff": "+6.5%",
+        "median": 44500
+      }
+    ],
+    "top_falling": [
+      {
+        "name_ru": "ВСС «Винторез»",
+        "diff": "-11.4%",
+        "median": 3900000
+      },
+      {
+        "name_ru": "Браслет",
+        "diff": "-8.2%",
+        "median": 85000
+      },
+      {
+        "name_ru": "АК-15",
+        "diff": "-5.7%",
+        "median": 7200000
+      }
+    ],
+    "demand_surplus": [
+      {
+        "name_ru": "Продвинутые инструменты",
+        "reason": "Продажи +42% за 3 дня, глубина стакана упала на 30%"
+      },
+      {
+        "name_ru": "Сыворотка изменения",
+        "reason": "Стабильный рост покупок, минимальный выкуп растет"
+      }
+    ]
+  },
+  "accuracy_stats": {
+    "n_samples": 148,
+    "horizon_default": "24h",
+    "direction_accuracy_pct": 89.2,
+    "direction_ci_wilson": [
+      83.1,
+      93.3
+    ],
+    "profit_realizability_pct": 82.4,
+    "profit_ci_wilson": [
+      75.5,
+      87.6
+    ],
+    "last_7d": {
+      "n": 42,
+      "direction_accuracy_pct": 92.8,
+      "profit_realizability_pct": 85.7
+    },
+    "by_confidence": [
+      {
+        "tier": "Смело (≥70)",
+        "n": 86,
+        "direction_pct": 94.2,
+        "realizability_pct": 89.5
+      },
+      {
+        "tier": "Осторожно (40-69)",
+        "n": 48,
+        "direction_pct": 83.3,
+        "realizability_pct": 72.9
+      },
+      {
+        "tier": "Рискованно (<40)",
+        "n": 14,
+        "direction_pct": 71.4,
+        "realizability_pct": 57.1
+      }
+    ],
+    "by_category": [
+      {
+        "category_ru": "Артефакты",
+        "n": 56,
+        "direction_pct": 91.1,
+        "realizability_pct": 83.9
+      },
+      {
+        "category_ru": "Материалы и запчасти",
+        "n": 62,
+        "direction_pct": 95.2,
+        "realizability_pct": 91.9
+      },
+      {
+        "category_ru": "Контейнеры",
+        "n": 30,
+        "direction_pct": 76.7,
+        "realizability_pct": 66.7
+      }
+    ],
+    "disclaimer": "Точность рассчитывается по фактическим закрытым сделкам аукциона за указанный горизонт (24ч). Не является финансовой гарантией."
+  },
+  "heatmap": [
+    {
+      "day_idx": 0,
+      "day_name": "Пн",
+      "hour": 0,
+      "sales": 11,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 0,
+      "day_name": "Пн",
+      "hour": 1,
+      "sales": 9,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 0,
+      "day_name": "Пн",
+      "hour": 2,
+      "sales": 4,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 0,
+      "day_name": "Пн",
+      "hour": 3,
+      "sales": 10,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 0,
+      "day_name": "Пн",
+      "hour": 4,
+      "sales": 9,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 0,
+      "day_name": "Пн",
+      "hour": 5,
+      "sales": 12,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 0,
+      "day_name": "Пн",
+      "hour": 6,
+      "sales": 6,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 0,
+      "day_name": "Пн",
+      "hour": 7,
+      "sales": 3,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 0,
+      "day_name": "Пн",
+      "hour": 8,
+      "sales": 9,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 0,
+      "day_name": "Пн",
+      "hour": 9,
+      "sales": 2,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 0,
+      "day_name": "Пн",
+      "hour": 10,
+      "sales": 5,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 0,
+      "day_name": "Пн",
+      "hour": 11,
+      "sales": 12,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 0,
+      "day_name": "Пн",
+      "hour": 12,
+      "sales": 1,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 0,
+      "day_name": "Пн",
+      "hour": 13,
+      "sales": 7,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 0,
+      "day_name": "Пн",
+      "hour": 14,
+      "sales": 8,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 0,
+      "day_name": "Пн",
+      "hour": 15,
+      "sales": 6,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 0,
+      "day_name": "Пн",
+      "hour": 16,
+      "sales": 7,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 0,
+      "day_name": "Пн",
+      "hour": 17,
+      "sales": 7,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 0,
+      "day_name": "Пн",
+      "hour": 18,
+      "sales": 31,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 0,
+      "day_name": "Пн",
+      "hour": 19,
+      "sales": 31,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 0,
+      "day_name": "Пн",
+      "hour": 20,
+      "sales": 50,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 0,
+      "day_name": "Пн",
+      "hour": 21,
+      "sales": 20,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 0,
+      "day_name": "Пн",
+      "hour": 22,
+      "sales": 27,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 0,
+      "day_name": "Пн",
+      "hour": 23,
+      "sales": 46,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 1,
+      "day_name": "Вт",
+      "hour": 0,
+      "sales": 5,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 1,
+      "day_name": "Вт",
+      "hour": 1,
+      "sales": 1,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 1,
+      "day_name": "Вт",
+      "hour": 2,
+      "sales": 3,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 1,
+      "day_name": "Вт",
+      "hour": 3,
+      "sales": 10,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 1,
+      "day_name": "Вт",
+      "hour": 4,
+      "sales": 9,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 1,
+      "day_name": "Вт",
+      "hour": 5,
+      "sales": 10,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 1,
+      "day_name": "Вт",
+      "hour": 6,
+      "sales": 8,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 1,
+      "day_name": "Вт",
+      "hour": 7,
+      "sales": 6,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 1,
+      "day_name": "Вт",
+      "hour": 8,
+      "sales": 7,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 1,
+      "day_name": "Вт",
+      "hour": 9,
+      "sales": 9,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 1,
+      "day_name": "Вт",
+      "hour": 10,
+      "sales": 9,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 1,
+      "day_name": "Вт",
+      "hour": 11,
+      "sales": 6,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 1,
+      "day_name": "Вт",
+      "hour": 12,
+      "sales": 11,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 1,
+      "day_name": "Вт",
+      "hour": 13,
+      "sales": 11,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 1,
+      "day_name": "Вт",
+      "hour": 14,
+      "sales": 1,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 1,
+      "day_name": "Вт",
+      "hour": 15,
+      "sales": 9,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 1,
+      "day_name": "Вт",
+      "hour": 16,
+      "sales": 12,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 1,
+      "day_name": "Вт",
+      "hour": 17,
+      "sales": 6,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 1,
+      "day_name": "Вт",
+      "hour": 18,
+      "sales": 23,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 1,
+      "day_name": "Вт",
+      "hour": 19,
+      "sales": 51,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 1,
+      "day_name": "Вт",
+      "hour": 20,
+      "sales": 52,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 1,
+      "day_name": "Вт",
+      "hour": 21,
+      "sales": 35,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 1,
+      "day_name": "Вт",
+      "hour": 22,
+      "sales": 38,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 1,
+      "day_name": "Вт",
+      "hour": 23,
+      "sales": 35,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 2,
+      "day_name": "Ср",
+      "hour": 0,
+      "sales": 4,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 2,
+      "day_name": "Ср",
+      "hour": 1,
+      "sales": 8,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 2,
+      "day_name": "Ср",
+      "hour": 2,
+      "sales": 9,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 2,
+      "day_name": "Ср",
+      "hour": 3,
+      "sales": 7,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 2,
+      "day_name": "Ср",
+      "hour": 4,
+      "sales": 12,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 2,
+      "day_name": "Ср",
+      "hour": 5,
+      "sales": 12,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 2,
+      "day_name": "Ср",
+      "hour": 6,
+      "sales": 11,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 2,
+      "day_name": "Ср",
+      "hour": 7,
+      "sales": 1,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 2,
+      "day_name": "Ср",
+      "hour": 8,
+      "sales": 6,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 2,
+      "day_name": "Ср",
+      "hour": 9,
+      "sales": 2,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 2,
+      "day_name": "Ср",
+      "hour": 10,
+      "sales": 10,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 2,
+      "day_name": "Ср",
+      "hour": 11,
+      "sales": 12,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 2,
+      "day_name": "Ср",
+      "hour": 12,
+      "sales": 3,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 2,
+      "day_name": "Ср",
+      "hour": 13,
+      "sales": 11,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 2,
+      "day_name": "Ср",
+      "hour": 14,
+      "sales": 2,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 2,
+      "day_name": "Ср",
+      "hour": 15,
+      "sales": 8,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 2,
+      "day_name": "Ср",
+      "hour": 16,
+      "sales": 7,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 2,
+      "day_name": "Ср",
+      "hour": 17,
+      "sales": 3,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 2,
+      "day_name": "Ср",
+      "hour": 18,
+      "sales": 22,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 2,
+      "day_name": "Ср",
+      "hour": 19,
+      "sales": 33,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 2,
+      "day_name": "Ср",
+      "hour": 20,
+      "sales": 47,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 2,
+      "day_name": "Ср",
+      "hour": 21,
+      "sales": 31,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 2,
+      "day_name": "Ср",
+      "hour": 22,
+      "sales": 47,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 2,
+      "day_name": "Ср",
+      "hour": 23,
+      "sales": 32,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 3,
+      "day_name": "Чт",
+      "hour": 0,
+      "sales": 12,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 3,
+      "day_name": "Чт",
+      "hour": 1,
+      "sales": 6,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 3,
+      "day_name": "Чт",
+      "hour": 2,
+      "sales": 3,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 3,
+      "day_name": "Чт",
+      "hour": 3,
+      "sales": 8,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 3,
+      "day_name": "Чт",
+      "hour": 4,
+      "sales": 12,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 3,
+      "day_name": "Чт",
+      "hour": 5,
+      "sales": 7,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 3,
+      "day_name": "Чт",
+      "hour": 6,
+      "sales": 4,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 3,
+      "day_name": "Чт",
+      "hour": 7,
+      "sales": 2,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 3,
+      "day_name": "Чт",
+      "hour": 8,
+      "sales": 6,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 3,
+      "day_name": "Чт",
+      "hour": 9,
+      "sales": 6,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 3,
+      "day_name": "Чт",
+      "hour": 10,
+      "sales": 1,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 3,
+      "day_name": "Чт",
+      "hour": 11,
+      "sales": 4,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 3,
+      "day_name": "Чт",
+      "hour": 12,
+      "sales": 7,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 3,
+      "day_name": "Чт",
+      "hour": 13,
+      "sales": 8,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 3,
+      "day_name": "Чт",
+      "hour": 14,
+      "sales": 10,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 3,
+      "day_name": "Чт",
+      "hour": 15,
+      "sales": 9,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 3,
+      "day_name": "Чт",
+      "hour": 16,
+      "sales": 2,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 3,
+      "day_name": "Чт",
+      "hour": 17,
+      "sales": 10,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 3,
+      "day_name": "Чт",
+      "hour": 18,
+      "sales": 22,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 3,
+      "day_name": "Чт",
+      "hour": 19,
+      "sales": 25,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 3,
+      "day_name": "Чт",
+      "hour": 20,
+      "sales": 23,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 3,
+      "day_name": "Чт",
+      "hour": 21,
+      "sales": 19,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 3,
+      "day_name": "Чт",
+      "hour": 22,
+      "sales": 46,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 3,
+      "day_name": "Чт",
+      "hour": 23,
+      "sales": 33,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 4,
+      "day_name": "Пт",
+      "hour": 0,
+      "sales": 7,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 4,
+      "day_name": "Пт",
+      "hour": 1,
+      "sales": 10,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 4,
+      "day_name": "Пт",
+      "hour": 2,
+      "sales": 3,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 4,
+      "day_name": "Пт",
+      "hour": 3,
+      "sales": 2,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 4,
+      "day_name": "Пт",
+      "hour": 4,
+      "sales": 4,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 4,
+      "day_name": "Пт",
+      "hour": 5,
+      "sales": 9,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 4,
+      "day_name": "Пт",
+      "hour": 6,
+      "sales": 4,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 4,
+      "day_name": "Пт",
+      "hour": 7,
+      "sales": 2,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 4,
+      "day_name": "Пт",
+      "hour": 8,
+      "sales": 12,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 4,
+      "day_name": "Пт",
+      "hour": 9,
+      "sales": 10,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 4,
+      "day_name": "Пт",
+      "hour": 10,
+      "sales": 8,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 4,
+      "day_name": "Пт",
+      "hour": 11,
+      "sales": 11,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 4,
+      "day_name": "Пт",
+      "hour": 12,
+      "sales": 8,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 4,
+      "day_name": "Пт",
+      "hour": 13,
+      "sales": 11,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 4,
+      "day_name": "Пт",
+      "hour": 14,
+      "sales": 2,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 4,
+      "day_name": "Пт",
+      "hour": 15,
+      "sales": 12,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 4,
+      "day_name": "Пт",
+      "hour": 16,
+      "sales": 1,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 4,
+      "day_name": "Пт",
+      "hour": 17,
+      "sales": 12,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 4,
+      "day_name": "Пт",
+      "hour": 18,
+      "sales": 55,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 4,
+      "day_name": "Пт",
+      "hour": 19,
+      "sales": 42,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 4,
+      "day_name": "Пт",
+      "hour": 20,
+      "sales": 43,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 4,
+      "day_name": "Пт",
+      "hour": 21,
+      "sales": 18,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 4,
+      "day_name": "Пт",
+      "hour": 22,
+      "sales": 24,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 4,
+      "day_name": "Пт",
+      "hour": 23,
+      "sales": 41,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 5,
+      "day_name": "Сб",
+      "hour": 0,
+      "sales": 5,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 5,
+      "day_name": "Сб",
+      "hour": 1,
+      "sales": 6,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 5,
+      "day_name": "Сб",
+      "hour": 2,
+      "sales": 10,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 5,
+      "day_name": "Сб",
+      "hour": 3,
+      "sales": 1,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 5,
+      "day_name": "Сб",
+      "hour": 4,
+      "sales": 4,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 5,
+      "day_name": "Сб",
+      "hour": 5,
+      "sales": 2,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 5,
+      "day_name": "Сб",
+      "hour": 6,
+      "sales": 6,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 5,
+      "day_name": "Сб",
+      "hour": 7,
+      "sales": 7,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 5,
+      "day_name": "Сб",
+      "hour": 8,
+      "sales": 6,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 5,
+      "day_name": "Сб",
+      "hour": 9,
+      "sales": 4,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 5,
+      "day_name": "Сб",
+      "hour": 10,
+      "sales": 7,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 5,
+      "day_name": "Сб",
+      "hour": 11,
+      "sales": 4,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 5,
+      "day_name": "Сб",
+      "hour": 12,
+      "sales": 37,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 5,
+      "day_name": "Сб",
+      "hour": 13,
+      "sales": 26,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 5,
+      "day_name": "Сб",
+      "hour": 14,
+      "sales": 55,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 5,
+      "day_name": "Сб",
+      "hour": 15,
+      "sales": 27,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 5,
+      "day_name": "Сб",
+      "hour": 16,
+      "sales": 25,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 5,
+      "day_name": "Сб",
+      "hour": 17,
+      "sales": 36,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 5,
+      "day_name": "Сб",
+      "hour": 18,
+      "sales": 42,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 5,
+      "day_name": "Сб",
+      "hour": 19,
+      "sales": 21,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 5,
+      "day_name": "Сб",
+      "hour": 20,
+      "sales": 45,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 5,
+      "day_name": "Сб",
+      "hour": 21,
+      "sales": 28,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 5,
+      "day_name": "Сб",
+      "hour": 22,
+      "sales": 54,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 5,
+      "day_name": "Сб",
+      "hour": 23,
+      "sales": 30,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 6,
+      "day_name": "Вс",
+      "hour": 0,
+      "sales": 11,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 6,
+      "day_name": "Вс",
+      "hour": 1,
+      "sales": 5,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 6,
+      "day_name": "Вс",
+      "hour": 2,
+      "sales": 6,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 6,
+      "day_name": "Вс",
+      "hour": 3,
+      "sales": 10,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 6,
+      "day_name": "Вс",
+      "hour": 4,
+      "sales": 2,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 6,
+      "day_name": "Вс",
+      "hour": 5,
+      "sales": 7,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 6,
+      "day_name": "Вс",
+      "hour": 6,
+      "sales": 9,
+      "price_multiplier": 0.95,
+      "is_peak": false
+    },
+    {
+      "day_idx": 6,
+      "day_name": "Вс",
+      "hour": 7,
+      "sales": 3,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 6,
+      "day_name": "Вс",
+      "hour": 8,
+      "sales": 10,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 6,
+      "day_name": "Вс",
+      "hour": 9,
+      "sales": 9,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 6,
+      "day_name": "Вс",
+      "hour": 10,
+      "sales": 3,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 6,
+      "day_name": "Вс",
+      "hour": 11,
+      "sales": 12,
+      "price_multiplier": 1.0,
+      "is_peak": false
+    },
+    {
+      "day_idx": 6,
+      "day_name": "Вс",
+      "hour": 12,
+      "sales": 47,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 6,
+      "day_name": "Вс",
+      "hour": 13,
+      "sales": 34,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 6,
+      "day_name": "Вс",
+      "hour": 14,
+      "sales": 31,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 6,
+      "day_name": "Вс",
+      "hour": 15,
+      "sales": 21,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 6,
+      "day_name": "Вс",
+      "hour": 16,
+      "sales": 41,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 6,
+      "day_name": "Вс",
+      "hour": 17,
+      "sales": 23,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 6,
+      "day_name": "Вс",
+      "hour": 18,
+      "sales": 40,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 6,
+      "day_name": "Вс",
+      "hour": 19,
+      "sales": 49,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 6,
+      "day_name": "Вс",
+      "hour": 20,
+      "sales": 49,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 6,
+      "day_name": "Вс",
+      "hour": 21,
+      "sales": 18,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 6,
+      "day_name": "Вс",
+      "hour": 22,
+      "sales": 54,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    },
+    {
+      "day_idx": 6,
+      "day_name": "Вс",
+      "hour": 23,
+      "sales": 41,
+      "price_multiplier": 1.05,
+      "is_peak": true
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "time": "16.10 10:07",
+      "channel": "Telegram Bot",
+      "item_name": "Атом (Особый +10)",
+      "buy_price": 1850000,
+      "target_price": 2350000,
+      "profit": 382500,
+      "roi": "20.7%",
+      "status": "Доставлено"
+    },
+    {
+      "id": 2,
+      "time": "16.10 09:44",
+      "channel": "Telegram Bot",
+      "item_name": "Контейнер «Берлога-6»",
+      "buy_price": 3200000,
+      "target_price": 4150000,
+      "profit": 742500,
+      "roi": "23.2%",
+      "status": "Доставлено"
+    },
+    {
+      "id": 3,
+      "time": "16.10 09:09",
+      "channel": "Telegram Bot",
+      "item_name": "Продвинутые запчасти (10 шт)",
+      "buy_price": 37500,
+      "target_price": 44500,
+      "profit": 47750,
+      "roi": "12.7%",
+      "status": "Доставлено"
+    }
+  ]
+}

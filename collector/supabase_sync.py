@@ -63,15 +63,19 @@ class SupabaseSync:
         if not self.enabled or not lots:
             return False
         endpoint = f"{self.url}/rest/v1/lots"
+        total_synced = 0
         try:
-            async with httpx.AsyncClient(timeout=10.0) as client:
-                resp = await client.post(endpoint, json=lots, headers=self._headers("resolution=merge-duplicates"))
-                if resp.status_code in (200, 201):
-                    logger.info(f"Synced {len(lots)} active lots to Supabase.")
-                    return True
-                else:
-                    logger.warning(f"Supabase lots sync error {resp.status_code}: {resp.text[:200]}")
-                    return False
+            async with httpx.AsyncClient(timeout=30.0) as client:
+                chunk_size = 50
+                for i in range(0, len(lots), chunk_size):
+                    chunk = lots[i:i + chunk_size]
+                    resp = await client.post(endpoint, json=chunk, headers=self._headers("resolution=merge-duplicates"))
+                    if resp.status_code in (200, 201):
+                        total_synced += len(chunk)
+                    else:
+                        logger.warning(f"Supabase lots sync error {resp.status_code}: {resp.text[:200]}")
+            logger.info(f"Synced {total_synced}/{len(lots)} active lots to Supabase.")
+            return total_synced > 0
         except Exception as e:
             logger.warning(f"Supabase lots sync failed: {e}")
             return False
@@ -80,15 +84,19 @@ class SupabaseSync:
         if not self.enabled or not sales:
             return False
         endpoint = f"{self.url}/rest/v1/sales"
+        total_synced = 0
         try:
-            async with httpx.AsyncClient(timeout=10.0) as client:
-                resp = await client.post(endpoint, json=sales, headers=self._headers("resolution=ignore-duplicates"))
-                if resp.status_code in (200, 201):
-                    logger.info(f"Synced {len(sales)} sales to Supabase.")
-                    return True
-                else:
-                    logger.warning(f"Supabase sales sync error {resp.status_code}: {resp.text[:200]}")
-                    return False
+            async with httpx.AsyncClient(timeout=30.0) as client:
+                chunk_size = 50
+                for i in range(0, len(sales), chunk_size):
+                    chunk = sales[i:i + chunk_size]
+                    resp = await client.post(endpoint, json=chunk, headers=self._headers("resolution=ignore-duplicates"))
+                    if resp.status_code in (200, 201):
+                        total_synced += len(chunk)
+                    else:
+                        logger.warning(f"Supabase sales sync error {resp.status_code}: {resp.text[:200]}")
+            logger.info(f"Synced {total_synced}/{len(sales)} sales to Supabase.")
+            return total_synced > 0
         except Exception as e:
             logger.warning(f"Supabase sales sync failed: {e}")
             return False
@@ -98,7 +106,7 @@ class SupabaseSync:
             return False
         endpoint = f"{self.url}/rest/v1/signals"
         try:
-            async with httpx.AsyncClient(timeout=10.0) as client:
+            async with httpx.AsyncClient(timeout=30.0) as client:
                 resp = await client.post(endpoint, json=signals, headers=self._headers())
                 if resp.status_code in (200, 201):
                     logger.info(f"Synced {len(signals)} signals to Supabase.")
@@ -109,3 +117,4 @@ class SupabaseSync:
         except Exception as e:
             logger.warning(f"Supabase signals sync failed: {e}")
             return False
+
