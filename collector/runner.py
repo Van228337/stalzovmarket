@@ -106,28 +106,40 @@ class CollectorRunner:
     async def initialize(self):
         await self.items_db.load_catalog()
 
-    def get_tracked_watchlist(self) -> List[Dict[str, Any]]:
+    def get_tracked_watchlist(self, tier: Optional[str] = None) -> List[Dict[str, Any]]:
         """Extract enabled watchlist items from config.yaml (Patch 1 Section 5.2)."""
         raw_list = self.config.get("watchlist", [])
         tracked = []
         for entry in raw_list:
             if isinstance(entry, str):
-                tracked.append({"item_id": entry, "enabled": True, "filters": {}})
-            elif isinstance(entry, dict) and entry.get("enabled", True):
-                tracked.append(entry)
+                entry_dict = {"item_id": entry, "enabled": True, "filters": {}, "tier": "hot"}
+            elif isinstance(entry, dict):
+                entry_dict = entry
+            else:
+                continue
+
+            if not entry_dict.get("enabled", True):
+                continue
+
+            item_tier = entry_dict.get("tier", "hot")
+            if tier and tier != "all" and item_tier != tier:
+                continue
+
+            tracked.append(entry_dict)
         return tracked
 
     async def run_cycle(
         self,
         watchlist_override: Optional[List[Dict[str, Any]]] = None,
-        dry_run: bool = True,
+        dry_run: bool = False,
+        tier: Optional[str] = None,
     ) -> Dict[str, Any]:
         """Execute one complete data collection and signal generation cycle."""
         start_time = datetime.now(timezone.utc)
-        logger.info(f"Starting collector cycle for region={self.region}, dry_run={dry_run}...")
+        logger.info(f"Starting collector cycle for region={self.region}, dry_run={dry_run}, tier={tier or 'all'}...")
 
         # Watchlist rule (Patch 1 Section 5.2 & 10.4): ONLY poll tracked items
-        watchlist = watchlist_override if watchlist_override is not None else self.get_tracked_watchlist()
+        watchlist = watchlist_override if watchlist_override is not None else self.get_tracked_watchlist(tier=tier)
         logger.info(f"Active watchlist items to poll: {[w['item_id'] for w in watchlist]}")
 
         all_signals: List[TradeSignal] = []
@@ -322,12 +334,13 @@ class CollectorRunner:
 
 def main():
     parser = argparse.ArgumentParser(description="STALCRAFT Market Watchlist Runner")
-    parser.add_argument("--dry-run", action="store_true", default=True, help="Run in dry-run mode")
+    parser.add_argument("--dry-run", action="store_true", default=False, help="Run in dry-run mode")
+    parser.add_argument("--tier", type=str, default="hot", choices=["hot", "warm", "all"], help="Item tier to process (default: hot)")
     args = parser.parse_args()
 
     runner = CollectorRunner()
     asyncio.run(runner.initialize())
-    asyncio.run(runner.run_cycle(dry_run=args.dry_run))
+    asyncio.run(runner.run_cycle(dry_run=args.dry_run, tier=args.tier))
 
 
 if __name__ == "__main__":
