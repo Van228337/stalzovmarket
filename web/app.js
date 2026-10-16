@@ -6,8 +6,14 @@
 let marketData = null;
 let catalogItems = [];
 let watchlist = [
-  { item_id: "y1q9", name_ru: "Гадюка", category: "weapon/submachine_gun", rank: "RANK_STALKER", enabled: true, min_roi: 0.10, min_profit: 25000 },
-  { item_id: "1pyq", name_ru: "Модуль оружия", category: "weapon_modules", rank: "DEFAULT", enabled: true, min_roi: 0.12, min_profit: 30000, filters: {} }
+  { item_id: "g4lk0", name_ru: "Военная аптечка", category: "supply/meds", rank: "RANK_STALKER", enabled: true, min_roi: 0.10, min_profit: 15000 },
+  { item_id: "96430", name_ru: "Аптечка индивидуальная", category: "supply/meds", rank: "RANK_NEWBIE", enabled: true, min_roi: 0.10, min_profit: 15000 },
+  { item_id: "1r2o6", name_ru: "Аптечка ученых", category: "supply/meds", rank: "RANK_VETERAN", enabled: true, min_roi: 0.10, min_profit: 15000 },
+  { item_id: "4dkn", name_ru: "Патрон 9x39 мм СП-6", category: "supply/ammo", rank: "RANK_STALKER", enabled: true, min_roi: 0.10, min_profit: 15000 },
+  { item_id: "g5np", name_ru: "Патрон 7.62 мм бронебойный", category: "supply/ammo", rank: "RANK_STALKER", enabled: true, min_roi: 0.10, min_profit: 15000 },
+  { item_id: "ork0", name_ru: "Патрон 5.45 мм бронебойный", category: "supply/ammo", rank: "RANK_STALKER", enabled: true, min_roi: 0.10, min_profit: 15000 },
+  { item_id: "96mj0", name_ru: "ПП-91 «Кедр»", category: "weapon/submachine_gun", rank: "RANK_STALKER", enabled: true, min_roi: 0.10, min_profit: 15000 },
+  { item_id: "y1q9", name_ru: "Гадюка", category: "weapon/submachine_gun", rank: "RANK_STALKER", enabled: true, min_roi: 0.10, min_profit: 15000 }
 ];
 let priceChart = null;
 let activeCatFilter = "";
@@ -92,40 +98,6 @@ function setupCatalogSearch() {
       activeCatFilter = pill.getAttribute("data-cat");
       renderCatalogResults(input.value);
     });
-  });
-
-  document.getElementById("btn-add-module-wl").addEventListener("click", () => {
-    const addOn = document.getElementById("mod-addon").value;
-    const dev = document.getElementById("mod-dev").value;
-    const concept = document.getElementById("mod-concept").value;
-    const minPot = parseFloat(document.getElementById("mod-min-pot").value) || 0;
-
-    const moduleFilter = {
-      add_on: addOn || undefined,
-      deviation: dev || undefined,
-      concept: concept || undefined,
-      min_potential: minPot > 0 ? minPot : undefined
-    };
-
-    let titleParts = ["Модуль"];
-    if (addOn) titleParts.push("Фокусный");
-    if (dev) titleParts.push("Уходящий");
-    if (concept) titleParts.push("«Снайпер»");
-    if (minPot > 0) titleParts.push(`(Пот. ≥${minPot})`);
-
-    watchlist.push({
-      item_id: "1pyq",
-      name_ru: titleParts.join(" "),
-      category: "weapon_modules",
-      rank: "RANK_VETERAN",
-      enabled: true,
-      min_roi: 0.12,
-      min_profit: 30000,
-      filters: moduleFilter
-    });
-
-    renderWatchlist();
-    alert(`Модуль "${titleParts.join(" ")}" добавлен в отслеживание!`);
   });
 }
 

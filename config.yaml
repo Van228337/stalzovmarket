@@ -1,5 +1,5 @@
 # STALCRAFT Market Bot Configuration
-# Calibrated for user specifications: RU region, 10kk capital, hours liquidation horizon
+# Calibrated for user specifications: RU region, 10kk capital, hours liquidation horizon, 100% standardized liquid assets
 
 market:
   region: "RU"
@@ -20,12 +20,12 @@ economics:
 
 strategy:
   min_roi: 0.10 # Minimum expected ROI after 5% fee (10%)
-  min_profit_abs: 20000 # Minimum net profit per deal in rubles
+  min_profit_abs: 15000 # Minimum net profit per deal in rubles
   min_confidence: 0.60 # Minimum confidence score (0.0 to 1.0)
   max_hold_days: 1.0 # Priority: hours (up to 24h holding horizon)
   min_sales_sample_size: 15 # Minimum historical sales to calculate fair price
   sales_lookback_days: 7 # Lookback window for baseline median
-  half_life_days: 2.0 # More aggressive recency decay for fast hourly trades
+  half_life_days: 2.0 # Fast recency decay for hourly trades
   trim_ratio: 0.10 # Outlier trimming from both ends (10%)
   target_quantile: 0.50 # P50 (median) for expected sell target
   floor_quantile: 0.25 # P25 for pessimistic floor sell price
@@ -54,17 +54,31 @@ database:
 alerts:
   telegram_enabled: true
   max_alerts_per_hour: 20
-  min_signal_score_to_alert: 0.65
+  min_signal_score_to_alert: 0.60
 
-# Tracked watchlist:
+# Top liquid standardized assets (Medicine, Armor-Piercing Ammo, Popular Guns):
 watchlist:
-  - item_id: "1pyq" # Модуль оружия (главный спекулятивный актив)
+  - item_id: "96430" # Аптечка индивидуальная (~400k сделок в истории)
     enabled: true
-    min_roi: 0.12
-    filters: {}
-  - item_id: "y1q9" # Гадюка
+    min_roi: 0.10
+  - item_id: "1r2o6" # Аптечка ученых (~250k сделок)
+    enabled: true
+    min_roi: 0.10
+  - item_id: "g4lk0" # Военная аптечка (~515k сделок!)
+    enabled: true
+    min_roi: 0.10
+  - item_id: "4dkn"  # Патрон 9x39 мм СП-6 (~160k сделок)
+    enabled: true
+    min_roi: 0.10
+  - item_id: "g5np"  # Патрон 7.62 мм бронебойный (~225k сделок)
+    enabled: true
+    min_roi: 0.10
+  - item_id: "ork0"  # Патрон 5.45 мм бронебойный (~180k сделок)
     enabled: true
     min_roi: 0.10
   - item_id: "96mj0" # ПП-91 «Кедр»
+    enabled: true
+    min_roi: 0.10
+  - item_id: "y1q9"  # Гадюка
     enabled: true
     min_roi: 0.10
