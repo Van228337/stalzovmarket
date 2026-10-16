@@ -1,0 +1,11 @@
+[
+  {
+    "id": "y1q9",
+    "name_ru": "Гадюка",
+    "name_en": "Viper",
+    "category": "weapon/submachine_gun",
+    "rank": "RANK_STALKER",
+    "icon": "/icons/weapon/submachine_gun/y1q9.png",
+    "source": "manual_override"
+  }
+]

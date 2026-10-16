@@ -1,0 +1,45 @@
+name: Phase 0 - Channel & Cloudflare Verification
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Run once daily or manual trigger for validation
+    - cron: '0 4 * * *'
+
+concurrency:
+  group: channel-test
+  cancel-in-progress: false
+
+jobs:
+  test-channel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Print Runner IP Hash (No raw IP in logs)
+        run: |
+          RUNNER_IP=$(curl -s https://api.ipify.org || echo "unknown")
+          IP_HASH=$(echo -n "$RUNNER_IP" | sha256sum | awk '{print $1}')
+          echo "Runner IP SHA256: ${IP_HASH:0:16}..."
+
+      - name: Run Phase 0 Verification
+        env:
+          STALCRAFT_CLIENT_ID: ${{ secrets.STALCRAFT_CLIENT_ID }}
+          STALCRAFT_CLIENT_SECRET: ${{ secrets.STALCRAFT_CLIENT_SECRET }}
+          STALCRAFT_USER_AGENT: "stalcraft-market-bot/1.0 (GitHubActions-Phase0; contact: market@stalzone.local)"
+        run: |
+          python collector/test_channel.py

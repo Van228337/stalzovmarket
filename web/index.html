@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STALCRAFT Market Scanner - Поиск сделок аукциона</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="theme-dark">
+  <header class="navbar">
+    <div class="brand">
+      <span class="logo-badge">SC</span>
+      <h1>STALCRAFT Market Scanner</h1>
+      <span class="region-pill" id="current-region">RU</span>
+    </div>
+    <nav class="nav-links">
+      <button class="nav-btn active" data-tab="tab-signals">Сигналы</button>
+      <button class="nav-btn" data-tab="tab-watchlist">Отслеживание</button>
+      <button class="nav-btn" data-tab="tab-search">Каталог и Добавление</button>
+      <button class="nav-btn" data-tab="tab-item">Анализ предмета</button>
+      <button class="nav-btn" data-tab="tab-health">Здоровье системы</button>
+      <button class="nav-btn" data-tab="tab-settings">Конфигурация</button>
+    </nav>
+    <div class="actions">
+      <button id="btn-copy-llm" class="btn-llm" title="Скопировать готовый промпт + дайджест для ChatGPT/Claude">📋 Для нейросети</button>
+      <button id="theme-toggle" class="btn-secondary" title="Сменить тему">🌓</button>
+      <button id="btn-refresh" class="btn-primary">↻ Обновить</button>
+    </div>
+  </header>
+
+  <div class="status-banner" id="status-banner">
+    <div class="status-indicator live"></div>
+    <span id="data-status-text">Загрузка данных...</span>
+    <span class="commission-badge">Комиссия аукциона: 5% (вычитается при продаже)</span>
+    <span class="staleness" id="data-age">Возраст данных: -- мин</span>
+  </div>
+
+  <main class="main-container">
+    <!-- TAB 1: SIGNALS -->
+    <section id="tab-signals" class="tab-content active">
+      <div class="filter-bar">
+        <div class="search-box">
+          <input type="text" id="signal-search" placeholder="Поиск по названию предмета...">
+        </div>
+        <div class="filter-controls">
+          <label>Мин. ROI:
+            <select id="filter-roi">
+              <option value="0">Все</option>
+              <option value="0.10" selected>≥ 10%</option>
+              <option value="0.20">≥ 20%</option>
+              <option value="0.30">≥ 30%</option>
+            </select>
+          </label>
+          <label>Мин. уверенность:
+            <select id="filter-conf">
+              <option value="0">Все</option>
+              <option value="0.60" selected>≥ 60%</option>
+              <option value="0.75">≥ 75%</option>
+              <option value="0.85">≥ 85%</option>
+            </select>
+          </label>
+          <label>Сортировка:
+            <select id="sort-signals">
+              <option value="profit">По прибыли</option>
+              <option value="roi">По ROI</option>
+              <option value="confidence">По уверенности</option>
+              <option value="days">По скорости продажи</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <div class="table-responsive">
+        <table class="signals-table">
+          <thead>
+            <tr>
+              <th>Предмет / Сегмент</th>
+              <th>Покупка (за шт.)</th>
+              <th>Цель продажи</th>
+              <th>Ожидаемый профит</th>
+              <th>ROI</th>
+              <th>Срок</th>
+              <th>Уверенность</th>
+              <th>Обоснование</th>
+            </tr>
+          </thead>
+          <tbody id="signals-tbody">
+            <tr><td colspan="8" class="text-center">Загрузка актуальных сделок...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- TAB 2: WATCHLIST MANAGEMENT (Patch 1 & 2) -->
+    <section id="tab-watchlist" class="tab-content">
+      <div class="watchlist-header">
+        <div>
+          <h3>Список отслеживаемых предметов</h3>
+          <p class="text-muted small">Опрашиваются только эти предметы. Нажмите «Каталог и Добавление», чтобы добавить новые.</p>
+        </div>
+        <div class="watchlist-actions">
+          <button id="btn-export-wl" class="btn-secondary">Экспорт JSON</button>
+          <button id="btn-import-wl" class="btn-secondary">Импорт JSON</button>
+        </div>
+      </div>
+
+      <div class="table-responsive mt-3">
+        <table class="signals-table">
+          <thead>
+            <tr>
+              <th>Предмет</th>
+              <th>Категория / Фильтр</th>
+              <th>Статус</th>
+              <th>Мин. ROI</th>
+              <th>Мин. Профит</th>
+              <th>Действия</th>
+            </tr>
+          </thead>
+          <tbody id="watchlist-tbody">
+            <tr><td colspan="6" class="text-center">Загрузка списка отслеживания...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- TAB 3: SEARCH & ADD BY NAME (Patch 2: No ID field!) -->
+    <section id="tab-search" class="tab-content">
+      <!-- Special Weapon Module Builder Card -->
+      <div class="module-builder-card">
+        <div class="module-builder-header">
+          <span class="builder-badge">⚙ ОСОБЫЙ ПРЕДМЕТ</span>
+          <h4>Конструктор отслеживания модулей оружия</h4>
+        </div>
+        <p class="text-muted small">Все модули в игре торгуются вместе. Выберите желаемые компоненты по названиям и минимальный потенциал:</p>
+        <div class="module-selectors">
+          <label>Надстройка:
+            <select id="mod-addon">
+              <option value="">(Любая)</option>
+              <option value="aiming_speed_modifier_pre">Фокусный (Скорость прицеливания)</option>
+            </select>
+          </label>
+          <label>Отклонение:
+            <select id="mod-dev">
+              <option value="">(Любое)</option>
+              <option value="recoil_suf">Уходящий (Отдача)</option>
+            </select>
+          </label>
+          <label>Концепт:
+            <select id="mod-concept">
+              <option value="">(Любой)</option>
+              <option value="marksman">«Снайпер»</option>
+            </select>
+          </label>
+          <label>Мин. потенциал (0..190):
+            <input type="number" id="mod-min-pot" min="0" max="190" value="0">
+          </label>
+          <button id="btn-add-module-wl" class="btn-primary">Отслеживать модуль</button>
+        </div>
+      </div>
+
+      <div class="search-section-header">
+        <h4>Поиск предметов по названию в каталоге</h4>
+        <div class="quick-cat-filters">
+          <button class="cat-pill active" data-cat="">Все</button>
+          <button class="cat-pill" data-cat="weapon">Оружие</button>
+          <button class="cat-pill" data-cat="armor">Броня</button>
+          <button class="cat-pill" data-cat="artefact">Артефакты</button>
+          <button class="cat-pill" data-cat="supply">Расходники</button>
+        </div>
+      </div>
+
+      <div class="catalog-search-bar">
+        <input type="text" id="catalog-search-input" placeholder="Введите название предмета на русском или английском (например, Гадюка, КЗ-4, Аптечка)...">
+      </div>
+
+      <div id="catalog-results-container" class="catalog-grid">
+        <div class="empty-hint text-muted">Введите название для поиска предметов из каталога...</div>
+      </div>
+    </section>
+
+    <!-- TAB 4: ITEM ANALYTICS -->
+    <section id="tab-item" class="tab-content">
+      <div class="item-search-row">
+        <input type="text" id="item-lookup-input" placeholder="Название предмета..." value="Гадюка">
+        <button id="btn-item-lookup" class="btn-primary">Показать аналитику</button>
+      </div>
+
+      <div class="item-overview-grid">
+        <div class="metric-card">
+          <span class="metric-label">Медиана 3д</span>
+          <span class="metric-val" id="metric-median">-- ₽</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-label">Диапазон P25 - P75</span>
+          <span class="metric-val" id="metric-p25-p75">-- - -- ₽</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-label">Ликвидность</span>
+          <span class="metric-val" id="metric-liquidity">-- шт/сут</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-label">Волатильность (MAD)</span>
+          <span class="metric-val" id="metric-volatility">--%</span>
+        </div>
+      </div>
+
+      <div class="chart-container">
+        <h3>Динамика цен и распределение сделок</h3>
+        <canvas id="priceChart" height="110"></canvas>
+      </div>
+    </section>
+
+    <!-- TAB 5: HEALTH -->
+    <section id="tab-health" class="tab-content">
+      <div class="health-grid">
+        <div class="health-card">
+          <h4>Статус сборщика</h4>
+          <p class="health-status ok">АКТИВЕН</p>
+          <ul class="health-details">
+            <li>Канал: <strong>GitHub Actions / Local Daemon</strong></li>
+            <li>Режим: <strong>Только Watchlist (без опроса каталога)</strong></li>
+            <li>Лимит скорости: <strong>4 rps (Global ceiling ~22 rps)</strong></li>
+          </ul>
+        </div>
+        <div class="health-card">
+          <h4>Ошибки и устаревшие срезы</h4>
+          <div class="stat-row"><span>HTTP 403 (Cloudflare block):</span> <strong id="h-403">0</strong></div>
+          <div class="stat-row"><span>HTTP 429 1015 (IP limit):</span> <strong id="h-429-ip">0</strong></div>
+          <div class="stat-row"><span>HTTP 429 Quota:</span> <strong id="h-429-q">0</strong></div>
+          <div class="stat-row"><span>Устаревшие срезы (Stale Slices):</span> <strong id="h-stale">0</strong></div>
+        </div>
+        <div class="health-card">
+          <h4>Бюджет базы данных (Supabase Free)</h4>
+          <p>Лимит: 500 МБ | Бюджет: ≤ 400 МБ</p>
+          <div class="progress-bar">
+            <div class="progress-fill" style="width: 15%;"></div>
+          </div>
+          <p class="small text-muted">Текущий объём: ~35 МБ. Ретеншн: 180 дней продаж отслеживаемых предметов.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 6: CONFIGURATION -->
+    <section id="tab-settings" class="tab-content">
+      <div class="config-view">
+        <h3>Текущие параметры рынка и стратегии</h3>
+        <pre id="config-json-display">Загрузка параметров...</pre>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

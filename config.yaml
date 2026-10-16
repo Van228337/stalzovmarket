@@ -1,0 +1,70 @@
+# STALCRAFT Market Bot Configuration
+# Calibrated for user specifications: RU region, 10kk capital, hours liquidation horizon
+
+market:
+  region: "RU"
+  base_url: "https://eapi.stalcraft.net"
+  backup_base_url: "https://eapi.stalzone.com"
+  demo_url: "https://dapi.stalcraft.net"
+  database_github_repo: "https://raw.githubusercontent.com/EXBO-Studio/stalcraft-database/main"
+
+economics:
+  # Confirmed: 5% fee on sale price, zero listing fee / deposit
+  auction_fee_rate: 0.05
+  listing_fee: 0
+  fee_applies_to: "sale_price"
+  # Active capital: 10,000,000 ₽ (half of total 20kk)
+  total_capital: 10000000
+  # Maximum capital allocated to a single trade (30% = up to 3kk)
+  max_capital_share_per_deal: 0.30
+
+strategy:
+  min_roi: 0.10 # Minimum expected ROI after 5% fee (10%)
+  min_profit_abs: 20000 # Minimum net profit per deal in rubles
+  min_confidence: 0.60 # Minimum confidence score (0.0 to 1.0)
+  max_hold_days: 1.0 # Priority: hours (up to 24h holding horizon)
+  min_sales_sample_size: 15 # Minimum historical sales to calculate fair price
+  sales_lookback_days: 7 # Lookback window for baseline median
+  half_life_days: 2.0 # More aggressive recency decay for fast hourly trades
+  trim_ratio: 0.10 # Outlier trimming from both ends (10%)
+  target_quantile: 0.50 # P50 (median) for expected sell target
+  floor_quantile: 0.25 # P25 for pessimistic floor sell price
+  max_stale_data_minutes: 25 # Threshold to warn on stale collector data
+
+collector:
+  user_agent: "stalcraft-market-bot/1.0 (https://github.com/Stalzone/market-bot)"
+  rate_limit_rps: 4.0 # Global request limit (Cloudflare hard ceiling is ~22 rps/IPv4)
+  concurrency: 4
+  jitter_min_sec: 0.1
+  jitter_max_sec: 0.3
+  request_timeout_sec: 15.0
+  max_retries: 3
+  backoff_factor: 1.5
+  watchlist_soft_limit: 100
+  watchlist_hard_limit: 200
+  backfill_max_records: 1000
+
+database:
+  retention_days_sales_tracked: 180 # Retain sales for tracked items for 180 days
+  retention_days_finished_lots: 30 # Retain probable_sold/expired lots for 30 days
+  retention_days_hourly_rollups: 90
+  size_warning_mb: 350
+  size_halt_mb: 450
+
+alerts:
+  telegram_enabled: true
+  max_alerts_per_hour: 20
+  min_signal_score_to_alert: 0.65
+
+# Tracked watchlist:
+watchlist:
+  - item_id: "1pyq" # Модуль оружия (главный спекулятивный актив)
+    enabled: true
+    min_roi: 0.12
+    filters: {}
+  - item_id: "y1q9" # Гадюка
+    enabled: true
+    min_roi: 0.10
+  - item_id: "96mj0" # ПП-91 «Кедр»
+    enabled: true
+    min_roi: 0.10
