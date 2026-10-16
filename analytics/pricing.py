@@ -23,6 +23,7 @@ class SaleRecord:
     price: int
     sold_at: datetime
     additional: Optional[Dict[str, Any]] = None
+    segment_key: str = ""
 
     @property
     def unit_price(self) -> float:

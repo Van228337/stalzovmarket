@@ -37,6 +37,7 @@ def build_market_digest(
             "item_id": s.item_id,
             "name_ru": name_ru,
             "segment": s.segment_key or "default",
+            "segment_label": getattr(s, "segment_label", s.segment_key or "default"),
             "lot": {
                 "buy_unit": round(s.buy_unit_price, 2),
             },

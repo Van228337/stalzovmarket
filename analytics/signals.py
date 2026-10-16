@@ -33,6 +33,7 @@ class ActiveLot:
     additional: Optional[Dict[str, Any]] = None
     qlt: Optional[int] = None
     segment_key: str = ""
+    segment_label: str = ""
     first_seen: Optional[datetime] = None
     last_seen: Optional[datetime] = None
 
@@ -61,6 +62,7 @@ class TradeSignal:
     score: float
     data_age_min: float
     list_when: str
+    segment_label: str = ""
     reasons: List[str] = field(default_factory=list)
     caveats: List[str] = field(default_factory=list)
 
@@ -194,6 +196,7 @@ def calculate_signal(
         region=lot.region,
         lot_id=lot.id,
         segment_key=lot.segment_key,
+        segment_label=lot.segment_label or lot.segment_key or "default",
         buy_unit_price=buy_unit,
         buy_max_unit=buy_max_unit,
         fair_price=metrics.median,

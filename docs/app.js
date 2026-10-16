@@ -302,7 +302,7 @@ function renderSignals() {
       <tr>
         <td>
           <strong>${escapeHtml(opp.name_ru || "Предмет")}</strong>
-          <div class="small text-muted">${escapeHtml(opp.segment || "Базовый")}</div>
+          <div class="small text-muted">${escapeHtml(opp.segment_label || opp.segment || "Стандарт")}</div>
         </td>
         <td>${formatPrice(opp.lot?.buy_unit)} ₽</td>
         <td>${formatPrice(opp.plan?.sell_target_unit)} ₽</td>

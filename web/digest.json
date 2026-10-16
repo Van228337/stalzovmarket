@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-10-16T09:49:21.693032+00:00",
+  "data_freshness_minutes": 10.0,
+  "region": "RU",
+  "config": {
+    "auction_fee_rate": 0.05,
+    "listing_fee": 0,
+    "capital": 10000000,
+    "min_roi": 0.1
+  },
+  "market_summary": {
+    "tracked_items": 11,
+    "turnover_24h": 0.0,
+    "signals_found": 0,
+    "notes": [
+      "Цены указаны за штуку. Задержка данных ~10-15 минут.",
+      "Перед выкупом лота проверьте наличие в игре через поиск по аукциону."
+    ]
+  },
+  "top_opportunities": [],
+  "avoid": [],
+  "positions": []
+}

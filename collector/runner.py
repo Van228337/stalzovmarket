@@ -36,6 +36,7 @@ from analytics.pricing import SaleRecord, compute_fair_price_metrics
 from analytics.signals import ActiveLot, calculate_signal, TradeSignal
 from analytics.digest import build_market_digest, export_digest_json
 from analytics.modules import parse_weapon_module
+from analytics.segmentation import get_item_segment
 from analytics.export_for_llm import export_llm_bundle
 
 logging.basicConfig(
@@ -150,19 +151,20 @@ class CollectorRunner:
             if not item_id:
                 continue
 
+            item_meta = self.items_db.items.get(item_id, {})
             filters = entry.get("filters", {})
             is_module = (item_id == "1pyq")
 
-            # 1. Fetch active auction lots
+            # 1. Fetch active auction lots (always request additional=True to inspect qlt, ptn, etc.)
             self.metrics["requests"] += 1
             try:
                 total_lots, raw_lots, is_stale = await self.client.get_auction_lots(
                     region=self.region,
                     item_id=item_id,
-                    limit=20,
+                    limit=50,
                     sort="buyout_price",
                     order="asc",
-                    additional=is_module,
+                    additional=True,
                 )
                 self.metrics["ok"] += 1
 
@@ -178,22 +180,22 @@ class CollectorRunner:
                 logger.error(f"Error fetching lots for {item_id}: {e}")
                 continue
 
-            # 2. Fetch sales history
+            # 2. Fetch sales history (always request additional=True to segment by rarity and upgrade)
             self.metrics["requests"] += 1
             try:
                 total_history, raw_prices = await self.client.get_auction_history(
                     region=self.region,
                     item_id=item_id,
                     limit=200,
-                    additional=is_module,
+                    additional=True,
                 )
                 self.metrics["ok"] += 1
             except Exception as e:
                 logger.error(f"Error fetching history for {item_id}: {e}")
                 raw_prices = []
 
-            # 3. Parse sales records
-            sales: List[SaleRecord] = []
+            # 3. Parse sales records and group strictly by segment_key
+            sales_by_segment: Dict[str, List[SaleRecord]] = {}
             for p in raw_prices:
                 time_str = p.get("time")
                 try:
@@ -201,36 +203,33 @@ class CollectorRunner:
                 except ValueError:
                     dt = datetime.now(timezone.utc)
 
-                sales.append(SaleRecord(
+                add = p.get("additional")
+                if is_module and add:
+                    parsed_mod = parse_weapon_module(add)
+                    seg_key = parsed_mod.segment_key
+                else:
+                    seg_key, _ = get_item_segment(item_id, item_meta, add)
+
+                sr = SaleRecord(
                     amount=int(p.get("amount", 1)),
                     price=int(p.get("price", 0)),
                     sold_at=dt,
-                    additional=p.get("additional"),
-                ))
+                    additional=add,
+                    segment_key=seg_key,
+                )
+                sales_by_segment.setdefault(seg_key, []).append(sr)
 
-            # 4. Calculate fair price metrics
-            metrics = compute_fair_price_metrics(sales, half_life_days=3.0)
-            if not metrics:
-                logger.info(f"Insufficient sales history for {item_id} (0 sales)")
-                continue
-
-            if metrics.is_spike:
-                avoid_list.append({
-                    "item_id": item_id,
-                    "reason": f"Обнаружен ценовой всплеск/манипуляция (рост x{metrics.trend_ratio:.2f} без объёма).",
-                })
-
-            # 5. Convert active lots and filter modules if required
-            active_lots: List[ActiveLot] = []
+            # 4. Parse active lots and group by segment_key
+            lots_by_segment: Dict[str, List[ActiveLot]] = {}
             for lot_dict in raw_lots:
                 amount = int(lot_dict.get("amount", 1))
                 buyout = int(lot_dict.get("buyoutPrice", 0))
                 additional = lot_dict.get("additional")
 
-                segment_key = ""
                 if is_module and additional:
                     parsed_mod = parse_weapon_module(additional)
-                    segment_key = parsed_mod.segment_key
+                    seg_key = parsed_mod.segment_key
+                    seg_label = "Модуль"
 
                     # Check module filters
                     if filters:
@@ -239,7 +238,6 @@ class CollectorRunner:
                         req_dev = filters.get("deviation")
                         req_concept = filters.get("concept")
 
-                        # If user requested specific concept/deviation/add-on, verify
                         skip_lot = False
                         for roll in parsed_mod.rolls:
                             if roll.slot_id == 0 and req_add_on and roll.definition_id != req_add_on:
@@ -252,6 +250,8 @@ class CollectorRunner:
                                 skip_lot = True
                         if skip_lot:
                             continue
+                else:
+                    seg_key, seg_label = get_item_segment(item_id, item_meta, additional)
 
                 active_lot = ActiveLot(
                     id=None,
@@ -264,11 +264,13 @@ class CollectorRunner:
                     start_time=None,
                     end_time=None,
                     additional=additional,
-                    segment_key=segment_key,
+                    qlt=int(additional.get("qlt", 0)) if additional else 0,
+                    segment_key=seg_key,
+                    segment_label=seg_label,
                 )
-                active_lots.append(active_lot)
+                lots_by_segment.setdefault(seg_key, []).append(active_lot)
 
-            # Strategy config with individual item overrides
+            # 5. Strategy config with individual item overrides
             merged_config = dict(self.config)
             strat = dict(merged_config.get("strategy", {}))
             if entry.get("min_roi") is not None:
@@ -277,15 +279,33 @@ class CollectorRunner:
                 strat["min_profit_abs"] = float(entry["min_profit_abs"])
             merged_config["strategy"] = strat
 
-            for lot in active_lots:
-                signal = calculate_signal(
-                    lot=lot,
-                    metrics=metrics,
-                    active_lots_in_segment=active_lots,
-                    config=merged_config,
-                )
-                if signal:
-                    all_signals.append(signal)
+            # 6. Evaluate signals strictly PER SEGMENT (never cross-comparing different rarities or upgrades!)
+            for seg_key, seg_lots in lots_by_segment.items():
+                seg_sales = sales_by_segment.get(seg_key, [])
+                if len(seg_sales) < 5:
+                    logger.debug(f"Skipping {item_id} [{seg_key}]: only {len(seg_sales)} sales in sample (need >= 5)")
+                    continue
+
+                metrics = compute_fair_price_metrics(seg_sales, half_life_days=2.0)
+                if not metrics:
+                    continue
+
+                if metrics.is_spike:
+                    avoid_list.append({
+                        "item_id": item_id,
+                        "reason": f"Сегмент [{seg_key}] имеет ценовой всплеск/манипуляцию (рост x{metrics.trend_ratio:.2f}).",
+                    })
+                    continue
+
+                for lot in seg_lots:
+                    signal = calculate_signal(
+                        lot=lot,
+                        metrics=metrics,
+                        active_lots_in_segment=seg_lots,
+                        config=merged_config,
+                    )
+                    if signal:
+                        all_signals.append(signal)
 
         # 6. Generate compact digest.json (Patch 1 Section 6.5)
         digest = build_market_digest(

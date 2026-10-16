@@ -111,7 +111,7 @@ class TelegramNotifier:
             return False
 
         name = signal.get("name_ru", signal.get("item_id", "Предмет"))
-        segment = signal.get("segment", "базовый")
+        segment = signal.get("segment_label") or signal.get("segment", "Стандарт")
         plan = signal.get("plan", {})
         lot = signal.get("lot", {})
         fair = signal.get("fair", {})
