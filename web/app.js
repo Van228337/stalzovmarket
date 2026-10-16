@@ -6,14 +6,17 @@
 let marketData = null;
 let catalogItems = [];
 let watchlist = [
-  { item_id: "g4lk0", name_ru: "Военная аптечка", category: "supply/meds", rank: "RANK_STALKER", enabled: true, min_roi: 0.10, min_profit: 15000 },
-  { item_id: "96430", name_ru: "Аптечка индивидуальная", category: "supply/meds", rank: "RANK_NEWBIE", enabled: true, min_roi: 0.10, min_profit: 15000 },
-  { item_id: "1r2o6", name_ru: "Аптечка ученых", category: "supply/meds", rank: "RANK_VETERAN", enabled: true, min_roi: 0.10, min_profit: 15000 },
-  { item_id: "4dkn", name_ru: "Патрон 9x39 мм СП-6", category: "supply/ammo", rank: "RANK_STALKER", enabled: true, min_roi: 0.10, min_profit: 15000 },
-  { item_id: "g5np", name_ru: "Патрон 7.62 мм бронебойный", category: "supply/ammo", rank: "RANK_STALKER", enabled: true, min_roi: 0.10, min_profit: 15000 },
-  { item_id: "ork0", name_ru: "Патрон 5.45 мм бронебойный", category: "supply/ammo", rank: "RANK_STALKER", enabled: true, min_roi: 0.10, min_profit: 15000 },
-  { item_id: "96mj0", name_ru: "ПП-91 «Кедр»", category: "weapon/submachine_gun", rank: "RANK_STALKER", enabled: true, min_roi: 0.10, min_profit: 15000 },
-  { item_id: "y1q9", name_ru: "Гадюка", category: "weapon/submachine_gun", rank: "RANK_STALKER", enabled: true, min_roi: 0.10, min_profit: 15000 }
+  { item_id: "y3nmw", name_ru: "Продвинутые запчасти", category: "other", rank: "RANK_MASTER", enabled: true, min_roi: 0.10, min_profit: 50000 },
+  { item_id: "4q7pl", name_ru: "Продвинутые инструменты", category: "other", rank: "RANK_MASTER", enabled: true, min_roi: 0.10, min_profit: 50000 },
+  { item_id: "l0og1", name_ru: "Стандартные запчасти", category: "other", rank: "RANK_STALKER", enabled: true, min_roi: 0.10, min_profit: 50000 },
+  { item_id: "zzwmm", name_ru: "Сыворотка изменения", category: "other", rank: "RANK_VETERAN", enabled: true, min_roi: 0.10, min_profit: 50000 },
+  { item_id: "g35n", name_ru: "Контейнер «Берлога-6»", category: "containers", rank: "RANK_MASTER", enabled: true, min_roi: 0.10, min_profit: 150000 },
+  { item_id: "j3ml", name_ru: "Контейнер «КСМ»", category: "containers", rank: "RANK_MASTER", enabled: true, min_roi: 0.10, min_profit: 200000 },
+  { item_id: "gyq5", name_ru: "Спираль", category: "artefact/electrophysical", rank: "DEFAULT", enabled: true, min_roi: 0.10, min_profit: 100000 },
+  { item_id: "5rwq", name_ru: "Осколок", category: "artefact/electrophysical", rank: "DEFAULT", enabled: true, min_roi: 0.10, min_profit: 150000 },
+  { item_id: "qoq6", name_ru: "Солнце", category: "artefact/thermal", rank: "DEFAULT", enabled: true, min_roi: 0.10, min_profit: 150000 },
+  { item_id: "wg53", name_ru: "Атом", category: "artefact/electrophysical", rank: "DEFAULT", enabled: true, min_roi: 0.10, min_profit: 150000 },
+  { item_id: "y5w3", name_ru: "Призма", category: "artefact/electrophysical", rank: "DEFAULT", enabled: true, min_roi: 0.10, min_profit: 150000 }
 ];
 let priceChart = null;
 let activeCatFilter = "";
@@ -238,7 +241,13 @@ async function loadData() {
   statusText.innerText = "Обновление данных...";
 
   try {
-    const res = await fetch("../data/digest.json");
+    let res = await fetch("digest.json");
+    if (!res.ok) {
+      res = await fetch("../data/digest.json");
+    }
+    if (!res.ok) {
+      res = await fetch("data/digest.json");
+    }
     if (!res.ok) throw new Error("digest.json not found");
     marketData = await res.json();
     statusText.innerText = "Рынок синхронизирован";

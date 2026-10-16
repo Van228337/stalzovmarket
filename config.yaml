@@ -20,7 +20,7 @@ economics:
 
 strategy:
   min_roi: 0.10 # Minimum expected ROI after 5% fee (10%)
-  min_profit_abs: 15000 # Minimum net profit per deal in rubles
+  min_profit_abs: 50000 # Minimum net profit per deal in rubles (50k)
   min_confidence: 0.60 # Minimum confidence score (0.0 to 1.0)
   max_hold_days: 1.0 # Priority: hours (up to 24h holding horizon)
   min_sales_sample_size: 15 # Minimum historical sales to calculate fair price
@@ -56,29 +56,49 @@ alerts:
   max_alerts_per_hour: 20
   min_signal_score_to_alert: 0.60
 
-# Top liquid standardized assets (Medicine, Armor-Piercing Ammo, Popular Guns):
+# Elite high-margin liquid assets calibrated for 10kk-20kk bank (fast turnover in hours):
 watchlist:
-  - item_id: "96430" # Аптечка индивидуальная (~400k сделок в истории)
+  - item_id: "y3nmw" # Продвинутые запчасти (18.3M сделок, стаки по 500k-5kk)
     enabled: true
     min_roi: 0.10
-  - item_id: "1r2o6" # Аптечка ученых (~250k сделок)
+    min_profit_abs: 50000
+  - item_id: "4q7pl" # Продвинутые инструменты (10.7M сделок)
     enabled: true
     min_roi: 0.10
-  - item_id: "g4lk0" # Военная аптечка (~515k сделок!)
+    min_profit_abs: 50000
+  - item_id: "l0og1" # Стандартные запчасти (5.5M сделок)
     enabled: true
     min_roi: 0.10
-  - item_id: "4dkn"  # Патрон 9x39 мм СП-6 (~160k сделок)
+    min_profit_abs: 50000
+  - item_id: "zzwmm" # Сыворотка изменения (1.1M сделок, чек ~500k)
     enabled: true
     min_roi: 0.10
-  - item_id: "g5np"  # Патрон 7.62 мм бронебойный (~225k сделок)
+    min_profit_abs: 50000
+  - item_id: "g35n"  # Контейнер «Берлога-6» (38k сделок, чек ~3.2kk)
     enabled: true
     min_roi: 0.10
-  - item_id: "ork0"  # Патрон 5.45 мм бронебойный (~180k сделок)
+    min_profit_abs: 150000
+  - item_id: "j3ml"  # Контейнер «КСМ» (67k сделок, чек ~4.5kk)
     enabled: true
     min_roi: 0.10
-  - item_id: "96mj0" # ПП-91 «Кедр»
+    min_profit_abs: 200000
+  - item_id: "gyq5"  # Спираль (1.5M сделок, чек ~1.1kk)
     enabled: true
     min_roi: 0.10
-  - item_id: "y1q9"  # Гадюка
+    min_profit_abs: 100000
+  - item_id: "5rwq"  # Осколок (990k сделок, чек ~1.6kk)
     enabled: true
     min_roi: 0.10
+    min_profit_abs: 150000
+  - item_id: "qoq6"  # Солнце (737k сделок, чек ~1.7kk)
+    enabled: true
+    min_roi: 0.10
+    min_profit_abs: 150000
+  - item_id: "wg53"  # Атом (342k сделок, чек ~2.0kk)
+    enabled: true
+    min_roi: 0.10
+    min_profit_abs: 150000
+  - item_id: "y5w3"  # Призма (312k сделок, чек ~2.2kk)
+    enabled: true
+    min_roi: 0.10
+    min_profit_abs: 150000

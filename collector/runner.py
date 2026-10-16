@@ -300,6 +300,9 @@ class CollectorRunner:
 
         os.makedirs("data", exist_ok=True)
         export_digest_json(digest, "data/digest.json")
+        for web_dir in ["web", "docs"]:
+            if os.path.exists(web_dir):
+                export_digest_json(digest, f"{web_dir}/digest.json")
         logger.info(f"Digest exported to data/digest.json with {len(all_signals)} opportunities from watchlist.")
 
         # Export ready-to-paste bundle for external LLMs (ChatGPT / Claude / DeepSeek)

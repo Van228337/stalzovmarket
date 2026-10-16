@@ -9,6 +9,9 @@ concurrency:
   group: collector-hot
   cancel-in-progress: false
 
+permissions:
+  contents: write
+
 jobs:
   collect-hot:
     runs-on: ubuntu-latest
@@ -40,3 +43,11 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           python collector/runner.py --tier hot
+
+      - name: Commit updated digest for GitHub Pages
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/digest.json data/digest.json data/prompt_for_external_llm.txt || true
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(data): auto-update market digest [skip ci]" && git push)
+
