@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T00:06:32.594420+00:00",
+  "generated_at": "2026-10-21T04:42:00.048936+00:00",
   "region": "RU",
   "items": {
     "y3nmw": {
@@ -8,106 +8,74 @@
       "category": "other",
       "rank": "RANK_MASTER",
       "icon_path": "/icons/other/y3nmw.png",
-      "total_active_lots": 855,
+      "total_active_lots": 744,
       "segments": {
         "default": {
           "label": "Стандарт",
-          "median": 48000.0,
-          "p25": 47000.0,
-          "p75": 49242.0,
-          "iqr": 2242.0,
-          "units_per_day": 260.0,
+          "median": 49000.0,
+          "p25": 47718.0,
+          "p75": 53000.0,
+          "iqr": 5282.0,
+          "units_per_day": 397.0,
           "trend": "flat",
-          "volatility": 2.1,
+          "volatility": 5.1,
           "sample_size": 200,
-          "min_buyout": 49999.0,
-          "buy_max_unit": 40591.0
+          "min_buyout": 49000.0,
+          "buy_max_unit": 41211.0
         }
       },
       "active_lots": [
         {
-          "buyout_price": 49999,
-          "unit_buyout": 49999.0,
+          "buyout_price": 49000,
+          "unit_buyout": 49000.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 49999,
-          "unit_buyout": 49999.0,
+          "buyout_price": 49000,
+          "unit_buyout": 49000.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 49999,
-          "unit_buyout": 49999.0,
+          "buyout_price": 49000,
+          "unit_buyout": 49000.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 49999,
-          "unit_buyout": 49999.0,
+          "buyout_price": 49000,
+          "unit_buyout": 49000.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 49999,
-          "unit_buyout": 49999.0,
+          "buyout_price": 49000,
+          "unit_buyout": 49000.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 49999,
-          "unit_buyout": 49999.0,
+          "buyout_price": 49000,
+          "unit_buyout": 49000.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 49999,
-          "unit_buyout": 49999.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "default",
-          "segment_label": "Стандарт"
-        },
-        {
-          "buyout_price": 49999,
-          "unit_buyout": 49999.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "default",
-          "segment_label": "Стандарт"
-        },
-        {
-          "buyout_price": 49999,
-          "unit_buyout": 49999.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "default",
-          "segment_label": "Стандарт"
-        },
-        {
-          "buyout_price": 49999,
-          "unit_buyout": 49999.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "default",
-          "segment_label": "Стандарт"
-        },
-        {
-          "buyout_price": 49999,
-          "unit_buyout": 49999.0,
+          "buyout_price": 49000,
+          "unit_buyout": 49000.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
@@ -141,7 +109,7 @@
           "buyout_price": 50000,
           "unit_buyout": 50000.0,
           "amount": 1,
-          "start_price": 0,
+          "start_price": 45000,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
@@ -149,7 +117,7 @@
           "buyout_price": 50000,
           "unit_buyout": 50000.0,
           "amount": 1,
-          "start_price": 0,
+          "start_price": 45000,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
@@ -157,7 +125,7 @@
           "buyout_price": 50000,
           "unit_buyout": 50000.0,
           "amount": 1,
-          "start_price": 0,
+          "start_price": 45000,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
@@ -165,7 +133,7 @@
           "buyout_price": 50000,
           "unit_buyout": 50000.0,
           "amount": 1,
-          "start_price": 0,
+          "start_price": 45000,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
@@ -173,392 +141,392 @@
           "buyout_price": 50000,
           "unit_buyout": 50000.0,
           "amount": 1,
-          "start_price": 0,
+          "start_price": 45000,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 52000,
-          "unit_buyout": 52000.0,
+          "buyout_price": 50000,
+          "unit_buyout": 50000.0,
           "amount": 1,
-          "start_price": 0,
+          "start_price": 45000,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 52000,
-          "unit_buyout": 52000.0,
+          "buyout_price": 50000,
+          "unit_buyout": 50000.0,
           "amount": 1,
-          "start_price": 0,
+          "start_price": 45000,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 52000,
-          "unit_buyout": 52000.0,
+          "buyout_price": 50000,
+          "unit_buyout": 50000.0,
           "amount": 1,
-          "start_price": 0,
+          "start_price": 45000,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 52000,
-          "unit_buyout": 52000.0,
+          "buyout_price": 50000,
+          "unit_buyout": 50000.0,
           "amount": 1,
-          "start_price": 0,
+          "start_price": 45000,
           "segment_key": "default",
           "segment_label": "Стандарт"
         }
       ],
       "recent_sales": [
         {
-          "price": 1900000,
-          "unit_price": 61290.0,
-          "amount": 31,
-          "sold_at": "21.10 00:03",
-          "segment_key": "default"
-        },
-        {
-          "price": 1400000,
-          "unit_price": 56000.0,
-          "amount": 25,
-          "sold_at": "21.10 00:03",
-          "segment_key": "default"
-        },
-        {
-          "price": 1999909,
-          "unit_price": 66664.0,
-          "amount": 30,
-          "sold_at": "21.10 00:03",
-          "segment_key": "default"
-        },
-        {
-          "price": 1899999,
-          "unit_price": 63333.0,
-          "amount": 30,
-          "sold_at": "21.10 00:02",
-          "segment_key": "default"
-        },
-        {
-          "price": 52000,
-          "unit_price": 52000.0,
+          "price": 44000,
+          "unit_price": 44000.0,
           "amount": 1,
-          "sold_at": "20.10 23:56",
+          "sold_at": "21.10 04:40",
           "segment_key": "default"
         },
         {
-          "price": 50000,
-          "unit_price": 50000.0,
+          "price": 48500,
+          "unit_price": 48500.0,
           "amount": 1,
-          "sold_at": "20.10 23:56",
+          "sold_at": "21.10 04:39",
+          "segment_key": "default"
+        },
+        {
+          "price": 2560000,
+          "unit_price": 55652.0,
+          "amount": 46,
+          "sold_at": "21.10 04:39",
+          "segment_key": "default"
+        },
+        {
+          "price": 48500,
+          "unit_price": 48500.0,
+          "amount": 1,
+          "sold_at": "21.10 04:39",
+          "segment_key": "default"
+        },
+        {
+          "price": 49000,
+          "unit_price": 49000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:36",
+          "segment_key": "default"
+        },
+        {
+          "price": 49000,
+          "unit_price": 49000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:36",
+          "segment_key": "default"
+        },
+        {
+          "price": 49999,
+          "unit_price": 49999.0,
+          "amount": 1,
+          "sold_at": "21.10 04:35",
+          "segment_key": "default"
+        },
+        {
+          "price": 48000,
+          "unit_price": 48000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:34",
+          "segment_key": "default"
+        },
+        {
+          "price": 49000,
+          "unit_price": 49000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:34",
+          "segment_key": "default"
+        },
+        {
+          "price": 49000,
+          "unit_price": 49000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:33",
+          "segment_key": "default"
+        },
+        {
+          "price": 49000,
+          "unit_price": 49000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:32",
+          "segment_key": "default"
+        },
+        {
+          "price": 49000,
+          "unit_price": 49000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:32",
+          "segment_key": "default"
+        },
+        {
+          "price": 49000,
+          "unit_price": 49000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:31",
+          "segment_key": "default"
+        },
+        {
+          "price": 49000,
+          "unit_price": 49000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:30",
+          "segment_key": "default"
+        },
+        {
+          "price": 66000,
+          "unit_price": 66000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:30",
           "segment_key": "default"
         },
         {
           "price": 45000,
           "unit_price": 45000.0,
           "amount": 1,
-          "sold_at": "20.10 23:54",
+          "sold_at": "21.10 04:30",
           "segment_key": "default"
         },
         {
-          "price": 45000,
-          "unit_price": 45000.0,
+          "price": 49000,
+          "unit_price": 49000.0,
           "amount": 1,
-          "sold_at": "20.10 23:54",
+          "sold_at": "21.10 04:29",
           "segment_key": "default"
         },
         {
-          "price": 49999,
-          "unit_price": 49999.0,
+          "price": 49000,
+          "unit_price": 49000.0,
           "amount": 1,
-          "sold_at": "20.10 23:53",
+          "sold_at": "21.10 04:28",
           "segment_key": "default"
         },
         {
-          "price": 49999,
-          "unit_price": 49999.0,
-          "amount": 1,
-          "sold_at": "20.10 23:53",
-          "segment_key": "default"
-        },
-        {
-          "price": 49999,
-          "unit_price": 49999.0,
-          "amount": 1,
-          "sold_at": "20.10 23:53",
-          "segment_key": "default"
-        },
-        {
-          "price": 49999,
-          "unit_price": 49999.0,
-          "amount": 1,
-          "sold_at": "20.10 23:53",
-          "segment_key": "default"
-        },
-        {
-          "price": 49999,
-          "unit_price": 49999.0,
-          "amount": 1,
-          "sold_at": "20.10 23:53",
-          "segment_key": "default"
-        },
-        {
-          "price": 49999,
-          "unit_price": 49999.0,
-          "amount": 1,
-          "sold_at": "20.10 23:53",
-          "segment_key": "default"
-        },
-        {
-          "price": 49500,
-          "unit_price": 49500.0,
-          "amount": 1,
-          "sold_at": "20.10 23:53",
-          "segment_key": "default"
-        },
-        {
-          "price": 49999,
-          "unit_price": 49999.0,
-          "amount": 1,
-          "sold_at": "20.10 23:53",
-          "segment_key": "default"
-        },
-        {
-          "price": 49500,
-          "unit_price": 49500.0,
-          "amount": 1,
-          "sold_at": "20.10 23:53",
-          "segment_key": "default"
-        },
-        {
-          "price": 48400,
-          "unit_price": 48400.0,
-          "amount": 1,
-          "sold_at": "20.10 23:53",
-          "segment_key": "default"
-        },
-        {
-          "price": 48888,
-          "unit_price": 48888.0,
-          "amount": 1,
-          "sold_at": "20.10 23:53",
-          "segment_key": "default"
-        },
-        {
-          "price": 49999,
-          "unit_price": 49999.0,
-          "amount": 1,
-          "sold_at": "20.10 23:52",
-          "segment_key": "default"
-        },
-        {
-          "price": 530000,
-          "unit_price": 53000.0,
-          "amount": 10,
-          "sold_at": "20.10 23:52",
-          "segment_key": "default"
-        },
-        {
-          "price": 46000,
-          "unit_price": 46000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:52",
-          "segment_key": "default"
-        },
-        {
-          "price": 3349000,
-          "unit_price": 66980.0,
-          "amount": 50,
-          "sold_at": "20.10 23:51",
-          "segment_key": "default"
-        },
-        {
-          "price": 47000,
-          "unit_price": 47000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:51",
-          "segment_key": "default"
-        },
-        {
-          "price": 47000,
-          "unit_price": 47000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:51",
-          "segment_key": "default"
-        },
-        {
-          "price": 47000,
-          "unit_price": 47000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:51",
-          "segment_key": "default"
-        },
-        {
-          "price": 46000,
-          "unit_price": 46000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:51",
-          "segment_key": "default"
-        },
-        {
-          "price": 46000,
-          "unit_price": 46000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:51",
-          "segment_key": "default"
-        },
-        {
-          "price": 45000,
-          "unit_price": 45000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:51",
-          "segment_key": "default"
-        },
-        {
-          "price": 46000,
-          "unit_price": 46000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:51",
-          "segment_key": "default"
-        },
-        {
-          "price": 3200000,
-          "unit_price": 64000.0,
-          "amount": 50,
-          "sold_at": "20.10 23:51",
-          "segment_key": "default"
-        },
-        {
-          "price": 43000,
-          "unit_price": 43000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:50",
-          "segment_key": "default"
-        },
-        {
-          "price": 90000,
-          "unit_price": 45000.0,
+          "price": 107000,
+          "unit_price": 53500.0,
           "amount": 2,
-          "sold_at": "20.10 23:50",
+          "sold_at": "21.10 04:28",
+          "segment_key": "default"
+        },
+        {
+          "price": 109000,
+          "unit_price": 54500.0,
+          "amount": 2,
+          "sold_at": "21.10 04:28",
+          "segment_key": "default"
+        },
+        {
+          "price": 109999,
+          "unit_price": 55000.0,
+          "amount": 2,
+          "sold_at": "21.10 04:28",
+          "segment_key": "default"
+        },
+        {
+          "price": 109000,
+          "unit_price": 54500.0,
+          "amount": 2,
+          "sold_at": "21.10 04:28",
           "segment_key": "default"
         },
         {
           "price": 45000,
           "unit_price": 45000.0,
           "amount": 1,
-          "sold_at": "20.10 23:49",
+          "sold_at": "21.10 04:28",
           "segment_key": "default"
         },
         {
-          "price": 3348000,
-          "unit_price": 66960.0,
-          "amount": 50,
-          "sold_at": "20.10 23:46",
+          "price": 109000,
+          "unit_price": 54500.0,
+          "amount": 2,
+          "sold_at": "21.10 04:28",
           "segment_key": "default"
         },
         {
-          "price": 470000,
-          "unit_price": 47000.0,
-          "amount": 10,
-          "sold_at": "20.10 23:43",
-          "segment_key": "default"
-        },
-        {
-          "price": 48888,
-          "unit_price": 48888.0,
+          "price": 45000,
+          "unit_price": 45000.0,
           "amount": 1,
-          "sold_at": "20.10 23:42",
+          "sold_at": "21.10 04:28",
           "segment_key": "default"
         },
         {
-          "price": 49999,
-          "unit_price": 49999.0,
-          "amount": 1,
-          "sold_at": "20.10 23:42",
+          "price": 109000,
+          "unit_price": 54500.0,
+          "amount": 2,
+          "sold_at": "21.10 04:28",
           "segment_key": "default"
         },
         {
-          "price": 49999,
-          "unit_price": 49999.0,
+          "price": 45000,
+          "unit_price": 45000.0,
           "amount": 1,
-          "sold_at": "20.10 23:42",
+          "sold_at": "21.10 04:28",
           "segment_key": "default"
         },
         {
-          "price": 49999,
-          "unit_price": 49999.0,
+          "price": 44000,
+          "unit_price": 44000.0,
           "amount": 1,
-          "sold_at": "20.10 23:42",
+          "sold_at": "21.10 04:27",
           "segment_key": "default"
         },
         {
-          "price": 49999,
-          "unit_price": 49999.0,
+          "price": 65000,
+          "unit_price": 65000.0,
           "amount": 1,
-          "sold_at": "20.10 23:42",
+          "sold_at": "21.10 04:26",
           "segment_key": "default"
         },
         {
-          "price": 48888,
-          "unit_price": 48888.0,
+          "price": 60000,
+          "unit_price": 60000.0,
           "amount": 1,
-          "sold_at": "20.10 23:42",
+          "sold_at": "21.10 04:24",
           "segment_key": "default"
         },
         {
-          "price": 48888,
-          "unit_price": 48888.0,
+          "price": 60000,
+          "unit_price": 60000.0,
           "amount": 1,
-          "sold_at": "20.10 23:42",
+          "sold_at": "21.10 04:24",
           "segment_key": "default"
         },
         {
-          "price": 48888,
-          "unit_price": 48888.0,
+          "price": 60000,
+          "unit_price": 60000.0,
           "amount": 1,
-          "sold_at": "20.10 23:42",
+          "sold_at": "21.10 04:24",
           "segment_key": "default"
         },
         {
-          "price": 49500,
-          "unit_price": 49500.0,
+          "price": 60000,
+          "unit_price": 60000.0,
           "amount": 1,
-          "sold_at": "20.10 23:42",
+          "sold_at": "21.10 04:24",
           "segment_key": "default"
         },
         {
-          "price": 48888,
-          "unit_price": 48888.0,
+          "price": 60000,
+          "unit_price": 60000.0,
           "amount": 1,
-          "sold_at": "20.10 23:42",
+          "sold_at": "21.10 04:23",
           "segment_key": "default"
         },
         {
-          "price": 49500,
-          "unit_price": 49500.0,
+          "price": 60000,
+          "unit_price": 60000.0,
           "amount": 1,
-          "sold_at": "20.10 23:42",
+          "sold_at": "21.10 04:23",
           "segment_key": "default"
         },
         {
-          "price": 48888,
-          "unit_price": 48888.0,
+          "price": 60000,
+          "unit_price": 60000.0,
           "amount": 1,
-          "sold_at": "20.10 23:42",
+          "sold_at": "21.10 04:23",
           "segment_key": "default"
         },
         {
-          "price": 48400,
-          "unit_price": 48400.0,
+          "price": 60000,
+          "unit_price": 60000.0,
           "amount": 1,
-          "sold_at": "20.10 23:42",
+          "sold_at": "21.10 04:23",
           "segment_key": "default"
         },
         {
-          "price": 48888,
-          "unit_price": 48888.0,
+          "price": 60000,
+          "unit_price": 60000.0,
           "amount": 1,
-          "sold_at": "20.10 23:42",
+          "sold_at": "21.10 04:23",
+          "segment_key": "default"
+        },
+        {
+          "price": 60000,
+          "unit_price": 60000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:23",
+          "segment_key": "default"
+        },
+        {
+          "price": 49000,
+          "unit_price": 49000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:23",
+          "segment_key": "default"
+        },
+        {
+          "price": 48999,
+          "unit_price": 48999.0,
+          "amount": 1,
+          "sold_at": "21.10 04:22",
+          "segment_key": "default"
+        },
+        {
+          "price": 49000,
+          "unit_price": 49000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:22",
+          "segment_key": "default"
+        },
+        {
+          "price": 48000,
+          "unit_price": 48000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:21",
+          "segment_key": "default"
+        },
+        {
+          "price": 45000,
+          "unit_price": 45000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:20",
+          "segment_key": "default"
+        },
+        {
+          "price": 47999,
+          "unit_price": 47999.0,
+          "amount": 1,
+          "sold_at": "21.10 04:20",
+          "segment_key": "default"
+        },
+        {
+          "price": 45000,
+          "unit_price": 45000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:20",
+          "segment_key": "default"
+        },
+        {
+          "price": 45000,
+          "unit_price": 45000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:20",
+          "segment_key": "default"
+        },
+        {
+          "price": 45000,
+          "unit_price": 45000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:20",
+          "segment_key": "default"
+        },
+        {
+          "price": 45000,
+          "unit_price": 45000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:20",
+          "segment_key": "default"
+        },
+        {
+          "price": 45000,
+          "unit_price": 45000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:19",
           "segment_key": "default"
         }
       ]
@@ -569,613 +537,613 @@
       "category": "other",
       "rank": "RANK_MASTER",
       "icon_path": "/icons/other/4q7pl.png",
-      "total_active_lots": 611,
+      "total_active_lots": 579,
       "segments": {
         "default": {
           "label": "Стандарт",
-          "median": 50000.0,
-          "p25": 49000.0,
+          "median": 49999.0,
+          "p25": 47500.0,
           "p75": 52000.0,
-          "iqr": 3000.0,
-          "units_per_day": 366.0,
+          "iqr": 4500.0,
+          "units_per_day": 378.0,
           "trend": "flat",
-          "volatility": 2.0,
+          "volatility": 4.0,
           "sample_size": 200,
-          "min_buyout": 54000.0,
-          "buy_max_unit": 42318.0
+          "min_buyout": 49000.0,
+          "buy_max_unit": 41023.0
         }
       },
       "active_lots": [
         {
-          "buyout_price": 54000,
-          "unit_buyout": 54000.0,
+          "buyout_price": 49000,
+          "unit_buyout": 49000.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 54900,
-          "unit_buyout": 54900.0,
+          "buyout_price": 49999,
+          "unit_buyout": 49999.0,
+          "amount": 1,
+          "start_price": 49000,
+          "segment_key": "default",
+          "segment_label": "Стандарт"
+        },
+        {
+          "buyout_price": 49999,
+          "unit_buyout": 49999.0,
+          "amount": 1,
+          "start_price": 49000,
+          "segment_key": "default",
+          "segment_label": "Стандарт"
+        },
+        {
+          "buyout_price": 49999,
+          "unit_buyout": 49999.0,
+          "amount": 1,
+          "start_price": 49000,
+          "segment_key": "default",
+          "segment_label": "Стандарт"
+        },
+        {
+          "buyout_price": 49999,
+          "unit_buyout": 49999.0,
+          "amount": 1,
+          "start_price": 49000,
+          "segment_key": "default",
+          "segment_label": "Стандарт"
+        },
+        {
+          "buyout_price": 49999,
+          "unit_buyout": 49999.0,
+          "amount": 1,
+          "start_price": 49000,
+          "segment_key": "default",
+          "segment_label": "Стандарт"
+        },
+        {
+          "buyout_price": 49999,
+          "unit_buyout": 49999.0,
+          "amount": 1,
+          "start_price": 49000,
+          "segment_key": "default",
+          "segment_label": "Стандарт"
+        },
+        {
+          "buyout_price": 49999,
+          "unit_buyout": 49999.0,
+          "amount": 1,
+          "start_price": 49000,
+          "segment_key": "default",
+          "segment_label": "Стандарт"
+        },
+        {
+          "buyout_price": 49999,
+          "unit_buyout": 49999.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 54900,
-          "unit_buyout": 54900.0,
+          "buyout_price": 49999,
+          "unit_buyout": 49999.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 54949,
-          "unit_buyout": 54949.0,
+          "buyout_price": 50000,
+          "unit_buyout": 50000.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 54949,
-          "unit_buyout": 54949.0,
+          "buyout_price": 51000,
+          "unit_buyout": 51000.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 54999,
-          "unit_buyout": 54999.0,
+          "buyout_price": 51000,
+          "unit_buyout": 51000.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 54999,
-          "unit_buyout": 54999.0,
+          "buyout_price": 51000,
+          "unit_buyout": 51000.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 54999,
-          "unit_buyout": 54999.0,
+          "buyout_price": 51000,
+          "unit_buyout": 51000.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 54999,
-          "unit_buyout": 54999.0,
+          "buyout_price": 52000,
+          "unit_buyout": 52000.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 54999,
-          "unit_buyout": 54999.0,
+          "buyout_price": 52900,
+          "unit_buyout": 52900.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 54999,
-          "unit_buyout": 54999.0,
+          "buyout_price": 52900,
+          "unit_buyout": 52900.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 54999,
-          "unit_buyout": 54999.0,
+          "buyout_price": 52900,
+          "unit_buyout": 52900.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 54999,
-          "unit_buyout": 54999.0,
+          "buyout_price": 52900,
+          "unit_buyout": 52900.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 54999,
-          "unit_buyout": 54999.0,
+          "buyout_price": 52900,
+          "unit_buyout": 52900.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 54999,
-          "unit_buyout": 54999.0,
+          "buyout_price": 52900,
+          "unit_buyout": 52900.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 55000,
-          "unit_buyout": 55000.0,
+          "buyout_price": 52900,
+          "unit_buyout": 52900.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 55000,
-          "unit_buyout": 55000.0,
+          "buyout_price": 52900,
+          "unit_buyout": 52900.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 55000,
-          "unit_buyout": 55000.0,
+          "buyout_price": 52900,
+          "unit_buyout": 52900.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 55000,
-          "unit_buyout": 55000.0,
+          "buyout_price": 52900,
+          "unit_buyout": 52900.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 55000,
-          "unit_buyout": 55000.0,
+          "buyout_price": 52900,
+          "unit_buyout": 52900.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 55000,
-          "unit_buyout": 55000.0,
+          "buyout_price": 52999,
+          "unit_buyout": 52999.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 55000,
-          "unit_buyout": 55000.0,
+          "buyout_price": 53000,
+          "unit_buyout": 53000.0,
           "amount": 1,
-          "start_price": 0,
+          "start_price": 30000,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 55000,
-          "unit_buyout": 55000.0,
+          "buyout_price": 53000,
+          "unit_buyout": 53000.0,
           "amount": 1,
-          "start_price": 0,
-          "segment_key": "default",
-          "segment_label": "Стандарт"
-        },
-        {
-          "buyout_price": 55000,
-          "unit_buyout": 55000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "default",
-          "segment_label": "Стандарт"
-        },
-        {
-          "buyout_price": 55000,
-          "unit_buyout": 55000.0,
-          "amount": 1,
-          "start_price": 1,
-          "segment_key": "default",
-          "segment_label": "Стандарт"
-        },
-        {
-          "buyout_price": 55000,
-          "unit_buyout": 55000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "default",
-          "segment_label": "Стандарт"
-        },
-        {
-          "buyout_price": 55000,
-          "unit_buyout": 55000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "default",
-          "segment_label": "Стандарт"
-        },
-        {
-          "buyout_price": 55000,
-          "unit_buyout": 55000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "default",
-          "segment_label": "Стандарт"
-        },
-        {
-          "buyout_price": 55000,
-          "unit_buyout": 55000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "default",
-          "segment_label": "Стандарт"
-        },
-        {
-          "buyout_price": 55000,
-          "unit_buyout": 55000.0,
-          "amount": 1,
-          "start_price": 0,
+          "start_price": 30000,
           "segment_key": "default",
           "segment_label": "Стандарт"
         }
       ],
       "recent_sales": [
         {
-          "price": 1850000,
-          "unit_price": 61667.0,
-          "amount": 30,
-          "sold_at": "21.10 00:03",
+          "price": 42000,
+          "unit_price": 42000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:36",
+          "segment_key": "default"
+        },
+        {
+          "price": 49000,
+          "unit_price": 49000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:30",
+          "segment_key": "default"
+        },
+        {
+          "price": 49000,
+          "unit_price": 49000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:30",
+          "segment_key": "default"
+        },
+        {
+          "price": 49000,
+          "unit_price": 49000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:30",
+          "segment_key": "default"
+        },
+        {
+          "price": 49000,
+          "unit_price": 49000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:30",
+          "segment_key": "default"
+        },
+        {
+          "price": 49000,
+          "unit_price": 49000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:30",
+          "segment_key": "default"
+        },
+        {
+          "price": 49000,
+          "unit_price": 49000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:30",
+          "segment_key": "default"
+        },
+        {
+          "price": 49000,
+          "unit_price": 49000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:30",
+          "segment_key": "default"
+        },
+        {
+          "price": 49000,
+          "unit_price": 49000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:30",
+          "segment_key": "default"
+        },
+        {
+          "price": 49000,
+          "unit_price": 49000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:30",
+          "segment_key": "default"
+        },
+        {
+          "price": 49000,
+          "unit_price": 49000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:30",
+          "segment_key": "default"
+        },
+        {
+          "price": 48999,
+          "unit_price": 48999.0,
+          "amount": 1,
+          "sold_at": "21.10 04:30",
+          "segment_key": "default"
+        },
+        {
+          "price": 49000,
+          "unit_price": 49000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:30",
+          "segment_key": "default"
+        },
+        {
+          "price": 48999,
+          "unit_price": 48999.0,
+          "amount": 1,
+          "sold_at": "21.10 04:30",
+          "segment_key": "default"
+        },
+        {
+          "price": 48880,
+          "unit_price": 48880.0,
+          "amount": 1,
+          "sold_at": "21.10 04:30",
+          "segment_key": "default"
+        },
+        {
+          "price": 48000,
+          "unit_price": 48000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:30",
+          "segment_key": "default"
+        },
+        {
+          "price": 48000,
+          "unit_price": 48000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:29",
+          "segment_key": "default"
+        },
+        {
+          "price": 47770,
+          "unit_price": 47770.0,
+          "amount": 1,
+          "sold_at": "21.10 04:29",
+          "segment_key": "default"
+        },
+        {
+          "price": 47770,
+          "unit_price": 47770.0,
+          "amount": 1,
+          "sold_at": "21.10 04:29",
+          "segment_key": "default"
+        },
+        {
+          "price": 43000,
+          "unit_price": 43000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:27",
+          "segment_key": "default"
+        },
+        {
+          "price": 544444,
+          "unit_price": 54444.0,
+          "amount": 10,
+          "sold_at": "21.10 04:24",
+          "segment_key": "default"
+        },
+        {
+          "price": 540000,
+          "unit_price": 54000.0,
+          "amount": 10,
+          "sold_at": "21.10 04:24",
+          "segment_key": "default"
+        },
+        {
+          "price": 520000,
+          "unit_price": 52000.0,
+          "amount": 10,
+          "sold_at": "21.10 04:24",
+          "segment_key": "default"
+        },
+        {
+          "price": 45500,
+          "unit_price": 45500.0,
+          "amount": 1,
+          "sold_at": "21.10 04:23",
+          "segment_key": "default"
+        },
+        {
+          "price": 45000,
+          "unit_price": 45000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:23",
+          "segment_key": "default"
+        },
+        {
+          "price": 42000,
+          "unit_price": 42000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:23",
+          "segment_key": "default"
+        },
+        {
+          "price": 45000,
+          "unit_price": 45000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:22",
+          "segment_key": "default"
+        },
+        {
+          "price": 49999,
+          "unit_price": 49999.0,
+          "amount": 1,
+          "sold_at": "21.10 04:22",
+          "segment_key": "default"
+        },
+        {
+          "price": 49100,
+          "unit_price": 49100.0,
+          "amount": 1,
+          "sold_at": "21.10 04:22",
+          "segment_key": "default"
+        },
+        {
+          "price": 44999,
+          "unit_price": 44999.0,
+          "amount": 1,
+          "sold_at": "21.10 04:21",
+          "segment_key": "default"
+        },
+        {
+          "price": 45000,
+          "unit_price": 45000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:20",
+          "segment_key": "default"
+        },
+        {
+          "price": 45000,
+          "unit_price": 45000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:20",
+          "segment_key": "default"
+        },
+        {
+          "price": 48999,
+          "unit_price": 48999.0,
+          "amount": 1,
+          "sold_at": "21.10 04:20",
+          "segment_key": "default"
+        },
+        {
+          "price": 96000,
+          "unit_price": 48000.0,
+          "amount": 2,
+          "sold_at": "21.10 04:19",
+          "segment_key": "default"
+        },
+        {
+          "price": 48880,
+          "unit_price": 48880.0,
+          "amount": 1,
+          "sold_at": "21.10 04:19",
+          "segment_key": "default"
+        },
+        {
+          "price": 48000,
+          "unit_price": 48000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:19",
+          "segment_key": "default"
+        },
+        {
+          "price": 47999,
+          "unit_price": 47999.0,
+          "amount": 1,
+          "sold_at": "21.10 04:19",
+          "segment_key": "default"
+        },
+        {
+          "price": 47500,
+          "unit_price": 47500.0,
+          "amount": 1,
+          "sold_at": "21.10 04:19",
+          "segment_key": "default"
+        },
+        {
+          "price": 46000,
+          "unit_price": 46000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:19",
+          "segment_key": "default"
+        },
+        {
+          "price": 45000,
+          "unit_price": 45000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:19",
+          "segment_key": "default"
+        },
+        {
+          "price": 47500,
+          "unit_price": 47500.0,
+          "amount": 1,
+          "sold_at": "21.10 04:19",
+          "segment_key": "default"
+        },
+        {
+          "price": 46000,
+          "unit_price": 46000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:19",
+          "segment_key": "default"
+        },
+        {
+          "price": 45000,
+          "unit_price": 45000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:19",
+          "segment_key": "default"
+        },
+        {
+          "price": 45000,
+          "unit_price": 45000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:18",
+          "segment_key": "default"
+        },
+        {
+          "price": 46000,
+          "unit_price": 46000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:18",
+          "segment_key": "default"
+        },
+        {
+          "price": 45000,
+          "unit_price": 45000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:18",
+          "segment_key": "default"
+        },
+        {
+          "price": 45000,
+          "unit_price": 45000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:18",
+          "segment_key": "default"
+        },
+        {
+          "price": 47999,
+          "unit_price": 47999.0,
+          "amount": 1,
+          "sold_at": "21.10 04:18",
+          "segment_key": "default"
+        },
+        {
+          "price": 47999,
+          "unit_price": 47999.0,
+          "amount": 1,
+          "sold_at": "21.10 04:18",
           "segment_key": "default"
         },
         {
           "price": 2899999,
           "unit_price": 58000.0,
           "amount": 50,
-          "sold_at": "21.10 00:03",
-          "segment_key": "default"
-        },
-        {
-          "price": 54000,
-          "unit_price": 54000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:56",
-          "segment_key": "default"
-        },
-        {
-          "price": 54000,
-          "unit_price": 54000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:56",
-          "segment_key": "default"
-        },
-        {
-          "price": 54000,
-          "unit_price": 54000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:55",
-          "segment_key": "default"
-        },
-        {
-          "price": 53000,
-          "unit_price": 53000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:55",
-          "segment_key": "default"
-        },
-        {
-          "price": 54000,
-          "unit_price": 54000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:55",
-          "segment_key": "default"
-        },
-        {
-          "price": 52222,
-          "unit_price": 52222.0,
-          "amount": 1,
-          "sold_at": "20.10 23:54",
-          "segment_key": "default"
-        },
-        {
-          "price": 53000,
-          "unit_price": 53000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:54",
-          "segment_key": "default"
-        },
-        {
-          "price": 53000,
-          "unit_price": 53000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:54",
-          "segment_key": "default"
-        },
-        {
-          "price": 53000,
-          "unit_price": 53000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:54",
-          "segment_key": "default"
-        },
-        {
-          "price": 53000,
-          "unit_price": 53000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:54",
-          "segment_key": "default"
-        },
-        {
-          "price": 52222,
-          "unit_price": 52222.0,
-          "amount": 1,
-          "sold_at": "20.10 23:54",
-          "segment_key": "default"
-        },
-        {
-          "price": 52111,
-          "unit_price": 52111.0,
-          "amount": 1,
-          "sold_at": "20.10 23:54",
-          "segment_key": "default"
-        },
-        {
-          "price": 52000,
-          "unit_price": 52000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:54",
-          "segment_key": "default"
-        },
-        {
-          "price": 52000,
-          "unit_price": 52000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:54",
-          "segment_key": "default"
-        },
-        {
-          "price": 52000,
-          "unit_price": 52000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:54",
-          "segment_key": "default"
-        },
-        {
-          "price": 52000,
-          "unit_price": 52000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:54",
-          "segment_key": "default"
-        },
-        {
-          "price": 52000,
-          "unit_price": 52000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:53",
-          "segment_key": "default"
-        },
-        {
-          "price": 51111,
-          "unit_price": 51111.0,
-          "amount": 1,
-          "sold_at": "20.10 23:52",
-          "segment_key": "default"
-        },
-        {
-          "price": 52000,
-          "unit_price": 52000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:52",
-          "segment_key": "default"
-        },
-        {
-          "price": 51111,
-          "unit_price": 51111.0,
-          "amount": 1,
-          "sold_at": "20.10 23:52",
-          "segment_key": "default"
-        },
-        {
-          "price": 51000,
-          "unit_price": 51000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:52",
-          "segment_key": "default"
-        },
-        {
-          "price": 51000,
-          "unit_price": 51000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:52",
-          "segment_key": "default"
-        },
-        {
-          "price": 51000,
-          "unit_price": 51000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:52",
-          "segment_key": "default"
-        },
-        {
-          "price": 51000,
-          "unit_price": 51000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:52",
-          "segment_key": "default"
-        },
-        {
-          "price": 51000,
-          "unit_price": 51000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:52",
-          "segment_key": "default"
-        },
-        {
-          "price": 51000,
-          "unit_price": 51000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:52",
-          "segment_key": "default"
-        },
-        {
-          "price": 50000,
-          "unit_price": 50000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:52",
-          "segment_key": "default"
-        },
-        {
-          "price": 50000,
-          "unit_price": 50000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:52",
-          "segment_key": "default"
-        },
-        {
-          "price": 45000,
-          "unit_price": 45000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:52",
-          "segment_key": "default"
-        },
-        {
-          "price": 45000,
-          "unit_price": 45000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:52",
-          "segment_key": "default"
-        },
-        {
-          "price": 45000,
-          "unit_price": 45000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:52",
-          "segment_key": "default"
-        },
-        {
-          "price": 45000,
-          "unit_price": 45000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:52",
-          "segment_key": "default"
-        },
-        {
-          "price": 45000,
-          "unit_price": 45000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:52",
-          "segment_key": "default"
-        },
-        {
-          "price": 45000,
-          "unit_price": 45000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:51",
-          "segment_key": "default"
-        },
-        {
-          "price": 45000,
-          "unit_price": 45000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:51",
-          "segment_key": "default"
-        },
-        {
-          "price": 45000,
-          "unit_price": 45000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:51",
-          "segment_key": "default"
-        },
-        {
-          "price": 3999999,
-          "unit_price": 64516.0,
-          "amount": 62,
-          "sold_at": "20.10 23:48",
-          "segment_key": "default"
-        },
-        {
-          "price": 50000,
-          "unit_price": 50000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:47",
-          "segment_key": "default"
-        },
-        {
-          "price": 2890000,
-          "unit_price": 57800.0,
-          "amount": 50,
-          "sold_at": "20.10 23:46",
-          "segment_key": "default"
-        },
-        {
-          "price": 149998,
-          "unit_price": 49999.0,
-          "amount": 3,
-          "sold_at": "20.10 23:40",
-          "segment_key": "default"
-        },
-        {
-          "price": 143000,
-          "unit_price": 47667.0,
-          "amount": 3,
-          "sold_at": "20.10 23:39",
-          "segment_key": "default"
-        },
-        {
-          "price": 143000,
-          "unit_price": 47667.0,
-          "amount": 3,
-          "sold_at": "20.10 23:39",
-          "segment_key": "default"
-        },
-        {
-          "price": 45800,
-          "unit_price": 45800.0,
-          "amount": 1,
-          "sold_at": "20.10 23:39",
-          "segment_key": "default"
-        },
-        {
-          "price": 49500,
-          "unit_price": 49500.0,
-          "amount": 1,
-          "sold_at": "20.10 23:38",
-          "segment_key": "default"
-        },
-        {
-          "price": 340000,
-          "unit_price": 48571.0,
-          "amount": 7,
-          "sold_at": "20.10 23:36",
-          "segment_key": "default"
-        },
-        {
-          "price": 49999,
-          "unit_price": 49999.0,
-          "amount": 1,
-          "sold_at": "20.10 23:36",
-          "segment_key": "default"
-        },
-        {
-          "price": 49999,
-          "unit_price": 49999.0,
-          "amount": 1,
-          "sold_at": "20.10 23:36",
-          "segment_key": "default"
-        },
-        {
-          "price": 49999,
-          "unit_price": 49999.0,
-          "amount": 1,
-          "sold_at": "20.10 23:36",
+          "sold_at": "21.10 04:17",
           "segment_key": "default"
         }
       ]
@@ -1186,130 +1154,82 @@
       "category": "other",
       "rank": "RANK_STALKER",
       "icon_path": "/icons/other/l0og1.png",
-      "total_active_lots": 190,
+      "total_active_lots": 191,
       "segments": {
         "default": {
           "label": "Стандарт",
-          "median": 19700.0,
-          "p25": 19000.0,
-          "p75": 21000.0,
-          "iqr": 2000.0,
-          "units_per_day": 347.0,
+          "median": 19500.0,
+          "p25": 18500.0,
+          "p75": 20000.0,
+          "iqr": 1500.0,
+          "units_per_day": 229.0,
           "trend": "flat",
-          "volatility": 3.8,
+          "volatility": 2.6,
           "sample_size": 200,
-          "min_buyout": 18500.0,
-          "buy_max_unit": 16409.0
+          "min_buyout": 21110.0,
+          "buy_max_unit": 15977.0
         }
       },
       "active_lots": [
         {
-          "buyout_price": 18500,
-          "unit_buyout": 18500.0,
+          "buyout_price": 21110,
+          "unit_buyout": 21110.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 18500,
-          "unit_buyout": 18500.0,
+          "buyout_price": 21110,
+          "unit_buyout": 21110.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 18500,
-          "unit_buyout": 18500.0,
+          "buyout_price": 21110,
+          "unit_buyout": 21110.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 18500,
-          "unit_buyout": 18500.0,
+          "buyout_price": 21110,
+          "unit_buyout": 21110.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 18500,
-          "unit_buyout": 18500.0,
+          "buyout_price": 21110,
+          "unit_buyout": 21110.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 18900,
-          "unit_buyout": 18900.0,
+          "buyout_price": 21110,
+          "unit_buyout": 21110.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 18900,
-          "unit_buyout": 18900.0,
+          "buyout_price": 21200,
+          "unit_buyout": 21200.0,
           "amount": 1,
-          "start_price": 0,
+          "start_price": 1,
           "segment_key": "default",
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 19000,
-          "unit_buyout": 19000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "default",
-          "segment_label": "Стандарт"
-        },
-        {
-          "buyout_price": 19000,
-          "unit_buyout": 19000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "default",
-          "segment_label": "Стандарт"
-        },
-        {
-          "buyout_price": 19999,
-          "unit_buyout": 19999.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "default",
-          "segment_label": "Стандарт"
-        },
-        {
-          "buyout_price": 20000,
-          "unit_buyout": 20000.0,
-          "amount": 1,
-          "start_price": 19000,
-          "segment_key": "default",
-          "segment_label": "Стандарт"
-        },
-        {
-          "buyout_price": 20000,
-          "unit_buyout": 20000.0,
-          "amount": 1,
-          "start_price": 19000,
-          "segment_key": "default",
-          "segment_label": "Стандарт"
-        },
-        {
-          "buyout_price": 20000,
-          "unit_buyout": 20000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "default",
-          "segment_label": "Стандарт"
-        },
-        {
-          "buyout_price": 20000,
-          "unit_buyout": 20000.0,
+          "buyout_price": 21200,
+          "unit_buyout": 21200.0,
           "amount": 1,
           "start_price": 1,
           "segment_key": "default",
@@ -1326,22 +1246,6 @@
         {
           "buyout_price": 22000,
           "unit_buyout": 22000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "default",
-          "segment_label": "Стандарт"
-        },
-        {
-          "buyout_price": 22222,
-          "unit_buyout": 22222.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "default",
-          "segment_label": "Стандарт"
-        },
-        {
-          "buyout_price": 22222,
-          "unit_buyout": 22222.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
@@ -1380,6 +1284,30 @@
           "segment_label": "Стандарт"
         },
         {
+          "buyout_price": 23999,
+          "unit_buyout": 23999.0,
+          "amount": 1,
+          "start_price": 23000,
+          "segment_key": "default",
+          "segment_label": "Стандарт"
+        },
+        {
+          "buyout_price": 23999,
+          "unit_buyout": 23999.0,
+          "amount": 1,
+          "start_price": 23000,
+          "segment_key": "default",
+          "segment_label": "Стандарт"
+        },
+        {
+          "buyout_price": 23999,
+          "unit_buyout": 23999.0,
+          "amount": 1,
+          "start_price": 23000,
+          "segment_key": "default",
+          "segment_label": "Стандарт"
+        },
+        {
           "buyout_price": 24000,
           "unit_buyout": 24000.0,
           "amount": 1,
@@ -1440,359 +1368,399 @@
           "unit_buyout": 24444.0,
           "amount": 1,
           "start_price": 0,
+          "segment_key": "default",
+          "segment_label": "Стандарт"
+        },
+        {
+          "buyout_price": 24444,
+          "unit_buyout": 24444.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "default",
+          "segment_label": "Стандарт"
+        },
+        {
+          "buyout_price": 25000,
+          "unit_buyout": 25000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "default",
+          "segment_label": "Стандарт"
+        },
+        {
+          "buyout_price": 25000,
+          "unit_buyout": 25000.0,
+          "amount": 1,
+          "start_price": 20000,
+          "segment_key": "default",
+          "segment_label": "Стандарт"
+        },
+        {
+          "buyout_price": 25000,
+          "unit_buyout": 25000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "default",
+          "segment_label": "Стандарт"
+        },
+        {
+          "buyout_price": 25000,
+          "unit_buyout": 25000.0,
+          "amount": 1,
+          "start_price": 24999,
           "segment_key": "default",
           "segment_label": "Стандарт"
         }
       ],
       "recent_sales": [
         {
-          "price": 18000,
-          "unit_price": 18000.0,
+          "price": 20000,
+          "unit_price": 20000.0,
           "amount": 1,
-          "sold_at": "21.10 00:02",
+          "sold_at": "21.10 04:35",
           "segment_key": "default"
         },
         {
-          "price": 18000,
-          "unit_price": 18000.0,
-          "amount": 1,
-          "sold_at": "21.10 00:02",
+          "price": 230000,
+          "unit_price": 23000.0,
+          "amount": 10,
+          "sold_at": "21.10 04:35",
           "segment_key": "default"
         },
         {
-          "price": 18000,
-          "unit_price": 18000.0,
+          "price": 20000,
+          "unit_price": 20000.0,
           "amount": 1,
-          "sold_at": "21.10 00:02",
+          "sold_at": "21.10 04:33",
           "segment_key": "default"
         },
         {
-          "price": 18000,
-          "unit_price": 18000.0,
+          "price": 20000,
+          "unit_price": 20000.0,
           "amount": 1,
-          "sold_at": "21.10 00:02",
+          "sold_at": "21.10 04:33",
           "segment_key": "default"
         },
         {
-          "price": 17999,
-          "unit_price": 17999.0,
+          "price": 20000,
+          "unit_price": 20000.0,
           "amount": 1,
-          "sold_at": "20.10 23:59",
-          "segment_key": "default"
-        },
-        {
-          "price": 17999,
-          "unit_price": 17999.0,
-          "amount": 1,
-          "sold_at": "20.10 23:59",
-          "segment_key": "default"
-        },
-        {
-          "price": 17999,
-          "unit_price": 17999.0,
-          "amount": 1,
-          "sold_at": "20.10 23:59",
-          "segment_key": "default"
-        },
-        {
-          "price": 18900,
-          "unit_price": 18900.0,
-          "amount": 1,
-          "sold_at": "20.10 23:51",
-          "segment_key": "default"
-        },
-        {
-          "price": 19000,
-          "unit_price": 19000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:49",
-          "segment_key": "default"
-        },
-        {
-          "price": 19000,
-          "unit_price": 19000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:49",
-          "segment_key": "default"
-        },
-        {
-          "price": 19000,
-          "unit_price": 19000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:49",
-          "segment_key": "default"
-        },
-        {
-          "price": 19000,
-          "unit_price": 19000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:49",
-          "segment_key": "default"
-        },
-        {
-          "price": 19000,
-          "unit_price": 19000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:49",
-          "segment_key": "default"
-        },
-        {
-          "price": 19000,
-          "unit_price": 19000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:48",
-          "segment_key": "default"
-        },
-        {
-          "price": 19000,
-          "unit_price": 19000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:48",
-          "segment_key": "default"
-        },
-        {
-          "price": 19000,
-          "unit_price": 19000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:48",
-          "segment_key": "default"
-        },
-        {
-          "price": 19000,
-          "unit_price": 19000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:48",
-          "segment_key": "default"
-        },
-        {
-          "price": 19000,
-          "unit_price": 19000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:48",
-          "segment_key": "default"
-        },
-        {
-          "price": 19000,
-          "unit_price": 19000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:48",
-          "segment_key": "default"
-        },
-        {
-          "price": 19000,
-          "unit_price": 19000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:48",
-          "segment_key": "default"
-        },
-        {
-          "price": 18900,
-          "unit_price": 18900.0,
-          "amount": 1,
-          "sold_at": "20.10 23:48",
-          "segment_key": "default"
-        },
-        {
-          "price": 1280000,
-          "unit_price": 25600.0,
-          "amount": 50,
-          "sold_at": "20.10 23:47",
-          "segment_key": "default"
-        },
-        {
-          "price": 18000,
-          "unit_price": 18000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:44",
-          "segment_key": "default"
-        },
-        {
-          "price": 18000,
-          "unit_price": 18000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:41",
-          "segment_key": "default"
-        },
-        {
-          "price": 16000,
-          "unit_price": 16000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:39",
-          "segment_key": "default"
-        },
-        {
-          "price": 18000,
-          "unit_price": 18000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:39",
-          "segment_key": "default"
-        },
-        {
-          "price": 18000,
-          "unit_price": 18000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:39",
-          "segment_key": "default"
-        },
-        {
-          "price": 17000,
-          "unit_price": 17000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:38",
-          "segment_key": "default"
-        },
-        {
-          "price": 17000,
-          "unit_price": 17000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:37",
-          "segment_key": "default"
-        },
-        {
-          "price": 17000,
-          "unit_price": 17000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:37",
-          "segment_key": "default"
-        },
-        {
-          "price": 17000,
-          "unit_price": 17000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:37",
+          "sold_at": "21.10 04:33",
           "segment_key": "default"
         },
         {
           "price": 24000,
-          "unit_price": 24000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:35",
+          "unit_price": 12000.0,
+          "amount": 2,
+          "sold_at": "21.10 04:32",
           "segment_key": "default"
         },
         {
-          "price": 24790,
-          "unit_price": 24790.0,
-          "amount": 1,
-          "sold_at": "20.10 23:35",
+          "price": 60000,
+          "unit_price": 20000.0,
+          "amount": 3,
+          "sold_at": "21.10 04:23",
           "segment_key": "default"
         },
         {
-          "price": 24321,
-          "unit_price": 24321.0,
-          "amount": 1,
-          "sold_at": "20.10 23:35",
-          "segment_key": "default"
-        },
-        {
-          "price": 18000,
-          "unit_price": 18000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:35",
+          "price": 3000,
+          "unit_price": 1000.0,
+          "amount": 3,
+          "sold_at": "21.10 04:23",
           "segment_key": "default"
         },
         {
           "price": 18000,
           "unit_price": 18000.0,
           "amount": 1,
-          "sold_at": "20.10 23:35",
+          "sold_at": "21.10 04:23",
           "segment_key": "default"
         },
         {
-          "price": 2300000,
-          "unit_price": 23000.0,
-          "amount": 100,
-          "sold_at": "20.10 23:22",
-          "segment_key": "default"
-        },
-        {
-          "price": 17000,
-          "unit_price": 17000.0,
+          "price": 18000,
+          "unit_price": 18000.0,
           "amount": 1,
-          "sold_at": "20.10 23:17",
+          "sold_at": "21.10 04:23",
           "segment_key": "default"
         },
         {
-          "price": 23333,
-          "unit_price": 23333.0,
+          "price": 18000,
+          "unit_price": 18000.0,
           "amount": 1,
-          "sold_at": "20.10 23:15",
+          "sold_at": "21.10 04:23",
           "segment_key": "default"
         },
         {
-          "price": 23333,
-          "unit_price": 23333.0,
+          "price": 18000,
+          "unit_price": 18000.0,
           "amount": 1,
-          "sold_at": "20.10 23:15",
+          "sold_at": "21.10 04:23",
           "segment_key": "default"
         },
         {
-          "price": 23000,
-          "unit_price": 23000.0,
+          "price": 17999,
+          "unit_price": 17999.0,
           "amount": 1,
-          "sold_at": "20.10 23:15",
+          "sold_at": "21.10 04:23",
           "segment_key": "default"
         },
         {
-          "price": 22000,
-          "unit_price": 22000.0,
+          "price": 20000,
+          "unit_price": 20000.0,
           "amount": 1,
-          "sold_at": "20.10 23:14",
+          "sold_at": "21.10 04:20",
           "segment_key": "default"
         },
         {
-          "price": 22000,
-          "unit_price": 22000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:14",
+          "price": 220000,
+          "unit_price": 20000.0,
+          "amount": 11,
+          "sold_at": "21.10 04:13",
           "segment_key": "default"
         },
         {
-          "price": 238999,
-          "unit_price": 23900.0,
+          "price": 200000,
+          "unit_price": 20000.0,
           "amount": 10,
-          "sold_at": "20.10 23:14",
-          "segment_key": "default"
-        },
-        {
-          "price": 130000,
-          "unit_price": 21667.0,
-          "amount": 6,
-          "sold_at": "20.10 23:12",
+          "sold_at": "21.10 04:13",
           "segment_key": "default"
         },
         {
           "price": 20000,
           "unit_price": 20000.0,
           "amount": 1,
-          "sold_at": "20.10 23:10",
+          "sold_at": "21.10 04:12",
           "segment_key": "default"
         },
         {
           "price": 20000,
           "unit_price": 20000.0,
           "amount": 1,
-          "sold_at": "20.10 23:10",
+          "sold_at": "21.10 04:07",
           "segment_key": "default"
         },
         {
           "price": 20000,
           "unit_price": 20000.0,
           "amount": 1,
-          "sold_at": "20.10 23:10",
+          "sold_at": "21.10 04:06",
           "segment_key": "default"
         },
         {
           "price": 20000,
           "unit_price": 20000.0,
           "amount": 1,
-          "sold_at": "20.10 23:10",
+          "sold_at": "21.10 04:05",
           "segment_key": "default"
         },
         {
           "price": 20000,
           "unit_price": 20000.0,
           "amount": 1,
-          "sold_at": "20.10 23:10",
+          "sold_at": "21.10 04:05",
+          "segment_key": "default"
+        },
+        {
+          "price": 20000,
+          "unit_price": 20000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:05",
+          "segment_key": "default"
+        },
+        {
+          "price": 20500,
+          "unit_price": 20500.0,
+          "amount": 1,
+          "sold_at": "21.10 04:02",
+          "segment_key": "default"
+        },
+        {
+          "price": 20000,
+          "unit_price": 20000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:02",
+          "segment_key": "default"
+        },
+        {
+          "price": 20000,
+          "unit_price": 20000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:02",
+          "segment_key": "default"
+        },
+        {
+          "price": 20000,
+          "unit_price": 20000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:02",
+          "segment_key": "default"
+        },
+        {
+          "price": 20000,
+          "unit_price": 20000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:02",
+          "segment_key": "default"
+        },
+        {
+          "price": 20000,
+          "unit_price": 20000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:02",
+          "segment_key": "default"
+        },
+        {
+          "price": 20000,
+          "unit_price": 20000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:02",
+          "segment_key": "default"
+        },
+        {
+          "price": 20000,
+          "unit_price": 20000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:02",
+          "segment_key": "default"
+        },
+        {
+          "price": 20000,
+          "unit_price": 20000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:02",
+          "segment_key": "default"
+        },
+        {
+          "price": 20000,
+          "unit_price": 20000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:02",
+          "segment_key": "default"
+        },
+        {
+          "price": 20000,
+          "unit_price": 20000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:02",
+          "segment_key": "default"
+        },
+        {
+          "price": 19999,
+          "unit_price": 19999.0,
+          "amount": 1,
+          "sold_at": "21.10 04:02",
+          "segment_key": "default"
+        },
+        {
+          "price": 19998,
+          "unit_price": 19998.0,
+          "amount": 1,
+          "sold_at": "21.10 04:02",
+          "segment_key": "default"
+        },
+        {
+          "price": 20000,
+          "unit_price": 20000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:54",
+          "segment_key": "default"
+        },
+        {
+          "price": 20000,
+          "unit_price": 20000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:49",
+          "segment_key": "default"
+        },
+        {
+          "price": 20000,
+          "unit_price": 20000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:43",
+          "segment_key": "default"
+        },
+        {
+          "price": 14000,
+          "unit_price": 14000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:34",
+          "segment_key": "default"
+        },
+        {
+          "price": 220000,
+          "unit_price": 22000.0,
+          "amount": 10,
+          "sold_at": "21.10 03:27",
+          "segment_key": "default"
+        },
+        {
+          "price": 20500,
+          "unit_price": 20500.0,
+          "amount": 1,
+          "sold_at": "21.10 03:26",
+          "segment_key": "default"
+        },
+        {
+          "price": 20000,
+          "unit_price": 20000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:26",
+          "segment_key": "default"
+        },
+        {
+          "price": 20000,
+          "unit_price": 20000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:26",
+          "segment_key": "default"
+        },
+        {
+          "price": 19999,
+          "unit_price": 19999.0,
+          "amount": 1,
+          "sold_at": "21.10 03:24",
+          "segment_key": "default"
+        },
+        {
+          "price": 19999,
+          "unit_price": 19999.0,
+          "amount": 1,
+          "sold_at": "21.10 03:24",
+          "segment_key": "default"
+        },
+        {
+          "price": 19999,
+          "unit_price": 19999.0,
+          "amount": 1,
+          "sold_at": "21.10 03:24",
+          "segment_key": "default"
+        },
+        {
+          "price": 19999,
+          "unit_price": 19999.0,
+          "amount": 1,
+          "sold_at": "21.10 03:24",
+          "segment_key": "default"
+        },
+        {
+          "price": 19999,
+          "unit_price": 19999.0,
+          "amount": 1,
+          "sold_at": "21.10 03:24",
+          "segment_key": "default"
+        },
+        {
+          "price": 19999,
+          "unit_price": 19999.0,
+          "amount": 1,
+          "sold_at": "21.10 03:24",
+          "segment_key": "default"
+        },
+        {
+          "price": 19999,
+          "unit_price": 19999.0,
+          "amount": 1,
+          "sold_at": "21.10 03:24",
           "segment_key": "default"
         }
       ]
@@ -1803,17 +1771,17 @@
       "category": "other",
       "rank": "RANK_VETERAN",
       "icon_path": "/icons/other/zzwmm.png",
-      "total_active_lots": 155,
+      "total_active_lots": 126,
       "segments": {
         "default": {
           "label": "Стандарт",
-          "median": 305000.0,
+          "median": 310000.0,
           "p25": 300000.0,
-          "p75": 311000.0,
-          "iqr": 11000.0,
-          "units_per_day": 187.0,
+          "p75": 311111.0,
+          "iqr": 11111.0,
+          "units_per_day": 181.0,
           "trend": "flat",
-          "volatility": 1.6,
+          "volatility": 1.0,
           "sample_size": 200,
           "min_buyout": 310000.0,
           "buy_max_unit": 259091.0
@@ -1837,8 +1805,56 @@
           "segment_label": "Стандарт"
         },
         {
-          "buyout_price": 314000,
-          "unit_buyout": 314000.0,
+          "buyout_price": 310000,
+          "unit_buyout": 310000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "default",
+          "segment_label": "Стандарт"
+        },
+        {
+          "buyout_price": 310000,
+          "unit_buyout": 310000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "default",
+          "segment_label": "Стандарт"
+        },
+        {
+          "buyout_price": 310000,
+          "unit_buyout": 310000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "default",
+          "segment_label": "Стандарт"
+        },
+        {
+          "buyout_price": 310000,
+          "unit_buyout": 310000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "default",
+          "segment_label": "Стандарт"
+        },
+        {
+          "buyout_price": 310000,
+          "unit_buyout": 310000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "default",
+          "segment_label": "Стандарт"
+        },
+        {
+          "buyout_price": 313333,
+          "unit_buyout": 313333.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "default",
+          "segment_label": "Стандарт"
+        },
+        {
+          "buyout_price": 313333,
+          "unit_buyout": 313333.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
@@ -1855,46 +1871,6 @@
         {
           "buyout_price": 314000,
           "unit_buyout": 314000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "default",
-          "segment_label": "Стандарт"
-        },
-        {
-          "buyout_price": 314000,
-          "unit_buyout": 314000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "default",
-          "segment_label": "Стандарт"
-        },
-        {
-          "buyout_price": 314000,
-          "unit_buyout": 314000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "default",
-          "segment_label": "Стандарт"
-        },
-        {
-          "buyout_price": 314999,
-          "unit_buyout": 314999.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "default",
-          "segment_label": "Стандарт"
-        },
-        {
-          "buyout_price": 314999,
-          "unit_buyout": 314999.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "default",
-          "segment_label": "Стандарт"
-        },
-        {
-          "buyout_price": 314999,
-          "unit_buyout": 314999.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
@@ -1951,30 +1927,6 @@
         {
           "buyout_price": 319000,
           "unit_buyout": 319000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "default",
-          "segment_label": "Стандарт"
-        },
-        {
-          "buyout_price": 319000,
-          "unit_buyout": 319000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "default",
-          "segment_label": "Стандарт"
-        },
-        {
-          "buyout_price": 320000,
-          "unit_buyout": 320000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "default",
-          "segment_label": "Стандарт"
-        },
-        {
-          "buyout_price": 320000,
-          "unit_buyout": 320000.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "default",
@@ -2059,9 +2011,263 @@
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
+        },
+        {
+          "buyout_price": 325000,
+          "unit_buyout": 325000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "default",
+          "segment_label": "Стандарт"
+        },
+        {
+          "buyout_price": 325000,
+          "unit_buyout": 325000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "default",
+          "segment_label": "Стандарт"
         }
       ],
       "recent_sales": [
+        {
+          "price": 310000,
+          "unit_price": 310000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:39",
+          "segment_key": "default"
+        },
+        {
+          "price": 310000,
+          "unit_price": 310000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:36",
+          "segment_key": "default"
+        },
+        {
+          "price": 310000,
+          "unit_price": 310000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:36",
+          "segment_key": "default"
+        },
+        {
+          "price": 313333,
+          "unit_price": 313333.0,
+          "amount": 1,
+          "sold_at": "21.10 04:26",
+          "segment_key": "default"
+        },
+        {
+          "price": 313333,
+          "unit_price": 313333.0,
+          "amount": 1,
+          "sold_at": "21.10 04:25",
+          "segment_key": "default"
+        },
+        {
+          "price": 314999,
+          "unit_price": 314999.0,
+          "amount": 1,
+          "sold_at": "21.10 03:50",
+          "segment_key": "default"
+        },
+        {
+          "price": 314000,
+          "unit_price": 314000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:50",
+          "segment_key": "default"
+        },
+        {
+          "price": 314000,
+          "unit_price": 314000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:50",
+          "segment_key": "default"
+        },
+        {
+          "price": 314000,
+          "unit_price": 314000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:38",
+          "segment_key": "default"
+        },
+        {
+          "price": 3270000,
+          "unit_price": 327000.0,
+          "amount": 10,
+          "sold_at": "21.10 03:31",
+          "segment_key": "default"
+        },
+        {
+          "price": 310000,
+          "unit_price": 310000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:30",
+          "segment_key": "default"
+        },
+        {
+          "price": 310000,
+          "unit_price": 310000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:30",
+          "segment_key": "default"
+        },
+        {
+          "price": 310000,
+          "unit_price": 310000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:30",
+          "segment_key": "default"
+        },
+        {
+          "price": 310000,
+          "unit_price": 310000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:30",
+          "segment_key": "default"
+        },
+        {
+          "price": 310000,
+          "unit_price": 310000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:30",
+          "segment_key": "default"
+        },
+        {
+          "price": 310000,
+          "unit_price": 310000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:30",
+          "segment_key": "default"
+        },
+        {
+          "price": 310000,
+          "unit_price": 310000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:30",
+          "segment_key": "default"
+        },
+        {
+          "price": 310000,
+          "unit_price": 310000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:30",
+          "segment_key": "default"
+        },
+        {
+          "price": 310000,
+          "unit_price": 310000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:30",
+          "segment_key": "default"
+        },
+        {
+          "price": 310000,
+          "unit_price": 310000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:29",
+          "segment_key": "default"
+        },
+        {
+          "price": 309999,
+          "unit_price": 309999.0,
+          "amount": 1,
+          "sold_at": "21.10 03:29",
+          "segment_key": "default"
+        },
+        {
+          "price": 310000,
+          "unit_price": 310000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:29",
+          "segment_key": "default"
+        },
+        {
+          "price": 309999,
+          "unit_price": 309999.0,
+          "amount": 1,
+          "sold_at": "21.10 03:29",
+          "segment_key": "default"
+        },
+        {
+          "price": 309990,
+          "unit_price": 309990.0,
+          "amount": 1,
+          "sold_at": "21.10 03:29",
+          "segment_key": "default"
+        },
+        {
+          "price": 309999,
+          "unit_price": 309999.0,
+          "amount": 1,
+          "sold_at": "21.10 03:29",
+          "segment_key": "default"
+        },
+        {
+          "price": 309990,
+          "unit_price": 309990.0,
+          "amount": 1,
+          "sold_at": "21.10 03:29",
+          "segment_key": "default"
+        },
+        {
+          "price": 309990,
+          "unit_price": 309990.0,
+          "amount": 1,
+          "sold_at": "21.10 03:29",
+          "segment_key": "default"
+        },
+        {
+          "price": 309999,
+          "unit_price": 309999.0,
+          "amount": 1,
+          "sold_at": "21.10 01:49",
+          "segment_key": "default"
+        },
+        {
+          "price": 310000,
+          "unit_price": 310000.0,
+          "amount": 1,
+          "sold_at": "21.10 00:22",
+          "segment_key": "default"
+        },
+        {
+          "price": 295333,
+          "unit_price": 295333.0,
+          "amount": 1,
+          "sold_at": "21.10 00:22",
+          "segment_key": "default"
+        },
+        {
+          "price": 273333,
+          "unit_price": 273333.0,
+          "amount": 1,
+          "sold_at": "21.10 00:22",
+          "segment_key": "default"
+        },
+        {
+          "price": 310000,
+          "unit_price": 310000.0,
+          "amount": 1,
+          "sold_at": "21.10 00:12",
+          "segment_key": "default"
+        },
+        {
+          "price": 305000,
+          "unit_price": 305000.0,
+          "amount": 1,
+          "sold_at": "21.10 00:12",
+          "segment_key": "default"
+        },
+        {
+          "price": 305000,
+          "unit_price": 305000.0,
+          "amount": 1,
+          "sold_at": "21.10 00:12",
+          "segment_key": "default"
+        },
         {
           "price": 314000,
           "unit_price": 314000.0,
@@ -2173,244 +2379,6 @@
           "amount": 1,
           "sold_at": "20.10 23:26",
           "segment_key": "default"
-        },
-        {
-          "price": 305000,
-          "unit_price": 305000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:15",
-          "segment_key": "default"
-        },
-        {
-          "price": 305000,
-          "unit_price": 305000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:15",
-          "segment_key": "default"
-        },
-        {
-          "price": 304000,
-          "unit_price": 304000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:14",
-          "segment_key": "default"
-        },
-        {
-          "price": 300000,
-          "unit_price": 300000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:14",
-          "segment_key": "default"
-        },
-        {
-          "price": 300000,
-          "unit_price": 300000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:14",
-          "segment_key": "default"
-        },
-        {
-          "price": 308000,
-          "unit_price": 308000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:08",
-          "segment_key": "default"
-        },
-        {
-          "price": 307000,
-          "unit_price": 307000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:08",
-          "segment_key": "default"
-        },
-        {
-          "price": 285000,
-          "unit_price": 285000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:05",
-          "segment_key": "default"
-        },
-        {
-          "price": 311000,
-          "unit_price": 311000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:04",
-          "segment_key": "default"
-        },
-        {
-          "price": 314000,
-          "unit_price": 314000.0,
-          "amount": 1,
-          "sold_at": "20.10 22:43",
-          "segment_key": "default"
-        },
-        {
-          "price": 314000,
-          "unit_price": 314000.0,
-          "amount": 1,
-          "sold_at": "20.10 22:41",
-          "segment_key": "default"
-        },
-        {
-          "price": 313000,
-          "unit_price": 313000.0,
-          "amount": 1,
-          "sold_at": "20.10 22:41",
-          "segment_key": "default"
-        },
-        {
-          "price": 313000,
-          "unit_price": 313000.0,
-          "amount": 1,
-          "sold_at": "20.10 22:41",
-          "segment_key": "default"
-        },
-        {
-          "price": 313000,
-          "unit_price": 313000.0,
-          "amount": 1,
-          "sold_at": "20.10 22:36",
-          "segment_key": "default"
-        },
-        {
-          "price": 310000,
-          "unit_price": 310000.0,
-          "amount": 1,
-          "sold_at": "20.10 22:36",
-          "segment_key": "default"
-        },
-        {
-          "price": 313000,
-          "unit_price": 313000.0,
-          "amount": 1,
-          "sold_at": "20.10 22:25",
-          "segment_key": "default"
-        },
-        {
-          "price": 3280000,
-          "unit_price": 328000.0,
-          "amount": 10,
-          "sold_at": "20.10 22:21",
-          "segment_key": "default"
-        },
-        {
-          "price": 3255555,
-          "unit_price": 325556.0,
-          "amount": 10,
-          "sold_at": "20.10 22:21",
-          "segment_key": "default"
-        },
-        {
-          "price": 313000,
-          "unit_price": 313000.0,
-          "amount": 1,
-          "sold_at": "20.10 22:17",
-          "segment_key": "default"
-        },
-        {
-          "price": 313000,
-          "unit_price": 313000.0,
-          "amount": 1,
-          "sold_at": "20.10 22:17",
-          "segment_key": "default"
-        },
-        {
-          "price": 313000,
-          "unit_price": 313000.0,
-          "amount": 1,
-          "sold_at": "20.10 22:17",
-          "segment_key": "default"
-        },
-        {
-          "price": 310000,
-          "unit_price": 310000.0,
-          "amount": 1,
-          "sold_at": "20.10 22:17",
-          "segment_key": "default"
-        },
-        {
-          "price": 310000,
-          "unit_price": 310000.0,
-          "amount": 1,
-          "sold_at": "20.10 22:17",
-          "segment_key": "default"
-        },
-        {
-          "price": 309999,
-          "unit_price": 309999.0,
-          "amount": 1,
-          "sold_at": "20.10 22:16",
-          "segment_key": "default"
-        },
-        {
-          "price": 309999,
-          "unit_price": 309999.0,
-          "amount": 1,
-          "sold_at": "20.10 22:16",
-          "segment_key": "default"
-        },
-        {
-          "price": 308888,
-          "unit_price": 308888.0,
-          "amount": 1,
-          "sold_at": "20.10 22:16",
-          "segment_key": "default"
-        },
-        {
-          "price": 308888,
-          "unit_price": 308888.0,
-          "amount": 1,
-          "sold_at": "20.10 22:16",
-          "segment_key": "default"
-        },
-        {
-          "price": 3299999,
-          "unit_price": 330000.0,
-          "amount": 10,
-          "sold_at": "20.10 22:14",
-          "segment_key": "default"
-        },
-        {
-          "price": 3270000,
-          "unit_price": 327000.0,
-          "amount": 10,
-          "sold_at": "20.10 22:14",
-          "segment_key": "default"
-        },
-        {
-          "price": 3250000,
-          "unit_price": 325000.0,
-          "amount": 10,
-          "sold_at": "20.10 22:14",
-          "segment_key": "default"
-        },
-        {
-          "price": 3200000,
-          "unit_price": 320000.0,
-          "amount": 10,
-          "sold_at": "20.10 22:09",
-          "segment_key": "default"
-        },
-        {
-          "price": 3190000,
-          "unit_price": 319000.0,
-          "amount": 10,
-          "sold_at": "20.10 22:09",
-          "segment_key": "default"
-        },
-        {
-          "price": 313000,
-          "unit_price": 313000.0,
-          "amount": 1,
-          "sold_at": "20.10 22:09",
-          "segment_key": "default"
-        },
-        {
-          "price": 300000,
-          "unit_price": 300000.0,
-          "amount": 1,
-          "sold_at": "20.10 22:02",
-          "segment_key": "default"
         }
       ]
     },
@@ -2420,60 +2388,36 @@
       "category": "containers",
       "rank": "RANK_MASTER",
       "icon_path": "/icons/containers/g35n.png",
-      "total_active_lots": 48,
+      "total_active_lots": 45,
       "segments": {
-        "q0:p0": {
-          "label": "Обычный (+0)",
-          "median": 3149999.0,
-          "p25": 3131711.0,
-          "p75": 3198859.0,
-          "iqr": 67147.0,
-          "units_per_day": 22.2,
-          "trend": "flat",
-          "volatility": 1.6,
-          "sample_size": 148,
-          "min_buyout": 3050000.0,
-          "buy_max_unit": 2704660.0
-        },
         "default": {
           "label": "Стандарт",
           "median": 3100000.0,
           "p25": 3050000.0,
-          "p75": 3140393.0,
-          "iqr": 90393.0,
-          "units_per_day": 7.8,
+          "p75": 3138508.0,
+          "iqr": 88508.0,
+          "units_per_day": 7.5,
           "trend": "flat",
           "volatility": 1.6,
-          "sample_size": 52,
+          "sample_size": 51,
           "min_buyout": 3050000.0,
           "buy_max_unit": 2634091.0
+        },
+        "q0:p0": {
+          "label": "Обычный (+0)",
+          "median": 3149657.0,
+          "p25": 3123831.0,
+          "p75": 3189294.0,
+          "iqr": 65463.0,
+          "units_per_day": 22.0,
+          "trend": "flat",
+          "volatility": 1.6,
+          "sample_size": 149,
+          "min_buyout": 3122220.0,
+          "buy_max_unit": 2697854.0
         }
       },
       "active_lots": [
-        {
-          "buyout_price": 3050000,
-          "unit_buyout": 3050000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q0:p0",
-          "segment_label": "Обычный (+0)"
-        },
-        {
-          "buyout_price": 3050000,
-          "unit_buyout": 3050000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q0:p0",
-          "segment_label": "Обычный (+0)"
-        },
-        {
-          "buyout_price": 3050000,
-          "unit_buyout": 3050000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q0:p0",
-          "segment_label": "Обычный (+0)"
-        },
         {
           "buyout_price": 3050000,
           "unit_buyout": 3050000.0,
@@ -2689,9 +2633,54 @@
           "start_price": 0,
           "segment_key": "q0:p0",
           "segment_label": "Обычный (+0)"
+        },
+        {
+          "buyout_price": 3149999,
+          "unit_buyout": 3149999.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
+        },
+        {
+          "buyout_price": 3149999,
+          "unit_buyout": 3149999.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
+        },
+        {
+          "buyout_price": 3149999,
+          "unit_buyout": 3149999.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
         }
       ],
       "recent_sales": [
+        {
+          "price": 3050000,
+          "unit_price": 3050000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:49",
+          "segment_key": "q0:p0"
+        },
+        {
+          "price": 3050000,
+          "unit_price": 3050000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:27",
+          "segment_key": "q0:p0"
+        },
+        {
+          "price": 3050000,
+          "unit_price": 3050000.0,
+          "amount": 1,
+          "sold_at": "21.10 02:13",
+          "segment_key": "q0:p0"
+        },
         {
           "price": 3100000,
           "unit_price": 3100000.0,
@@ -3020,27 +3009,6 @@
           "amount": 1,
           "sold_at": "19.10 13:39",
           "segment_key": "q0:p0"
-        },
-        {
-          "price": 3149999,
-          "unit_price": 3149999.0,
-          "amount": 1,
-          "sold_at": "19.10 13:30",
-          "segment_key": "q0:p0"
-        },
-        {
-          "price": 3144444,
-          "unit_price": 3144444.0,
-          "amount": 1,
-          "sold_at": "19.10 13:28",
-          "segment_key": "default"
-        },
-        {
-          "price": 3149000,
-          "unit_price": 3149000.0,
-          "amount": 1,
-          "sold_at": "19.10 13:15",
-          "segment_key": "q0:p0"
         }
       ]
     },
@@ -3050,7 +3018,7 @@
       "category": "containers",
       "rank": "RANK_MASTER",
       "icon_path": "/icons/containers/j3ml.png",
-      "total_active_lots": 17,
+      "total_active_lots": 20,
       "segments": {
         "default": {
           "label": "Стандарт",
@@ -3071,7 +3039,7 @@
           "p25": 4290451.0,
           "p75": 4399999.0,
           "iqr": 109549.0,
-          "units_per_day": 3.9,
+          "units_per_day": 3.8,
           "trend": "flat",
           "volatility": 4.9,
           "sample_size": 139,
@@ -3215,6 +3183,30 @@
           "start_price": 0,
           "segment_key": "default",
           "segment_label": "Стандарт"
+        },
+        {
+          "buyout_price": 4999999,
+          "unit_buyout": 4999999.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
+        },
+        {
+          "buyout_price": 4999999,
+          "unit_buyout": 4999999.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
+        },
+        {
+          "buyout_price": 4999999,
+          "unit_buyout": 4999999.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
         }
       ],
       "recent_sales": [
@@ -3576,7 +3568,7 @@
       "category": "artefact/electrophysical",
       "rank": "DEFAULT",
       "icon_path": "/icons/artefact/electrophysical/gyq5.png",
-      "total_active_lots": 273,
+      "total_active_lots": 253,
       "segments": {
         "q5:p15": {
           "label": "Легендарный (+15)",
@@ -3587,211 +3579,51 @@
           "units_per_day": 0,
           "trend": "flat",
           "volatility": 0,
-          "sample_size": 1,
+          "sample_size": 0,
           "min_buyout": 0.0,
           "buy_max_unit": 0
         },
         "q2:p0": {
           "label": "Особый (+0)",
-          "median": 197269.0,
-          "p25": 188066.0,
-          "p75": 210000.0,
-          "iqr": 21934.0,
-          "units_per_day": 18.0,
+          "median": 190000.0,
+          "p25": 178910.0,
+          "p75": 195027.0,
+          "iqr": 16116.0,
+          "units_per_day": 24.0,
           "trend": "flat",
-          "volatility": 6.2,
-          "sample_size": 22,
+          "volatility": 4.2,
+          "sample_size": 30,
           "min_buyout": 0.0,
-          "buy_max_unit": 162421.0
+          "buy_max_unit": 154514.0
         },
         "q0:p0": {
           "label": "Обычный (+0)",
-          "median": 29999.0,
-          "p25": 29000.0,
-          "p75": 30000.0,
-          "iqr": 1000.0,
-          "units_per_day": 18.0,
+          "median": 30000.0,
+          "p25": 29964.0,
+          "p75": 34993.0,
+          "iqr": 5030.0,
+          "units_per_day": 32.0,
           "trend": "flat",
-          "volatility": 2.5,
-          "sample_size": 22,
-          "min_buyout": 25000.0,
-          "buy_max_unit": 25045.0
+          "volatility": 5.0,
+          "sample_size": 40,
+          "min_buyout": 39988.0,
+          "buy_max_unit": 25878.0
         },
         "q1:p0": {
           "label": "Необычный (+0)",
-          "median": 73993.0,
-          "p25": 65000.0,
+          "median": 71645.0,
+          "p25": 65271.0,
           "p75": 78888.0,
-          "iqr": 13888.0,
-          "units_per_day": 49.0,
+          "iqr": 13617.0,
+          "units_per_day": 41.0,
           "trend": "flat",
-          "volatility": 6.6,
-          "sample_size": 59,
-          "min_buyout": 55000.0,
-          "buy_max_unit": 56136.0
+          "volatility": 10.1,
+          "sample_size": 49,
+          "min_buyout": 60000.0,
+          "buy_max_unit": 56370.0
         }
       },
       "active_lots": [
-        {
-          "buyout_price": 25000,
-          "unit_buyout": 25000.0,
-          "amount": 1,
-          "start_price": 20000,
-          "segment_key": "q0:p0",
-          "segment_label": "Обычный (+0)"
-        },
-        {
-          "buyout_price": 25000,
-          "unit_buyout": 25000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q0:p0",
-          "segment_label": "Обычный (+0)"
-        },
-        {
-          "buyout_price": 29000,
-          "unit_buyout": 29000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q0:p0",
-          "segment_label": "Обычный (+0)"
-        },
-        {
-          "buyout_price": 30500,
-          "unit_buyout": 30500.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q0:p0",
-          "segment_label": "Обычный (+0)"
-        },
-        {
-          "buyout_price": 31000,
-          "unit_buyout": 31000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q0:p0",
-          "segment_label": "Обычный (+0)"
-        },
-        {
-          "buyout_price": 31999,
-          "unit_buyout": 31999.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q0:p0",
-          "segment_label": "Обычный (+0)"
-        },
-        {
-          "buyout_price": 32000,
-          "unit_buyout": 32000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q0:p0",
-          "segment_label": "Обычный (+0)"
-        },
-        {
-          "buyout_price": 34444,
-          "unit_buyout": 34444.0,
-          "amount": 1,
-          "start_price": 32222,
-          "segment_key": "q0:p0",
-          "segment_label": "Обычный (+0)"
-        },
-        {
-          "buyout_price": 34444,
-          "unit_buyout": 34444.0,
-          "amount": 1,
-          "start_price": 32222,
-          "segment_key": "q0:p0",
-          "segment_label": "Обычный (+0)"
-        },
-        {
-          "buyout_price": 35000,
-          "unit_buyout": 35000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q0:p0",
-          "segment_label": "Обычный (+0)"
-        },
-        {
-          "buyout_price": 39000,
-          "unit_buyout": 39000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q0:p0",
-          "segment_label": "Обычный (+0)"
-        },
-        {
-          "buyout_price": 39000,
-          "unit_buyout": 39000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q0:p0",
-          "segment_label": "Обычный (+0)"
-        },
-        {
-          "buyout_price": 39000,
-          "unit_buyout": 39000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q0:p0",
-          "segment_label": "Обычный (+0)"
-        },
-        {
-          "buyout_price": 39000,
-          "unit_buyout": 39000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q0:p0",
-          "segment_label": "Обычный (+0)"
-        },
-        {
-          "buyout_price": 39000,
-          "unit_buyout": 39000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q0:p0",
-          "segment_label": "Обычный (+0)"
-        },
-        {
-          "buyout_price": 39988,
-          "unit_buyout": 39988.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q0:p0",
-          "segment_label": "Обычный (+0)"
-        },
-        {
-          "buyout_price": 39988,
-          "unit_buyout": 39988.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q0:p0",
-          "segment_label": "Обычный (+0)"
-        },
-        {
-          "buyout_price": 39988,
-          "unit_buyout": 39988.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q0:p0",
-          "segment_label": "Обычный (+0)"
-        },
-        {
-          "buyout_price": 39988,
-          "unit_buyout": 39988.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q0:p0",
-          "segment_label": "Обычный (+0)"
-        },
-        {
-          "buyout_price": 39988,
-          "unit_buyout": 39988.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q0:p0",
-          "segment_label": "Обычный (+0)"
-        },
         {
           "buyout_price": 39988,
           "unit_buyout": 39988.0,
@@ -3871,358 +3703,518 @@
           "start_price": 0,
           "segment_key": "q0:p0",
           "segment_label": "Обычный (+0)"
+        },
+        {
+          "buyout_price": 40000,
+          "unit_buyout": 40000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
+        },
+        {
+          "buyout_price": 43000,
+          "unit_buyout": 43000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
+        },
+        {
+          "buyout_price": 43000,
+          "unit_buyout": 43000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
+        },
+        {
+          "buyout_price": 50000,
+          "unit_buyout": 50000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
+        },
+        {
+          "buyout_price": 50000,
+          "unit_buyout": 50000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
+        },
+        {
+          "buyout_price": 50000,
+          "unit_buyout": 50000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
+        },
+        {
+          "buyout_price": 50000,
+          "unit_buyout": 50000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
+        },
+        {
+          "buyout_price": 50000,
+          "unit_buyout": 50000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
+        },
+        {
+          "buyout_price": 50000,
+          "unit_buyout": 50000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
+        },
+        {
+          "buyout_price": 50000,
+          "unit_buyout": 50000.0,
+          "amount": 1,
+          "start_price": 49999,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
+        },
+        {
+          "buyout_price": 50000,
+          "unit_buyout": 50000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
+        },
+        {
+          "buyout_price": 50000,
+          "unit_buyout": 50000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
+        },
+        {
+          "buyout_price": 50000,
+          "unit_buyout": 50000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
+        },
+        {
+          "buyout_price": 50000,
+          "unit_buyout": 50000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
+        },
+        {
+          "buyout_price": 50000,
+          "unit_buyout": 50000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
+        },
+        {
+          "buyout_price": 50000,
+          "unit_buyout": 50000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
+        },
+        {
+          "buyout_price": 50000,
+          "unit_buyout": 50000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
+        },
+        {
+          "buyout_price": 50000,
+          "unit_buyout": 50000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
+        },
+        {
+          "buyout_price": 50000,
+          "unit_buyout": 50000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
+        },
+        {
+          "buyout_price": 50000,
+          "unit_buyout": 50000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
         }
       ],
       "recent_sales": [
         {
-          "price": 3299900,
-          "unit_price": 3299900.0,
+          "price": 409000,
+          "unit_price": 409000.0,
           "amount": 1,
-          "sold_at": "21.10 00:01",
-          "segment_key": "q3:p15"
+          "sold_at": "21.10 04:34",
+          "segment_key": "q1:p11"
         },
         {
-          "price": 1099999,
-          "unit_price": 1099999.0,
+          "price": 59999,
+          "unit_price": 59999.0,
           "amount": 1,
-          "sold_at": "21.10 00:01",
-          "segment_key": "q2:p15"
+          "sold_at": "21.10 04:24",
+          "segment_key": "q1:p0"
         },
         {
-          "price": 177888,
-          "unit_price": 177888.0,
+          "price": 194500,
+          "unit_price": 194500.0,
           "amount": 1,
-          "sold_at": "20.10 23:50",
+          "sold_at": "21.10 04:18",
           "segment_key": "q2:p0"
         },
         {
-          "price": 55500,
-          "unit_price": 55500.0,
+          "price": 39988,
+          "unit_price": 39988.0,
           "amount": 1,
-          "sold_at": "20.10 23:46",
-          "segment_key": "q1:p0"
-        },
-        {
-          "price": 119999,
-          "unit_price": 119999.0,
-          "amount": 1,
-          "sold_at": "20.10 23:46",
-          "segment_key": "q1:p0"
-        },
-        {
-          "price": 470000,
-          "unit_price": 470000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:46",
-          "segment_key": "q1:p13"
-        },
-        {
-          "price": 1000000,
-          "unit_price": 1000000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:37",
-          "segment_key": "q2:p15"
-        },
-        {
-          "price": 944444,
-          "unit_price": 944444.0,
-          "amount": 1,
-          "sold_at": "20.10 23:36",
-          "segment_key": "q3:p0"
-        },
-        {
-          "price": 50000,
-          "unit_price": 50000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:32",
-          "segment_key": "q1:p0"
-        },
-        {
-          "price": 550000,
-          "unit_price": 550000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:21",
-          "segment_key": "q1:p15"
-        },
-        {
-          "price": 750000,
-          "unit_price": 750000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:17",
-          "segment_key": "q2:p10"
-        },
-        {
-          "price": 3140123,
-          "unit_price": 3140123.0,
-          "amount": 1,
-          "sold_at": "20.10 23:12",
-          "segment_key": "q3:p15"
-        },
-        {
-          "price": 400000,
-          "unit_price": 400000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:12",
-          "segment_key": "q2:p5"
-        },
-        {
-          "price": 240000,
-          "unit_price": 240000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:12",
-          "segment_key": "q2:p0"
-        },
-        {
-          "price": 950000,
-          "unit_price": 950000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:09",
-          "segment_key": "q3:p0"
-        },
-        {
-          "price": 600000,
-          "unit_price": 600000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:06",
-          "segment_key": "q1:p15"
-        },
-        {
-          "price": 1090000,
-          "unit_price": 1090000.0,
-          "amount": 1,
-          "sold_at": "20.10 23:02",
-          "segment_key": "q2:p15"
-        },
-        {
-          "price": 2999999,
-          "unit_price": 2999999.0,
-          "amount": 1,
-          "sold_at": "20.10 22:56",
-          "segment_key": "q3:p15"
-        },
-        {
-          "price": 70000,
-          "unit_price": 70000.0,
-          "amount": 1,
-          "sold_at": "20.10 22:55",
-          "segment_key": "q1:p0"
-        },
-        {
-          "price": 350000,
-          "unit_price": 350000.0,
-          "amount": 1,
-          "sold_at": "20.10 22:41",
-          "segment_key": "q1:p10"
-        },
-        {
-          "price": 28000,
-          "unit_price": 28000.0,
-          "amount": 1,
-          "sold_at": "20.10 22:32",
+          "sold_at": "21.10 04:10",
           "segment_key": "q0:p0"
-        },
-        {
-          "price": 72222,
-          "unit_price": 72222.0,
-          "amount": 1,
-          "sold_at": "20.10 22:32",
-          "segment_key": "q1:p0"
-        },
-        {
-          "price": 71111,
-          "unit_price": 71111.0,
-          "amount": 1,
-          "sold_at": "20.10 22:17",
-          "segment_key": "q1:p0"
-        },
-        {
-          "price": 948000,
-          "unit_price": 948000.0,
-          "amount": 1,
-          "sold_at": "20.10 22:16",
-          "segment_key": "q3:p0"
-        },
-        {
-          "price": 1290000,
-          "unit_price": 1290000.0,
-          "amount": 1,
-          "sold_at": "20.10 22:15",
-          "segment_key": "q3:p3"
-        },
-        {
-          "price": 160000,
-          "unit_price": 160000.0,
-          "amount": 1,
-          "sold_at": "20.10 22:14",
-          "segment_key": "q2:p0"
-        },
-        {
-          "price": 80000,
-          "unit_price": 80000.0,
-          "amount": 1,
-          "sold_at": "20.10 22:10",
-          "segment_key": "q1:p0"
-        },
-        {
-          "price": 80000,
-          "unit_price": 80000.0,
-          "amount": 1,
-          "sold_at": "20.10 22:10",
-          "segment_key": "q1:p0"
-        },
-        {
-          "price": 649999,
-          "unit_price": 649999.0,
-          "amount": 1,
-          "sold_at": "20.10 22:10",
-          "segment_key": "q1:p15"
-        },
-        {
-          "price": 649999,
-          "unit_price": 649999.0,
-          "amount": 1,
-          "sold_at": "20.10 22:07",
-          "segment_key": "q1:p15"
-        },
-        {
-          "price": 1488414,
-          "unit_price": 1488414.0,
-          "amount": 1,
-          "sold_at": "20.10 21:59",
-          "segment_key": "q2:p15"
-        },
-        {
-          "price": 3110000,
-          "unit_price": 3110000.0,
-          "amount": 1,
-          "sold_at": "20.10 21:56",
-          "segment_key": "q3:p15"
-        },
-        {
-          "price": 188888,
-          "unit_price": 188888.0,
-          "amount": 1,
-          "sold_at": "20.10 21:55",
-          "segment_key": "q2:p0"
-        },
-        {
-          "price": 640000,
-          "unit_price": 640000.0,
-          "amount": 1,
-          "sold_at": "20.10 21:49",
-          "segment_key": "q1:p15"
-        },
-        {
-          "price": 640000,
-          "unit_price": 640000.0,
-          "amount": 1,
-          "sold_at": "20.10 21:49",
-          "segment_key": "q1:p15"
-        },
-        {
-          "price": 637000,
-          "unit_price": 637000.0,
-          "amount": 1,
-          "sold_at": "20.10 21:49",
-          "segment_key": "q1:p15"
-        },
-        {
-          "price": 625000,
-          "unit_price": 625000.0,
-          "amount": 1,
-          "sold_at": "20.10 21:49",
-          "segment_key": "q1:p15"
-        },
-        {
-          "price": 1479999,
-          "unit_price": 1479999.0,
-          "amount": 1,
-          "sold_at": "20.10 21:41",
-          "segment_key": "q3:p6"
         },
         {
           "price": 1100000,
           "unit_price": 1100000.0,
           "amount": 1,
-          "sold_at": "20.10 21:37",
-          "segment_key": "q3:p0"
-        },
-        {
-          "price": 13590900,
-          "unit_price": 13590900.0,
-          "amount": 1,
-          "sold_at": "20.10 21:36",
-          "segment_key": "q4:p15"
-        },
-        {
-          "price": 13299999,
-          "unit_price": 13299999.0,
-          "amount": 1,
-          "sold_at": "20.10 21:36",
-          "segment_key": "q4:p15"
-        },
-        {
-          "price": 69999,
-          "unit_price": 69999.0,
-          "amount": 1,
-          "sold_at": "20.10 21:33",
-          "segment_key": "q1:p0"
-        },
-        {
-          "price": 65000,
-          "unit_price": 65000.0,
-          "amount": 1,
-          "sold_at": "20.10 21:33",
-          "segment_key": "q1:p0"
-        },
-        {
-          "price": 3100001,
-          "unit_price": 3100001.0,
-          "amount": 1,
-          "sold_at": "20.10 21:32",
-          "segment_key": "q3:p15"
-        },
-        {
-          "price": 945000,
-          "unit_price": 945000.0,
-          "amount": 1,
-          "sold_at": "20.10 21:28",
-          "segment_key": "q3:p0"
-        },
-        {
-          "price": 940000,
-          "unit_price": 940000.0,
-          "amount": 1,
-          "sold_at": "20.10 21:25",
-          "segment_key": "q3:p0"
-        },
-        {
-          "price": 3100001,
-          "unit_price": 3100001.0,
-          "amount": 1,
-          "sold_at": "20.10 21:25",
-          "segment_key": "q3:p15"
-        },
-        {
-          "price": 1090000,
-          "unit_price": 1090000.0,
-          "amount": 1,
-          "sold_at": "20.10 21:24",
+          "sold_at": "21.10 04:05",
           "segment_key": "q2:p15"
         },
         {
-          "price": 29000,
-          "unit_price": 29000.0,
+          "price": 190000,
+          "unit_price": 190000.0,
           "amount": 1,
-          "sold_at": "20.10 21:13",
+          "sold_at": "21.10 04:03",
+          "segment_key": "q2:p0"
+        },
+        {
+          "price": 60000,
+          "unit_price": 60000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:03",
+          "segment_key": "q1:p0"
+        },
+        {
+          "price": 39988,
+          "unit_price": 39988.0,
+          "amount": 1,
+          "sold_at": "21.10 03:53",
           "segment_key": "q0:p0"
         },
         {
-          "price": 2250000,
-          "unit_price": 2250000.0,
+          "price": 39988,
+          "unit_price": 39988.0,
           "amount": 1,
-          "sold_at": "20.10 21:09",
+          "sold_at": "21.10 03:53",
+          "segment_key": "q0:p0"
+        },
+        {
+          "price": 39988,
+          "unit_price": 39988.0,
+          "amount": 1,
+          "sold_at": "21.10 03:53",
+          "segment_key": "q0:p0"
+        },
+        {
+          "price": 39988,
+          "unit_price": 39988.0,
+          "amount": 1,
+          "sold_at": "21.10 03:53",
+          "segment_key": "q0:p0"
+        },
+        {
+          "price": 39000,
+          "unit_price": 39000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:53",
+          "segment_key": "q0:p0"
+        },
+        {
+          "price": 39000,
+          "unit_price": 39000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:53",
+          "segment_key": "q0:p0"
+        },
+        {
+          "price": 39000,
+          "unit_price": 39000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:53",
+          "segment_key": "q0:p0"
+        },
+        {
+          "price": 39000,
+          "unit_price": 39000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:53",
+          "segment_key": "q0:p0"
+        },
+        {
+          "price": 39000,
+          "unit_price": 39000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:53",
+          "segment_key": "q0:p0"
+        },
+        {
+          "price": 35000,
+          "unit_price": 35000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:53",
+          "segment_key": "q0:p0"
+        },
+        {
+          "price": 35000,
+          "unit_price": 35000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:53",
+          "segment_key": "q0:p0"
+        },
+        {
+          "price": 32000,
+          "unit_price": 32000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:53",
+          "segment_key": "q0:p0"
+        },
+        {
+          "price": 31000,
+          "unit_price": 31000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:53",
+          "segment_key": "q0:p0"
+        },
+        {
+          "price": 30500,
+          "unit_price": 30500.0,
+          "amount": 1,
+          "sold_at": "21.10 03:53",
+          "segment_key": "q0:p0"
+        },
+        {
+          "price": 29999,
+          "unit_price": 29999.0,
+          "amount": 1,
+          "sold_at": "21.10 03:53",
+          "segment_key": "q0:p0"
+        },
+        {
+          "price": 29999,
+          "unit_price": 29999.0,
+          "amount": 1,
+          "sold_at": "21.10 03:52",
+          "segment_key": "q0:p0"
+        },
+        {
+          "price": 29999,
+          "unit_price": 29999.0,
+          "amount": 1,
+          "sold_at": "21.10 03:52",
+          "segment_key": "q0:p0"
+        },
+        {
+          "price": 25000,
+          "unit_price": 25000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:49",
+          "segment_key": "q0:p0"
+        },
+        {
+          "price": 67000,
+          "unit_price": 67000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:35",
+          "segment_key": "q1:p0"
+        },
+        {
+          "price": 750000,
+          "unit_price": 750000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:21",
+          "segment_key": "q2:p12"
+        },
+        {
+          "price": 60000,
+          "unit_price": 60000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:13",
+          "segment_key": "q1:p0"
+        },
+        {
+          "price": 56666,
+          "unit_price": 56666.0,
+          "amount": 1,
+          "sold_at": "21.10 03:13",
+          "segment_key": "q1:p0"
+        },
+        {
+          "price": 54999,
+          "unit_price": 54999.0,
+          "amount": 1,
+          "sold_at": "21.10 03:13",
+          "segment_key": "q1:p0"
+        },
+        {
+          "price": 1161111,
+          "unit_price": 1161111.0,
+          "amount": 1,
+          "sold_at": "21.10 02:57",
+          "segment_key": "q2:p15"
+        },
+        {
+          "price": 24999,
+          "unit_price": 24999.0,
+          "amount": 1,
+          "sold_at": "21.10 02:53",
+          "segment_key": "q0:p0"
+        },
+        {
+          "price": 24990,
+          "unit_price": 24990.0,
+          "amount": 1,
+          "sold_at": "21.10 02:53",
+          "segment_key": "q0:p0"
+        },
+        {
+          "price": 23000,
+          "unit_price": 23000.0,
+          "amount": 1,
+          "sold_at": "21.10 02:53",
+          "segment_key": "q0:p0"
+        },
+        {
+          "price": 199999,
+          "unit_price": 199999.0,
+          "amount": 1,
+          "sold_at": "21.10 02:43",
+          "segment_key": "q2:p0"
+        },
+        {
+          "price": 195999,
+          "unit_price": 195999.0,
+          "amount": 1,
+          "sold_at": "21.10 02:43",
+          "segment_key": "q2:p0"
+        },
+        {
+          "price": 194499,
+          "unit_price": 194499.0,
+          "amount": 1,
+          "sold_at": "21.10 02:43",
+          "segment_key": "q2:p0"
+        },
+        {
+          "price": 188000,
+          "unit_price": 188000.0,
+          "amount": 1,
+          "sold_at": "21.10 02:43",
+          "segment_key": "q2:p0"
+        },
+        {
+          "price": 2230000,
+          "unit_price": 2230000.0,
+          "amount": 1,
+          "sold_at": "21.10 02:37",
           "segment_key": "q3:p10"
+        },
+        {
+          "price": 194499,
+          "unit_price": 194499.0,
+          "amount": 1,
+          "sold_at": "21.10 02:30",
+          "segment_key": "q2:p0"
+        },
+        {
+          "price": 193000,
+          "unit_price": 193000.0,
+          "amount": 1,
+          "sold_at": "21.10 02:30",
+          "segment_key": "q2:p0"
+        },
+        {
+          "price": 190000,
+          "unit_price": 190000.0,
+          "amount": 1,
+          "sold_at": "21.10 02:25",
+          "segment_key": "q2:p0"
+        },
+        {
+          "price": 20000,
+          "unit_price": 20000.0,
+          "amount": 1,
+          "sold_at": "21.10 02:23",
+          "segment_key": "q0:p0"
+        },
+        {
+          "price": 25000,
+          "unit_price": 25000.0,
+          "amount": 1,
+          "sold_at": "21.10 01:55",
+          "segment_key": "q0:p0"
+        },
+        {
+          "price": 175000,
+          "unit_price": 175000.0,
+          "amount": 1,
+          "sold_at": "21.10 01:05",
+          "segment_key": "q2:p0"
+        },
+        {
+          "price": 180000,
+          "unit_price": 180000.0,
+          "amount": 1,
+          "sold_at": "21.10 01:05",
+          "segment_key": "q2:p0"
+        },
+        {
+          "price": 59999,
+          "unit_price": 59999.0,
+          "amount": 1,
+          "sold_at": "21.10 00:56",
+          "segment_key": "q1:p0"
+        },
+        {
+          "price": 59999,
+          "unit_price": 59999.0,
+          "amount": 1,
+          "sold_at": "21.10 00:43",
+          "segment_key": "q1:p0"
+        },
+        {
+          "price": 57500,
+          "unit_price": 57500.0,
+          "amount": 1,
+          "sold_at": "21.10 00:43",
+          "segment_key": "q1:p0"
+        },
+        {
+          "price": 56666,
+          "unit_price": 56666.0,
+          "amount": 1,
+          "sold_at": "21.10 00:43",
+          "segment_key": "q1:p0"
         }
       ]
     },
@@ -4232,7 +4224,7 @@
       "category": "artefact/electrophysical",
       "rank": "DEFAULT",
       "icon_path": "/icons/artefact/electrophysical/5rwq.png",
-      "total_active_lots": 114,
+      "total_active_lots": 111,
       "segments": {
         "q0:p0": {
           "label": "Обычный (+0)",
@@ -4262,42 +4254,16 @@
         },
         "q1:p0": {
           "label": "Необычный (+0)",
-          "median": 75000.0,
-          "p25": 72886.0,
-          "p75": 86382.0,
-          "iqr": 13496.0,
-          "units_per_day": 20.0,
+          "median": 74998.0,
+          "p25": 72662.0,
+          "p75": 82446.0,
+          "iqr": 9784.0,
+          "units_per_day": 23.0,
           "trend": "flat",
-          "volatility": 6.7,
-          "sample_size": 24,
-          "min_buyout": 74444.0,
-          "buy_max_unit": 62947.0
-        },
-        "q1:p1": {
-          "label": "Необычный (+1)",
-          "median": 0,
-          "p25": 0,
-          "p75": 0,
-          "iqr": 0,
-          "units_per_day": 0,
-          "trend": "flat",
-          "volatility": 0,
-          "sample_size": 0,
-          "min_buyout": 80000.0,
-          "buy_max_unit": 0
-        },
-        "q1:p10": {
-          "label": "Необычный (+10)",
-          "median": 220000.0,
-          "p25": 200000.0,
-          "p75": 221643.0,
-          "iqr": 21643.0,
-          "units_per_day": 9.0,
-          "trend": "flat",
-          "volatility": 4.5,
-          "sample_size": 11,
-          "min_buyout": 250000.0,
-          "buy_max_unit": 172727.0
+          "volatility": 5.2,
+          "sample_size": 27,
+          "min_buyout": 75000.0,
+          "buy_max_unit": 62754.0
         },
         "q2:p0": {
           "label": "Особый (+0)",
@@ -4305,12 +4271,25 @@
           "p25": 174999.0,
           "p75": 200000.0,
           "iqr": 25001.0,
-          "units_per_day": 34.0,
+          "units_per_day": 33.0,
           "trend": "flat",
-          "volatility": 11.3,
-          "sample_size": 42,
-          "min_buyout": 300000.0,
+          "volatility": 10.0,
+          "sample_size": 41,
+          "min_buyout": 249999.0,
           "buy_max_unit": 151135.0
+        },
+        "q1:p10": {
+          "label": "Необычный (+10)",
+          "median": 220000.0,
+          "p25": 200801.0,
+          "p75": 225352.0,
+          "iqr": 24551.0,
+          "units_per_day": 10.0,
+          "trend": "flat",
+          "volatility": 4.5,
+          "sample_size": 12,
+          "min_buyout": 300000.0,
+          "buy_max_unit": 173419.0
         },
         "q1:p14": {
           "label": "Необычный (+14)",
@@ -4324,6 +4303,19 @@
           "sample_size": 0,
           "min_buyout": 400000.0,
           "buy_max_unit": 0
+        },
+        "q1:p15": {
+          "label": "Необычный (+15)",
+          "median": 525778.0,
+          "p25": 499999.0,
+          "p75": 550000.0,
+          "iqr": 50001.0,
+          "units_per_day": 11.0,
+          "trend": "flat",
+          "volatility": 4.6,
+          "sample_size": 13,
+          "min_buyout": 600000.0,
+          "buy_max_unit": 431818.0
         },
         "q2:p7": {
           "label": "Особый (+7)",
@@ -4362,6 +4354,19 @@
           "volatility": 0,
           "sample_size": 1,
           "min_buyout": 900000.0,
+          "buy_max_unit": 0
+        },
+        "q2:p12": {
+          "label": "Особый (+12)",
+          "median": 0,
+          "p25": 0,
+          "p75": 0,
+          "iqr": 0,
+          "units_per_day": 0,
+          "trend": "flat",
+          "volatility": 0,
+          "sample_size": 0,
+          "min_buyout": 990000.0,
           "buy_max_unit": 0
         }
       },
@@ -4431,30 +4436,6 @@
           "segment_label": "Обычный (+0)"
         },
         {
-          "buyout_price": 74444,
-          "unit_buyout": 74444.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q1:p0",
-          "segment_label": "Необычный (+0)"
-        },
-        {
-          "buyout_price": 74995,
-          "unit_buyout": 74995.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q1:p0",
-          "segment_label": "Необычный (+0)"
-        },
-        {
-          "buyout_price": 75000,
-          "unit_buyout": 75000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q1:p0",
-          "segment_label": "Необычный (+0)"
-        },
-        {
           "buyout_price": 75000,
           "unit_buyout": 75000.0,
           "amount": 1,
@@ -4479,26 +4460,10 @@
           "segment_label": "Необычный (+0)"
         },
         {
-          "buyout_price": 80000,
-          "unit_buyout": 80000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q1:p1",
-          "segment_label": "Необычный (+1)"
-        },
-        {
           "buyout_price": 90000,
           "unit_buyout": 90000.0,
           "amount": 1,
           "start_price": 0,
-          "segment_key": "q1:p0",
-          "segment_label": "Необычный (+0)"
-        },
-        {
-          "buyout_price": 90000,
-          "unit_buyout": 90000.0,
-          "amount": 1,
-          "start_price": 80000,
           "segment_key": "q1:p0",
           "segment_label": "Необычный (+0)"
         },
@@ -4511,52 +4476,20 @@
           "segment_label": "Необычный (+0)"
         },
         {
-          "buyout_price": 95999,
-          "unit_buyout": 95999.0,
+          "buyout_price": 249999,
+          "unit_buyout": 249999.0,
           "amount": 1,
           "start_price": 0,
-          "segment_key": "q1:p0",
-          "segment_label": "Необычный (+0)"
+          "segment_key": "q2:p0",
+          "segment_label": "Особый (+0)"
         },
         {
           "buyout_price": 250000,
           "unit_buyout": 250000.0,
           "amount": 1,
           "start_price": 0,
-          "segment_key": "q1:p10",
-          "segment_label": "Необычный (+10)"
-        },
-        {
-          "buyout_price": 300000,
-          "unit_buyout": 300000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q1:p10",
-          "segment_label": "Необычный (+10)"
-        },
-        {
-          "buyout_price": 300000,
-          "unit_buyout": 300000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q1:p10",
-          "segment_label": "Необычный (+10)"
-        },
-        {
-          "buyout_price": 300000,
-          "unit_buyout": 300000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q1:p10",
-          "segment_label": "Необычный (+10)"
-        },
-        {
-          "buyout_price": 300000,
-          "unit_buyout": 300000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q1:p10",
-          "segment_label": "Необычный (+10)"
+          "segment_key": "q2:p0",
+          "segment_label": "Особый (+0)"
         },
         {
           "buyout_price": 300000,
@@ -4565,6 +4498,38 @@
           "start_price": 0,
           "segment_key": "q2:p0",
           "segment_label": "Особый (+0)"
+        },
+        {
+          "buyout_price": 300000,
+          "unit_buyout": 300000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q1:p10",
+          "segment_label": "Необычный (+10)"
+        },
+        {
+          "buyout_price": 300000,
+          "unit_buyout": 300000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q1:p10",
+          "segment_label": "Необычный (+10)"
+        },
+        {
+          "buyout_price": 300000,
+          "unit_buyout": 300000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q1:p10",
+          "segment_label": "Необычный (+10)"
+        },
+        {
+          "buyout_price": 300000,
+          "unit_buyout": 300000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q1:p10",
+          "segment_label": "Необычный (+10)"
         },
         {
           "buyout_price": 349990,
@@ -4605,9 +4570,126 @@
           "start_price": 0,
           "segment_key": "q2:p0",
           "segment_label": "Особый (+0)"
+        },
+        {
+          "buyout_price": 400000,
+          "unit_buyout": 400000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q1:p14",
+          "segment_label": "Необычный (+14)"
+        },
+        {
+          "buyout_price": 440000,
+          "unit_buyout": 440000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q2:p0",
+          "segment_label": "Особый (+0)"
+        },
+        {
+          "buyout_price": 444444,
+          "unit_buyout": 444444.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q2:p0",
+          "segment_label": "Особый (+0)"
+        },
+        {
+          "buyout_price": 449999,
+          "unit_buyout": 449999.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q2:p0",
+          "segment_label": "Особый (+0)"
+        },
+        {
+          "buyout_price": 450000,
+          "unit_buyout": 450000.0,
+          "amount": 1,
+          "start_price": 350000,
+          "segment_key": "q2:p0",
+          "segment_label": "Особый (+0)"
         }
       ],
       "recent_sales": [
+        {
+          "price": 75000,
+          "unit_price": 75000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:02",
+          "segment_key": "q1:p0"
+        },
+        {
+          "price": 1299889,
+          "unit_price": 1299889.0,
+          "amount": 1,
+          "sold_at": "21.10 03:56",
+          "segment_key": "q2:p15"
+        },
+        {
+          "price": 1255555,
+          "unit_price": 1255555.0,
+          "amount": 1,
+          "sold_at": "21.10 03:51",
+          "segment_key": "q2:p15"
+        },
+        {
+          "price": 80000,
+          "unit_price": 80000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:02",
+          "segment_key": "q1:p1"
+        },
+        {
+          "price": 70000,
+          "unit_price": 70000.0,
+          "amount": 1,
+          "sold_at": "21.10 02:57",
+          "segment_key": "q1:p0"
+        },
+        {
+          "price": 74995,
+          "unit_price": 74995.0,
+          "amount": 1,
+          "sold_at": "21.10 01:43",
+          "segment_key": "q1:p0"
+        },
+        {
+          "price": 74444,
+          "unit_price": 74444.0,
+          "amount": 1,
+          "sold_at": "21.10 01:43",
+          "segment_key": "q1:p0"
+        },
+        {
+          "price": 1649999,
+          "unit_price": 1649999.0,
+          "amount": 1,
+          "sold_at": "21.10 01:23",
+          "segment_key": "q3:p0"
+        },
+        {
+          "price": 250000,
+          "unit_price": 250000.0,
+          "amount": 1,
+          "sold_at": "21.10 00:57",
+          "segment_key": "q1:p10"
+        },
+        {
+          "price": 4395000,
+          "unit_price": 4395000.0,
+          "amount": 1,
+          "sold_at": "21.10 00:44",
+          "segment_key": "q3:p15"
+        },
+        {
+          "price": 4200000,
+          "unit_price": 4200000.0,
+          "amount": 1,
+          "sold_at": "21.10 00:39",
+          "segment_key": "q3:p15"
+        },
         {
           "price": 74000,
           "unit_price": 74000.0,
@@ -4880,83 +4962,6 @@
           "amount": 1,
           "sold_at": "20.10 20:34",
           "segment_key": "q0:p0"
-        },
-        {
-          "price": 1299999,
-          "unit_price": 1299999.0,
-          "amount": 1,
-          "sold_at": "20.10 20:34",
-          "segment_key": "q2:p15"
-        },
-        {
-          "price": 1111111,
-          "unit_price": 1111111.0,
-          "amount": 1,
-          "sold_at": "20.10 20:33",
-          "segment_key": "q2:p15"
-        },
-        {
-          "price": 4400000,
-          "unit_price": 4400000.0,
-          "amount": 1,
-          "sold_at": "20.10 20:28",
-          "segment_key": "q3:p15"
-        },
-        {
-          "price": 48000,
-          "unit_price": 48000.0,
-          "amount": 1,
-          "sold_at": "20.10 20:27",
-          "segment_key": "q0:p0"
-        },
-        {
-          "price": 200000,
-          "unit_price": 200000.0,
-          "amount": 1,
-          "sold_at": "20.10 20:17",
-          "segment_key": "q2:p0"
-        },
-        {
-          "price": 4200000,
-          "unit_price": 4200000.0,
-          "amount": 1,
-          "sold_at": "20.10 20:08",
-          "segment_key": "q3:p15"
-        },
-        {
-          "price": 4200000,
-          "unit_price": 4200000.0,
-          "amount": 1,
-          "sold_at": "20.10 20:08",
-          "segment_key": "q3:p15"
-        },
-        {
-          "price": 220000,
-          "unit_price": 220000.0,
-          "amount": 1,
-          "sold_at": "20.10 20:04",
-          "segment_key": "q1:p10"
-        },
-        {
-          "price": 799999,
-          "unit_price": 799999.0,
-          "amount": 1,
-          "sold_at": "20.10 20:04",
-          "segment_key": "q2:p10"
-        },
-        {
-          "price": 4149999,
-          "unit_price": 4149999.0,
-          "amount": 1,
-          "sold_at": "20.10 20:00",
-          "segment_key": "q3:p15"
-        },
-        {
-          "price": 1250000,
-          "unit_price": 1250000.0,
-          "amount": 1,
-          "sold_at": "20.10 19:59",
-          "segment_key": "q2:p15"
         }
       ]
     },
@@ -4966,59 +4971,46 @@
       "category": "artefact/thermal",
       "rank": "DEFAULT",
       "icon_path": "/icons/artefact/thermal/qoq6.png",
-      "total_active_lots": 217,
+      "total_active_lots": 207,
       "segments": {
         "q3:p0": {
           "label": "Редкий (+0)",
-          "median": 999000.0,
+          "median": 999999.0,
           "p25": 999000.0,
           "p75": 1000000.0,
           "iqr": 1000.0,
-          "units_per_day": 27.0,
+          "units_per_day": 30.0,
           "trend": "flat",
           "volatility": 0.1,
-          "sample_size": 33,
+          "sample_size": 36,
           "min_buyout": 0.0,
           "buy_max_unit": 862773.0
         },
-        "q2:p15": {
-          "label": "Особый (+15)",
-          "median": 1000006.0,
-          "p25": 999997.0,
-          "p75": 1099999.0,
-          "iqr": 100002.0,
-          "units_per_day": 17.0,
-          "trend": "flat",
-          "volatility": 2.5,
-          "sample_size": 19,
-          "min_buyout": 0.0,
-          "buy_max_unit": 863634.0
-        },
         "q0:p0": {
           "label": "Обычный (+0)",
-          "median": 56999.0,
+          "median": 57000.0,
           "p25": 56000.0,
-          "p75": 57539.0,
-          "iqr": 1539.0,
-          "units_per_day": 25.0,
+          "p75": 57477.0,
+          "iqr": 1477.0,
+          "units_per_day": 22.0,
           "trend": "flat",
           "volatility": 1.2,
-          "sample_size": 31,
+          "sample_size": 26,
           "min_buyout": 57800.0,
           "buy_max_unit": 48364.0
         },
         "q1:p0": {
           "label": "Необычный (+0)",
-          "median": 99000.0,
-          "p25": 98000.0,
-          "p75": 100000.0,
-          "iqr": 2000.0,
-          "units_per_day": 18.0,
+          "median": 97991.0,
+          "p25": 95000.0,
+          "p75": 99000.0,
+          "iqr": 4000.0,
+          "units_per_day": 17.0,
           "trend": "flat",
-          "volatility": 1.0,
-          "sample_size": 22,
-          "min_buyout": 95000.0,
-          "buy_max_unit": 84636.0
+          "volatility": 2.0,
+          "sample_size": 21,
+          "min_buyout": 98000.0,
+          "buy_max_unit": 82045.0
         }
       },
       "active_lots": [
@@ -5074,7 +5066,7 @@
           "buyout_price": 60000,
           "unit_buyout": 60000.0,
           "amount": 1,
-          "start_price": 59000,
+          "start_price": 0,
           "segment_key": "q0:p0",
           "segment_label": "Обычный (+0)"
         },
@@ -5207,10 +5199,10 @@
           "segment_label": "Обычный (+0)"
         },
         {
-          "buyout_price": 95000,
-          "unit_buyout": 95000.0,
+          "buyout_price": 98000,
+          "unit_buyout": 98000.0,
           "amount": 1,
-          "start_price": 1,
+          "start_price": 0,
           "segment_key": "q1:p0",
           "segment_label": "Необычный (+0)"
         },
@@ -5264,6 +5256,160 @@
         }
       ],
       "recent_sales": [
+        {
+          "price": 19600000,
+          "unit_price": 19600000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:25",
+          "segment_key": "q4:p15"
+        },
+        {
+          "price": 1090000,
+          "unit_price": 1090000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:11",
+          "segment_key": "q3:p0"
+        },
+        {
+          "price": 150000,
+          "unit_price": 150000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:07",
+          "segment_key": "q2:p0"
+        },
+        {
+          "price": 146000,
+          "unit_price": 146000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:07",
+          "segment_key": "q2:p0"
+        },
+        {
+          "price": 146000,
+          "unit_price": 146000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:07",
+          "segment_key": "q2:p0"
+        },
+        {
+          "price": 145000,
+          "unit_price": 145000.0,
+          "amount": 1,
+          "sold_at": "21.10 04:07",
+          "segment_key": "q2:p0"
+        },
+        {
+          "price": 97777,
+          "unit_price": 97777.0,
+          "amount": 1,
+          "sold_at": "21.10 04:02",
+          "segment_key": "q1:p0"
+        },
+        {
+          "price": 850000,
+          "unit_price": 850000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:55",
+          "segment_key": "q2:p15"
+        },
+        {
+          "price": 19790000,
+          "unit_price": 19790000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:53",
+          "segment_key": "q4:p15"
+        },
+        {
+          "price": 19700000,
+          "unit_price": 19700000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:50",
+          "segment_key": "q4:p15"
+        },
+        {
+          "price": 1099000,
+          "unit_price": 1099000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:40",
+          "segment_key": "q3:p0"
+        },
+        {
+          "price": 1099000,
+          "unit_price": 1099000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:40",
+          "segment_key": "q3:p0"
+        },
+        {
+          "price": 1000000,
+          "unit_price": 1000000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:08",
+          "segment_key": "q3:p0"
+        },
+        {
+          "price": 89999,
+          "unit_price": 89999.0,
+          "amount": 1,
+          "sold_at": "21.10 02:56",
+          "segment_key": "q1:p0"
+        },
+        {
+          "price": 2499999,
+          "unit_price": 2499999.0,
+          "amount": 1,
+          "sold_at": "21.10 02:39",
+          "segment_key": "q3:p10"
+        },
+        {
+          "price": 95000,
+          "unit_price": 95000.0,
+          "amount": 1,
+          "sold_at": "21.10 02:08",
+          "segment_key": "q1:p0"
+        },
+        {
+          "price": 94000,
+          "unit_price": 94000.0,
+          "amount": 1,
+          "sold_at": "21.10 01:55",
+          "segment_key": "q1:p0"
+        },
+        {
+          "price": 3499000,
+          "unit_price": 3499000.0,
+          "amount": 1,
+          "sold_at": "21.10 01:29",
+          "segment_key": "q3:p15"
+        },
+        {
+          "price": 3359999,
+          "unit_price": 3359999.0,
+          "amount": 1,
+          "sold_at": "21.10 01:28",
+          "segment_key": "q3:p15"
+        },
+        {
+          "price": 750000,
+          "unit_price": 750000.0,
+          "amount": 1,
+          "sold_at": "21.10 00:43",
+          "segment_key": "q2:p15"
+        },
+        {
+          "price": 700000,
+          "unit_price": 700000.0,
+          "amount": 1,
+          "sold_at": "21.10 00:43",
+          "segment_key": "q2:p10"
+        },
+        {
+          "price": 2000000,
+          "unit_price": 2000000.0,
+          "amount": 1,
+          "sold_at": "21.10 00:19",
+          "segment_key": "q3:p10"
+        },
         {
           "price": 99800,
           "unit_price": 99800.0,
@@ -5459,160 +5605,6 @@
           "amount": 1,
           "sold_at": "20.10 21:40",
           "segment_key": "q3:p0"
-        },
-        {
-          "price": 998000,
-          "unit_price": 998000.0,
-          "amount": 1,
-          "sold_at": "20.10 21:40",
-          "segment_key": "q3:p0"
-        },
-        {
-          "price": 470000,
-          "unit_price": 470000.0,
-          "amount": 1,
-          "sold_at": "20.10 21:31",
-          "segment_key": "q2:p10"
-        },
-        {
-          "price": 56666,
-          "unit_price": 56666.0,
-          "amount": 1,
-          "sold_at": "20.10 21:27",
-          "segment_key": "q0:p0"
-        },
-        {
-          "price": 99000,
-          "unit_price": 99000.0,
-          "amount": 1,
-          "sold_at": "20.10 21:22",
-          "segment_key": "q1:p0"
-        },
-        {
-          "price": 3970000,
-          "unit_price": 3970000.0,
-          "amount": 1,
-          "sold_at": "20.10 21:20",
-          "segment_key": "q3:p15"
-        },
-        {
-          "price": 3950000,
-          "unit_price": 3950000.0,
-          "amount": 1,
-          "sold_at": "20.10 21:20",
-          "segment_key": "q3:p15"
-        },
-        {
-          "price": 58000,
-          "unit_price": 58000.0,
-          "amount": 1,
-          "sold_at": "20.10 21:09",
-          "segment_key": "q0:p0"
-        },
-        {
-          "price": 95000,
-          "unit_price": 95000.0,
-          "amount": 1,
-          "sold_at": "20.10 21:08",
-          "segment_key": "q1:p0"
-        },
-        {
-          "price": 1099999,
-          "unit_price": 1099999.0,
-          "amount": 1,
-          "sold_at": "20.10 21:05",
-          "segment_key": "q2:p15"
-        },
-        {
-          "price": 1119999,
-          "unit_price": 1119999.0,
-          "amount": 1,
-          "sold_at": "20.10 21:04",
-          "segment_key": "q3:p3"
-        },
-        {
-          "price": 1050000,
-          "unit_price": 1050000.0,
-          "amount": 1,
-          "sold_at": "20.10 21:01",
-          "segment_key": "q2:p15"
-        },
-        {
-          "price": 145000,
-          "unit_price": 145000.0,
-          "amount": 1,
-          "sold_at": "20.10 21:00",
-          "segment_key": "q2:p0"
-        },
-        {
-          "price": 156000,
-          "unit_price": 156000.0,
-          "amount": 1,
-          "sold_at": "20.10 20:56",
-          "segment_key": "q2:p0"
-        },
-        {
-          "price": 156000,
-          "unit_price": 156000.0,
-          "amount": 1,
-          "sold_at": "20.10 20:56",
-          "segment_key": "q2:p0"
-        },
-        {
-          "price": 100000,
-          "unit_price": 100000.0,
-          "amount": 1,
-          "sold_at": "20.10 20:56",
-          "segment_key": "q1:p0"
-        },
-        {
-          "price": 420000,
-          "unit_price": 420000.0,
-          "amount": 1,
-          "sold_at": "20.10 20:56",
-          "segment_key": "q2:p8"
-        },
-        {
-          "price": 380000,
-          "unit_price": 380000.0,
-          "amount": 1,
-          "sold_at": "20.10 20:55",
-          "segment_key": "q2:p8"
-        },
-        {
-          "price": 3900000,
-          "unit_price": 3900000.0,
-          "amount": 1,
-          "sold_at": "20.10 20:51",
-          "segment_key": "q3:p15"
-        },
-        {
-          "price": 3899999,
-          "unit_price": 3899999.0,
-          "amount": 1,
-          "sold_at": "20.10 20:50",
-          "segment_key": "q3:p15"
-        },
-        {
-          "price": 95000,
-          "unit_price": 95000.0,
-          "amount": 1,
-          "sold_at": "20.10 20:47",
-          "segment_key": "q1:p0"
-        },
-        {
-          "price": 95000,
-          "unit_price": 95000.0,
-          "amount": 1,
-          "sold_at": "20.10 20:47",
-          "segment_key": "q1:p0"
-        },
-        {
-          "price": 57700,
-          "unit_price": 57700.0,
-          "amount": 1,
-          "sold_at": "20.10 20:47",
-          "segment_key": "q0:p0"
         }
       ]
     },
@@ -5622,33 +5614,20 @@
       "category": "artefact/electrophysical",
       "rank": "DEFAULT",
       "icon_path": "/icons/artefact/electrophysical/wg53.png",
-      "total_active_lots": 136,
+      "total_active_lots": 131,
       "segments": {
-        "q3:p0": {
-          "label": "Редкий (+0)",
-          "median": 0,
-          "p25": 0,
-          "p75": 0,
-          "iqr": 0,
-          "units_per_day": 0,
-          "trend": "flat",
-          "volatility": 0,
-          "sample_size": 3,
-          "min_buyout": 0.0,
-          "buy_max_unit": 0
-        },
         "q0:p0": {
           "label": "Обычный (+0)",
-          "median": 220450.0,
-          "p25": 204455.0,
+          "median": 229278.0,
+          "p25": 219000.0,
           "p75": 240000.0,
-          "iqr": 35545.0,
-          "units_per_day": 33.0,
+          "iqr": 21000.0,
+          "units_per_day": 31.0,
           "trend": "flat",
-          "volatility": 8.9,
-          "sample_size": 41,
+          "volatility": 4.7,
+          "sample_size": 37,
           "min_buyout": 219999.0,
-          "buy_max_unit": 176575.0
+          "buy_max_unit": 189136.0
         },
         "q0:p2": {
           "label": "Обычный (+2)",
@@ -5666,15 +5645,28 @@
         "q1:p0": {
           "label": "Необычный (+0)",
           "median": 510000.0,
-          "p25": 489669.0,
-          "p75": 530894.0,
-          "iqr": 41224.0,
+          "p25": 493180.0,
+          "p75": 530000.0,
+          "iqr": 36820.0,
           "units_per_day": 33.0,
           "trend": "flat",
           "volatility": 3.9,
           "sample_size": 41,
-          "min_buyout": 499999.0,
-          "buy_max_unit": 422896.0
+          "min_buyout": 497999.0,
+          "buy_max_unit": 425928.0
+        },
+        "q0:p9": {
+          "label": "Обычный (+9)",
+          "median": 0,
+          "p25": 0,
+          "p75": 0,
+          "iqr": 0,
+          "units_per_day": 0,
+          "trend": "flat",
+          "volatility": 0,
+          "sample_size": 0,
+          "min_buyout": 500000.0,
+          "buy_max_unit": 0
         },
         "q0:p5": {
           "label": "Обычный (+5)",
@@ -5721,24 +5713,16 @@
           "segment_label": "Обычный (+0)"
         },
         {
-          "buyout_price": 236666,
-          "unit_buyout": 236666.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q0:p0",
-          "segment_label": "Обычный (+0)"
-        },
-        {
-          "buyout_price": 238999,
-          "unit_buyout": 238999.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q0:p0",
-          "segment_label": "Обычный (+0)"
-        },
-        {
           "buyout_price": 239000,
           "unit_buyout": 239000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
+        },
+        {
+          "buyout_price": 250000,
+          "unit_buyout": 250000.0,
           "amount": 1,
           "start_price": 0,
           "segment_key": "q0:p0",
@@ -5825,6 +5809,30 @@
           "segment_label": "Обычный (+2)"
         },
         {
+          "buyout_price": 497999,
+          "unit_buyout": 497999.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q1:p0",
+          "segment_label": "Необычный (+0)"
+        },
+        {
+          "buyout_price": 497999,
+          "unit_buyout": 497999.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q1:p0",
+          "segment_label": "Необычный (+0)"
+        },
+        {
+          "buyout_price": 497999,
+          "unit_buyout": 497999.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q1:p0",
+          "segment_label": "Необычный (+0)"
+        },
+        {
           "buyout_price": 499999,
           "unit_buyout": 499999.0,
           "amount": 1,
@@ -5839,6 +5847,14 @@
           "start_price": 499999,
           "segment_key": "q1:p0",
           "segment_label": "Необычный (+0)"
+        },
+        {
+          "buyout_price": 500000,
+          "unit_buyout": 500000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p9",
+          "segment_label": "Обычный (+9)"
         },
         {
           "buyout_price": 509999,
@@ -5897,26 +5913,10 @@
           "segment_label": "Необычный (+0)"
         },
         {
-          "buyout_price": 560000,
-          "unit_buyout": 560000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q1:p0",
-          "segment_label": "Необычный (+0)"
-        },
-        {
           "buyout_price": 578888,
           "unit_buyout": 578888.0,
           "amount": 1,
           "start_price": 0,
-          "segment_key": "q1:p0",
-          "segment_label": "Необычный (+0)"
-        },
-        {
-          "buyout_price": 578999,
-          "unit_buyout": 578999.0,
-          "amount": 1,
-          "start_price": 577999,
           "segment_key": "q1:p0",
           "segment_label": "Необычный (+0)"
         },
@@ -5935,17 +5935,86 @@
           "start_price": 580000,
           "segment_key": "q1:p0",
           "segment_label": "Необычный (+0)"
-        },
-        {
-          "buyout_price": 599999,
-          "unit_buyout": 599999.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q0:p5",
-          "segment_label": "Обычный (+5)"
         }
       ],
       "recent_sales": [
+        {
+          "price": 2488888,
+          "unit_price": 2488888.0,
+          "amount": 1,
+          "sold_at": "21.10 03:59",
+          "segment_key": "q1:p15"
+        },
+        {
+          "price": 497000,
+          "unit_price": 497000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:02",
+          "segment_key": "q1:p0"
+        },
+        {
+          "price": 6000000,
+          "unit_price": 6000000.0,
+          "amount": 1,
+          "sold_at": "21.10 02:44",
+          "segment_key": "q2:p15"
+        },
+        {
+          "price": 495000,
+          "unit_price": 495000.0,
+          "amount": 1,
+          "sold_at": "21.10 02:39",
+          "segment_key": "q1:p0"
+        },
+        {
+          "price": 219890,
+          "unit_price": 219890.0,
+          "amount": 1,
+          "sold_at": "21.10 02:18",
+          "segment_key": "q0:p0"
+        },
+        {
+          "price": 13000000,
+          "unit_price": 13000000.0,
+          "amount": 1,
+          "sold_at": "21.10 01:51",
+          "segment_key": "q3:p0"
+        },
+        {
+          "price": 497999,
+          "unit_price": 497999.0,
+          "amount": 1,
+          "sold_at": "21.10 00:57",
+          "segment_key": "q1:p0"
+        },
+        {
+          "price": 6000000,
+          "unit_price": 6000000.0,
+          "amount": 1,
+          "sold_at": "21.10 00:44",
+          "segment_key": "q2:p15"
+        },
+        {
+          "price": 5999999,
+          "unit_price": 5999999.0,
+          "amount": 1,
+          "sold_at": "21.10 00:33",
+          "segment_key": "q2:p15"
+        },
+        {
+          "price": 800000,
+          "unit_price": 800000.0,
+          "amount": 1,
+          "sold_at": "21.10 00:13",
+          "segment_key": "q1:p5"
+        },
+        {
+          "price": 17500000,
+          "unit_price": 17500000.0,
+          "amount": 1,
+          "sold_at": "21.10 00:07",
+          "segment_key": "q3:p15"
+        },
         {
           "price": 489999,
           "unit_price": 489999.0,
@@ -6218,83 +6287,6 @@
           "amount": 1,
           "sold_at": "20.10 19:35",
           "segment_key": "q1:p15"
-        },
-        {
-          "price": 4490000,
-          "unit_price": 4490000.0,
-          "amount": 1,
-          "sold_at": "20.10 19:32",
-          "segment_key": "q2:p10"
-        },
-        {
-          "price": 3200000,
-          "unit_price": 3200000.0,
-          "amount": 1,
-          "sold_at": "20.10 19:30",
-          "segment_key": "q2:p5"
-        },
-        {
-          "price": 2800000,
-          "unit_price": 2800000.0,
-          "amount": 1,
-          "sold_at": "20.10 19:26",
-          "segment_key": "q1:p15"
-        },
-        {
-          "price": 750000,
-          "unit_price": 750000.0,
-          "amount": 1,
-          "sold_at": "20.10 19:25",
-          "segment_key": "q1:p6"
-        },
-        {
-          "price": 510000,
-          "unit_price": 510000.0,
-          "amount": 1,
-          "sold_at": "20.10 19:24",
-          "segment_key": "q1:p0"
-        },
-        {
-          "price": 790000,
-          "unit_price": 790000.0,
-          "amount": 1,
-          "sold_at": "20.10 19:20",
-          "segment_key": "q1:p5"
-        },
-        {
-          "price": 2900000,
-          "unit_price": 2900000.0,
-          "amount": 1,
-          "sold_at": "20.10 19:19",
-          "segment_key": "q2:p0"
-        },
-        {
-          "price": 2850000,
-          "unit_price": 2850000.0,
-          "amount": 1,
-          "sold_at": "20.10 19:19",
-          "segment_key": "q2:p0"
-        },
-        {
-          "price": 520000,
-          "unit_price": 520000.0,
-          "amount": 1,
-          "sold_at": "20.10 19:16",
-          "segment_key": "q1:p0"
-        },
-        {
-          "price": 499999,
-          "unit_price": 499999.0,
-          "amount": 1,
-          "sold_at": "20.10 19:15",
-          "segment_key": "q0:p5"
-        },
-        {
-          "price": 3000000,
-          "unit_price": 3000000.0,
-          "amount": 1,
-          "sold_at": "20.10 19:10",
-          "segment_key": "q2:p10"
         }
       ]
     },
@@ -6304,20 +6296,20 @@
       "category": "artefact/electrophysical",
       "rank": "DEFAULT",
       "icon_path": "/icons/artefact/electrophysical/y5w3.png",
-      "total_active_lots": 173,
+      "total_active_lots": 179,
       "segments": {
         "q0:p0": {
           "label": "Обычный (+0)",
           "median": 260000.0,
-          "p25": 256760.0,
-          "p75": 265441.0,
-          "iqr": 8680.0,
-          "units_per_day": 30.0,
+          "p25": 252644.0,
+          "p75": 265000.0,
+          "iqr": 12356.0,
+          "units_per_day": 30.8,
           "trend": "flat",
           "volatility": 1.9,
-          "sample_size": 36,
-          "min_buyout": 244444.0,
-          "buy_max_unit": 221748.0
+          "sample_size": 37,
+          "min_buyout": 240000.0,
+          "buy_max_unit": 218193.0
         },
         "q0:p5": {
           "label": "Обычный (+5)",
@@ -6342,7 +6334,7 @@
           "trend": "flat",
           "volatility": 9.4,
           "sample_size": 16,
-          "min_buyout": 444444.0,
+          "min_buyout": 429999.0,
           "buy_max_unit": 377393.0
         },
         "q1:p1": {
@@ -6384,6 +6376,19 @@
           "min_buyout": 550000.0,
           "buy_max_unit": 0
         },
+        "q0:p10": {
+          "label": "Обычный (+10)",
+          "median": 0,
+          "p25": 0,
+          "p75": 0,
+          "iqr": 0,
+          "units_per_day": 0,
+          "trend": "flat",
+          "volatility": 0,
+          "sample_size": 0,
+          "min_buyout": 600002.0,
+          "buy_max_unit": 0
+        },
         "q1:p7": {
           "label": "Необычный (+7)",
           "median": 0,
@@ -6420,21 +6425,21 @@
           "trend": "flat",
           "volatility": 0,
           "sample_size": 1,
-          "min_buyout": 740000.0,
+          "min_buyout": 750000.0,
           "buy_max_unit": 0
         },
         "q1:p10": {
           "label": "Необычный (+10)",
-          "median": 700000.0,
-          "p25": 650862.0,
-          "p75": 724052.0,
-          "iqr": 73190.0,
-          "units_per_day": 6.0,
+          "median": 702825.0,
+          "p25": 665979.0,
+          "p75": 781273.0,
+          "iqr": 115294.0,
+          "units_per_day": 7.0,
           "trend": "flat",
-          "volatility": 5.0,
-          "sample_size": 6,
-          "min_buyout": 788899.0,
-          "buy_max_unit": 562108.0
+          "volatility": 7.5,
+          "sample_size": 7,
+          "min_buyout": 800000.0,
+          "buy_max_unit": 575164.0
         },
         "q1:p12": {
           "label": "Необычный (+12)",
@@ -6451,16 +6456,16 @@
         },
         "q1:p15": {
           "label": "Необычный (+15)",
-          "median": 1075225.0,
-          "p25": 1050000.0,
-          "p75": 1095000.0,
-          "iqr": 45000.0,
-          "units_per_day": 23.0,
+          "median": 1068392.0,
+          "p25": 1015123.0,
+          "p75": 1097053.0,
+          "iqr": 81930.0,
+          "units_per_day": 18.4,
           "trend": "flat",
-          "volatility": 2.3,
-          "sample_size": 27,
+          "volatility": 2.7,
+          "sample_size": 23,
           "min_buyout": 1068999.0,
-          "buy_max_unit": 906818.0
+          "buy_max_unit": 876697.0
         },
         "q2:p0": {
           "label": "Особый (+0)",
@@ -6472,11 +6477,35 @@
           "trend": "flat",
           "volatility": 5.0,
           "sample_size": 16,
-          "min_buyout": 1179999.0,
+          "min_buyout": 1100000.0,
           "buy_max_unit": 1045147.0
         }
       },
       "active_lots": [
+        {
+          "buyout_price": 240000,
+          "unit_buyout": 240000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
+        },
+        {
+          "buyout_price": 244000,
+          "unit_buyout": 244000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
+        },
+        {
+          "buyout_price": 244000,
+          "unit_buyout": 244000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q0:p0",
+          "segment_label": "Обычный (+0)"
+        },
         {
           "buyout_price": 244444,
           "unit_buyout": 244444.0,
@@ -6540,6 +6569,38 @@
           "start_price": 0,
           "segment_key": "q0:p5",
           "segment_label": "Обычный (+5)"
+        },
+        {
+          "buyout_price": 429999,
+          "unit_buyout": 429999.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q1:p0",
+          "segment_label": "Необычный (+0)"
+        },
+        {
+          "buyout_price": 430000,
+          "unit_buyout": 430000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q1:p0",
+          "segment_label": "Необычный (+0)"
+        },
+        {
+          "buyout_price": 430000,
+          "unit_buyout": 430000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q1:p0",
+          "segment_label": "Необычный (+0)"
+        },
+        {
+          "buyout_price": 440000,
+          "unit_buyout": 440000.0,
+          "amount": 1,
+          "start_price": 0,
+          "segment_key": "q1:p0",
+          "segment_label": "Необычный (+0)"
         },
         {
           "buyout_price": 444444,
@@ -6614,14 +6675,6 @@
           "segment_label": "Необычный (+0)"
         },
         {
-          "buyout_price": 539999,
-          "unit_buyout": 539999.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q1:p0",
-          "segment_label": "Необычный (+0)"
-        },
-        {
           "buyout_price": 540000,
           "unit_buyout": 540000.0,
           "amount": 1,
@@ -6662,63 +6715,50 @@
           "segment_label": "Необычный (+5)"
         },
         {
-          "buyout_price": 644444,
-          "unit_buyout": 644444.0,
+          "buyout_price": 600002,
+          "unit_buyout": 600002.0,
           "amount": 1,
-          "start_price": 0,
-          "segment_key": "q1:p7",
-          "segment_label": "Необычный (+7)"
-        },
-        {
-          "buyout_price": 700000,
-          "unit_buyout": 700000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q0:p15",
-          "segment_label": "Обычный (+15)"
-        },
-        {
-          "buyout_price": 740000,
-          "unit_buyout": 740000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q1:p11",
-          "segment_label": "Необычный (+11)"
-        },
-        {
-          "buyout_price": 788899,
-          "unit_buyout": 788899.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q1:p10",
-          "segment_label": "Необычный (+10)"
-        },
-        {
-          "buyout_price": 800000,
-          "unit_buyout": 800000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q1:p10",
-          "segment_label": "Необычный (+10)"
-        },
-        {
-          "buyout_price": 800000,
-          "unit_buyout": 800000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q1:p10",
-          "segment_label": "Необычный (+10)"
-        },
-        {
-          "buyout_price": 815000,
-          "unit_buyout": 815000.0,
-          "amount": 1,
-          "start_price": 0,
-          "segment_key": "q1:p11",
-          "segment_label": "Необычный (+11)"
+          "start_price": 600000,
+          "segment_key": "q0:p10",
+          "segment_label": "Обычный (+10)"
         }
       ],
       "recent_sales": [
+        {
+          "price": 3250000,
+          "unit_price": 3250000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:51",
+          "segment_key": "q2:p15"
+        },
+        {
+          "price": 238000,
+          "unit_price": 238000.0,
+          "amount": 1,
+          "sold_at": "21.10 03:18",
+          "segment_key": "q0:p0"
+        },
+        {
+          "price": 13000000,
+          "unit_price": 13000000.0,
+          "amount": 1,
+          "sold_at": "21.10 01:37",
+          "segment_key": "q3:p15"
+        },
+        {
+          "price": 3261000,
+          "unit_price": 3261000.0,
+          "amount": 1,
+          "sold_at": "21.10 00:54",
+          "segment_key": "q2:p15"
+        },
+        {
+          "price": 788899,
+          "unit_price": 788899.0,
+          "amount": 1,
+          "sold_at": "21.10 00:36",
+          "segment_key": "q1:p10"
+        },
         {
           "price": 1050500,
           "unit_price": 1050500.0,
@@ -7033,41 +7073,6 @@
           "amount": 1,
           "sold_at": "20.10 18:53",
           "segment_key": "q2:p15"
-        },
-        {
-          "price": 1150000,
-          "unit_price": 1150000.0,
-          "amount": 1,
-          "sold_at": "20.10 18:53",
-          "segment_key": "q2:p0"
-        },
-        {
-          "price": 900000,
-          "unit_price": 900000.0,
-          "amount": 1,
-          "sold_at": "20.10 18:40",
-          "segment_key": "q1:p15"
-        },
-        {
-          "price": 13399999,
-          "unit_price": 13399999.0,
-          "amount": 1,
-          "sold_at": "20.10 18:31",
-          "segment_key": "q3:p15"
-        },
-        {
-          "price": 2500000,
-          "unit_price": 2500000.0,
-          "amount": 1,
-          "sold_at": "20.10 18:29",
-          "segment_key": "q2:p10"
-        },
-        {
-          "price": 12999999,
-          "unit_price": 12999999.0,
-          "amount": 1,
-          "sold_at": "20.10 18:27",
-          "segment_key": "q3:p15"
         }
       ]
     }
