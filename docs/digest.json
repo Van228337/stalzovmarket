@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T00:25:01.541070+00:00",
+  "generated_at": "2026-11-10T07:39:02.087596+00:00",
   "data_freshness_minutes": 10.0,
   "region": "RU",
   "config": {
@@ -19,10 +19,6 @@
   },
   "top_opportunities": [],
   "avoid": [
-    {
-      "item_id": "j3ml",
-      "reason": "Сегмент [q0:p0] имеет ценовой всплеск/манипуляцию (рост x1.36)."
-    },
     {
       "item_id": "j3ml",
       "reason": "Сегмент [default] имеет ценовой всплеск/манипуляцию (рост x1.59)."
